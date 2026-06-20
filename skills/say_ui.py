@@ -31,16 +31,13 @@ from tkinter.scrolledtext import ScrolledText
 import pythoncom
 import win32com.client
 
-# 變速範圍常數：WMP settings.rate 在 0.5~2.0 外播放品質會劣化甚至無聲，
-# 故統一夾在此區間。
-RATE_MIN = 0.5
-RATE_MAX = 2.0
+# 本地模組：純函式夾制邏輯抽到 audio_utils 便於獨立測試
+from audio_utils import clamp_rate, clamp_volume
+
+# 變速步進：每次「變慢／變快」按鈕的增減幅度（夾界常數已移至 audio_utils）。
 RATE_STEP = 0.25
 
-# 音量範圍常數：WMP settings.volume 僅接受整數 0~100，超界會被 WMP 忽略或拋錯，
-# 故統一夾在此區間。VOLUME_STEP 為每次增減的幅度。
-VOLUME_MIN = 0
-VOLUME_MAX = 100
+# 音量步進：每次「音量增大／減小」按鈕的增減幅度（夾界常數已移至 audio_utils）。
 VOLUME_STEP = 10
 
 # 預設語音
@@ -124,19 +121,6 @@ def synth_to_mp3(text, voice):
 
     asyncio.run(_run())
     return mp3_path
-
-
-def clamp_rate(rate):
-    """把倍速夾在 RATE_MIN~RATE_MAX，回傳實際值。可獨立測試。"""
-    return max(RATE_MIN, min(RATE_MAX, rate))
-
-
-def clamp_volume(volume):
-    """把音量夾在 VOLUME_MIN~VOLUME_MAX 並轉成整數，回傳實際值。可獨立測試。
-
-    WMP settings.volume 只吃整數 0~100，故先 int() 再夾界，避免傳入浮點或越界值。
-    """
-    return max(VOLUME_MIN, min(VOLUME_MAX, int(volume)))
 
 
 class WmpAudio:
