@@ -102,6 +102,27 @@ def resolve_text(args, root):
     return read_clipboard(root).strip()
 
 
+def enlarge_fonts(root, delta=3):
+    """把 Tk 具名字型在現有大小上加 delta，讓整個 GUI 字體變大。
+
+    用具名字型（TkDefaultFont 等）統一放大，按鈕/標籤/講稿一起生效，
+    不必逐一 widget 設 font。Tk 字型 size 為負代表像素、為正代表點數，
+    兩者「絕對值越大字越大」，故依正負號決定加減方向，確保一律變大。
+    """
+    import tkinter.font as tkfont
+    for name in ("TkDefaultFont", "TkTextFont", "TkFixedFont",
+                 "TkMenuFont", "TkHeadingFont", "TkTooltipFont"):
+        try:
+            f = tkfont.nametofont(name)
+        except tk.TclError:
+            continue
+        size = f.cget("size")
+        if size < 0:
+            f.configure(size=size - delta)  # 像素：更負=更大
+        else:
+            f.configure(size=size + delta)  # 點數：更大
+
+
 def synth_to_mp3(text, voice):
     """用 edge-tts 把文字合成 MP3，回傳暫存檔路徑。
 
@@ -231,6 +252,8 @@ def build_ui(root, text, audio, autoplay=False):
     刻意不呼叫 mainloop，讓 QA 能建立 UI 而不阻塞測試。
     """
     root.title(f"中文語音播放器 v{__version__}（{__release_date__}）")
+    # 預設視窗尺寸放大，配合字型 +3 後較大的控制列與講稿區，避免內容被擠壓
+    root.geometry("1040x600")
 
     # 設定標題列自訂 icon（取代 Tk 預設羽毛圖示）。
     # 用 try/except 防呆：icon 只是裝飾，ico 檔缺失或格式不符時 iconbitmap 會拋
@@ -354,6 +377,8 @@ def main():
 
     args = parse_args()
     root = tk.Tk()
+    # 在隱藏前先放大具名字型，讓後續 build_ui 建立的所有 widget 都吃到大字體
+    enlarge_fonts(root, delta=3)
     root.withdraw()  # 先隱藏，等內容備妥再顯示，避免空白視窗閃現
 
     try:
