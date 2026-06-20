@@ -253,7 +253,7 @@ def build_ui(root, text, audio, autoplay=False):
     """
     root.title(f"中文語音播放器 v{__version__}（{__release_date__}）")
     # 預設視窗尺寸放大，配合字型 +3 後較大的控制列與講稿區，避免內容被擠壓
-    root.geometry("1040x600")
+    root.geometry("1780x830")
 
     # 設定標題列自訂 icon（取代 Tk 預設羽毛圖示）。
     # 用 try/except 防呆：icon 只是裝飾，ico 檔缺失或格式不符時 iconbitmap 會拋
