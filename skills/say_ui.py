@@ -378,7 +378,7 @@ def main():
     args = parse_args()
     root = tk.Tk()
     # 在隱藏前先放大具名字型，讓後續 build_ui 建立的所有 widget 都吃到大字體
-    enlarge_fonts(root, delta=3)
+    enlarge_fonts(root, delta=7)
     root.withdraw()  # 先隱藏，等內容備妥再顯示，避免空白視窗閃現
 
     try:
