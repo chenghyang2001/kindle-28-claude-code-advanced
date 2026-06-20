@@ -1,0 +1,29 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# === 虛擬環境 ===
+.venv/
+venv/
+
+# === PyInstaller 中間產物 ===
+# 注意：dist/ 故意「不」擋——打包好的 say_ui.exe 要保留進 repo。
+build/
+*.spec
+
+# === 來源書 PDF（有版權 + 64MB 大檔，不上公開 repo）===
+pdf/
+
+# === 課程練習用的內嵌 git 練習 repo（worktree 練習產物，非課程內容）===
+# 註：方括號在 gitignore 是字元類別，需用反斜線跳脫才能匹配字面的 [ ]
+demo/\[02-平行化\]/sandbox/
+
+# === 打包/暫存雜項 ===
+app_icon_preview.png
+_demo_clip.txt
+*.stackdump
+
+# === 作業系統 ===
+Thumbs.db
+.DS_Store

@@ -1,0 +1,12 @@
+# kindle-28-claude-code-advanced — Python 相依套件
+# 安裝：python -m venv .venv && .venv\Scripts\pip install -r requirements.txt
+#
+# 註：tkinter 為 Python 標準庫（Windows 官方安裝檔已內含），不需 pip 安裝。
+
+# --- 執行 say.py / say_ui.py 所需（runtime）---
+edge-tts>=6.1.0        # 文字轉語音（zh-TW-HsiaoChenNeural），原生輸出 MP3
+pywin32>=306           # win32com.client / pythoncom：Windows Media Player COM 播放
+
+# --- 打包成 exe 所需（build）---
+pyinstaller>=6.0       # 把 say_ui.py 打包成單檔 exe（--onefile --windowed）
+pillow>=10.0           # 產生視窗/exe 圖示 app_icon.ico（多尺寸）
