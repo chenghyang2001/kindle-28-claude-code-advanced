@@ -22,7 +22,13 @@
 - 改設定檔前先備份、改後驗證「JSON 合法 + 頂層鍵/權限/hook 數量不變」才算安全。
 - 遇跳脫序列問題不要在 byte 層硬比對，繞到 json 語意層用 `chr(92)` 賦值最穩。
 
+## 進階：寫一個 hook 自動化重複動作
+- 挑 SessionStart 事件，做「開專案自動印學習進度」的 hook。
+- 推導：時間點＝開 session→SessionStart；放專案層 `.claude/settings.json`（進 git、換機帶得走）；結構 `hooks→事件→command`；指令一行 `git log -1`（最新 commit 訊息即進度，因每課一 commit）。
+- 成品 `.claude/settings.json`，驗證 JSON 合法 + 實跑 git 指令輸出 `📚 學習進度：完成第八課…(523f73d)`，兩項皆過。
+- 解答存 `answer/ex02-answer.md`。
+
 ## 自評
 - 基礎練習：✅ 完成（含實修 2 個真問題 + 驗證）
-- 進階練習：⬜ 完成
+- 進階練習：✅ 完成（SessionStart hook + 雙驗證）
 - 綜合挑戰：⬜ 完成 / ⬜ 略過
