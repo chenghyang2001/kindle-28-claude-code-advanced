@@ -66,6 +66,7 @@ def parse_args():
     parser.add_argument("-f", "--file", help="從 UTF-8 檔讀取講稿文字")
     parser.add_argument("--text", help="直接指定講稿文字")
     parser.add_argument("--voice", default=DEFAULT_VOICE, help="edge-tts 語音名稱")
+    parser.add_argument("--autoplay", action="store_true", help="啟動後自動開始播放，免手動按播放")
     return parser.parse_args()
 
 
@@ -240,7 +241,7 @@ def _make_transcript_widget(root, text):
     return box
 
 
-def build_ui(root, text, audio):
+def build_ui(root, text, audio, autoplay=False):
     """建立所有 widget、callback、狀態更新並綁定關閉事件。
 
     刻意不呼叫 mainloop，讓 QA 能建立 UI 而不阻塞測試。
@@ -357,6 +358,10 @@ def build_ui(root, text, audio):
     # 右上角 X 也走同一個關閉流程
     root.protocol("WM_DELETE_WINDOW", on_close)
 
+    # 自動播放：若指定 --autoplay，啟動即觸發一次播放（沿用 on_toggle 讓按鈕文字/狀態同步）
+    if autoplay:
+        on_toggle()
+
 
 def main():
     """組裝參數、合成、UI 並進入 mainloop。"""
@@ -405,7 +410,7 @@ def main():
 
     # 把暫存路徑掛到 root 供 on_close 清理
     root._mp3_path = mp3_path
-    build_ui(root, text, audio)
+    build_ui(root, text, audio, autoplay=args.autoplay)
     root.deiconify()
     root.mainloop()
 

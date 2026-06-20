@@ -36,6 +36,38 @@
 > 反模式 1：不要像第一課那樣由 Claude 一次把三個練習全做完。改成「貼問題 → 等回答 → 視情況給解析 → 下一題」。
 > 反模式 2：不要未經同意就 Bash 執行指令/跑 demo（2026-06-20 踩到：未經同意就跑了 worktree demo）。先貼指令，等「執行」指令再跑。
 
+## 🔊 每次回答自動語音播報（2026-06-20 使用者要求）
+
+互動教學模式下，Claude **每次回答前**都要把該次回答用 `say_ui.exe` 念出來。流程「關舊開新 + 自動播放」：
+
+1. 用 **Write 工具**把當次回答純文字寫進 `skills/_answer.txt`（UTF-8；可去掉 markdown 符號讓朗讀順）。
+2. 關掉舊播放器（沒開也不報錯）：
+
+   ```
+   cmd.exe /c "taskkill /IM say_ui.exe /F"
+   ```
+
+3. 開新播放器、自動念（背景啟動、不阻塞）：
+
+   ```
+   cmd.exe /c start "" "skills\dist\say_ui.exe" --file "skills\_answer.txt" --autoplay
+   ```
+
+執行檔路徑（固定）：`skills/dist/say_ui.exe`。`--autoplay` 是 2026-06-20 為此需求加的（走 code-writer→QA→reviewer 三步 + 重打包）。
+
+**授權與例外**：
+
+- 上述「taskkill 舊的 + start 新的 + Write `_answer.txt`」三步，**使用者已長期授權，每回合自動執行，不需再逐次徵求同意**——這是「互動式教學模式」第 6/7 條（未經同意不可執行指令）的**唯一明文例外**。
+- 其他所有課程指令（git / python 練習 / 其他檔案寫入）**仍照第 6/7 條**：先貼指令、等「執行」才跑。
+
+**已知 caveat（reviewer 指出，非阻擋）**：
+
+- `taskkill /F` 會繞過 `on_close`，每回合在 `%TEMP%` 留一個暫存 .mp3；量小、不主動清以免誤刪其他 mp3。
+- `_answer.txt` 若為空或斷網，`say_ui` 會跳 modal 錯誤視窗——故 Write 時務必寫非空內容。
+- 執行檔只在「啟動那一刻」讀一次文字，之後不重讀；所以一定要「關舊開新」，不能只更新剪貼簿。
+- onefile exe 冷啟動＋edge-tts 合成要十幾秒，`tasklist` 太早查會誤判「沒在跑」；別用快速輪詢判斷成敗。
+- 剛重新打包的未簽署 exe 首次執行可能被 SmartScreen 攔一次（跳「Windows 已保護你的電腦」），按「其他資訊→仍要執行」後會記住，之後不再攔。
+
 ## NotebookLM
 
 語音摘要 Notebook：尚未建立（可執行 `/study-scaffold nlm` 補跑）
