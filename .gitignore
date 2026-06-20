@@ -28,3 +28,6 @@ _demo_clip.txt
 Thumbs.db
 .DS_Store
 skills/_answer.txt
+
+# hook 每回合自動改寫的狀態檔，本機再生不進版控
+.claude/session-state.md
