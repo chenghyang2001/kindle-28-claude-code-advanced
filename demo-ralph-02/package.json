@@ -1,0 +1,12 @@
+{
+  "name": "demo-ralph-02",
+  "version": "1.0.0",
+  "description": "Ralph 獨立版演練：迷你 Todo API（純函式 + vitest）",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.0"
+  }
+}
