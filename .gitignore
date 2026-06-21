@@ -31,3 +31,6 @@ skills/_answer.txt
 
 # hook 每回合自動改寫的狀態檔，本機再生不進版控
 .claude/session-state.md
+
+# === Node.js 練習專案 ===
+node_modules/
