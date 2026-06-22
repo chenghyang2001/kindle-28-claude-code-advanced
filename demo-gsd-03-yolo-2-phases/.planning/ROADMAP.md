@@ -48,11 +48,15 @@ Plans:
   3. 存檔 → 讀回的 round-trip 後，任務清單（含 `done`）與原始資料完全一致
   4. 既有測試（原始 6 個 + Phase 1 新增的 Status 測試）維持全綠
   5. 新增涵蓋 `save_tasks` / `load_tasks` 的 pytest 測試（含 happy / edge / error，如空清單、檔案不存在）
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+
+- [ ] 02-01-PLAN.md — 新增 save_tasks / load_tasks（stdlib json、UTF-8、缺檔回 []、壞 JSON 外拋）+ Persistence round-trip / 空清單 / 缺檔測試
 
 ## Progress
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. 任務完成狀態 (Status) | 1/1 | Complete   | 2026-06-22 |
-| 2. 存檔持久化 (Persistence) | 0/TBD | Not started | - |
+| 2. 存檔持久化 (Persistence) | 0/1 | Not started | - |
