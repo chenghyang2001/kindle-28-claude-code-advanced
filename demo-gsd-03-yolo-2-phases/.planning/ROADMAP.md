@@ -29,7 +29,11 @@
   3. 使用者可呼叫 `list_pending(tasks)` 只取得 `done=False` 的任務
   4. 既有 6 個 pytest 測試維持全綠
   5. 新增涵蓋 `complete_task` / `list_pending` 的 pytest 測試（含 happy / edge / error 案例）
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+
+- [ ] 01-01-PLAN.md — task 遷移為 dict{name, done}、新增 complete_task / list_pending、既有 6 測試對齊 + 新增 Status 測試
 
 ### Phase 2: 存檔持久化 (Persistence)
 
@@ -50,5 +54,5 @@
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. 任務完成狀態 (Status) | 0/TBD | Not started | - |
+| 1. 任務完成狀態 (Status) | 0/1 | Not started | - |
 | 2. 存檔持久化 (Persistence) | 0/TBD | Not started | - |
