@@ -14,9 +14,9 @@
 
 ### 存檔持久化（Persistence）
 
-- [ ] **PERS-01**: 使用者可用 `save_tasks(tasks, path)` 將任務（含 done 狀態）寫成 JSON 檔
-- [ ] **PERS-02**: 使用者可用 `load_tasks(path)` 從 JSON 檔讀回任務，還原 name 與 done
-- [ ] **PERS-03**: 存檔→讀回 round-trip 後資料一致；新增 Persistence 相關 pytest 測試（含 happy/edge/error）
+- [x] **PERS-01**: 使用者可用 `save_tasks(tasks, path)` 將任務（含 done 狀態）寫成 JSON 檔
+- [x] **PERS-02**: 使用者可用 `load_tasks(path)` 從 JSON 檔讀回任務，還原 name 與 done
+- [x] **PERS-03**: 存檔→讀回 round-trip 後資料一致；新增 Persistence 相關 pytest 測試（含 happy/edge/error）
 
 ## v2 Requirements（deferred）
 
@@ -37,6 +37,6 @@
 | STAT-02 | Phase 1 | Complete |
 | STAT-03 | Phase 1 | Complete |
 | STAT-04 | Phase 1 | Complete |
-| PERS-01 | Phase 2 | Pending |
-| PERS-02 | Phase 2 | Pending |
-| PERS-03 | Phase 2 | Pending |
+| PERS-01 | Phase 2 | Complete |
+| PERS-02 | Phase 2 | Complete |
+| PERS-03 | Phase 2 | Complete |

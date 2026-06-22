@@ -12,7 +12,7 @@
 ## Phases
 
 - [x] **Phase 1: 任務完成狀態 (Status)** — task 改為 `dict{name, done}`，加 `complete_task` / `list_pending`，既有行為不變 (completed 2026-06-22)
-- [ ] **Phase 2: 存檔持久化 (Persistence)** — `save_tasks` / `load_tasks` 以 JSON 存讀任務（含 done），round-trip 一致
+- [x] **Phase 2: 存檔持久化 (Persistence)** — `save_tasks` / `load_tasks` 以 JSON 存讀任務（含 done），round-trip 一致 (completed 2026-06-22)
 
 ## Phase Details
 
@@ -52,11 +52,11 @@ Plans:
 
 Plans:
 
-- [ ] 02-01-PLAN.md — 新增 save_tasks / load_tasks（stdlib json、UTF-8、缺檔回 []、壞 JSON 外拋）+ Persistence round-trip / 空清單 / 缺檔測試
+- [x] 02-01-PLAN.md — 新增 save_tasks / load_tasks（stdlib json、UTF-8、缺檔回 []、壞 JSON 外拋）+ Persistence round-trip / 空清單 / 缺檔測試
 
 ## Progress
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. 任務完成狀態 (Status) | 1/1 | Complete   | 2026-06-22 |
-| 2. 存檔持久化 (Persistence) | 0/1 | Not started | - |
+| 2. 存檔持久化 (Persistence) | 1/1 | Complete   | 2026-06-22 |

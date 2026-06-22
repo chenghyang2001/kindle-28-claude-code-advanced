@@ -3,13 +3,13 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: unknown
-last_updated: "2026-06-22T06:49:25.537Z"
+last_updated: "2026-06-22T07:02:22.561Z"
 progress:
   total_phases: 2
-  completed_phases: 1
-  total_plans: 1
-  completed_plans: 1
-  percent: 50
+  completed_phases: 2
+  total_plans: 2
+  completed_plans: 2
+  percent: 100
 ---
 
 # STATE — 待辦清單 CLI 擴充
@@ -19,28 +19,29 @@ progress:
 ## Project Reference
 
 - **Core Value**: 讓使用者不只記下待辦，還能**標記完成**並在**重開程式後保留**任務與完成狀態
-- **Current Focus**: Phase 1 — 任務完成狀態 (Status)
+- **Current Focus**: Phase 2 — 存檔持久化 (Persistence)（milestone v1.0 完成）
 - **Mode**: mvp（Vertical MVP，coarse granularity，yolo）
 
 ## Current Position
 
-- **Phase**: 1 — 任務完成狀態 (Status)
-- **Plan**: 01-01 完成（1/1 plan）
+- **Phase**: 2 — 存檔持久化 (Persistence)
+- **Plan**: 02-01 完成（1/1 plan）
 - **Status**: Complete
-- **Progress**: `[█████░░░░░] 50%`（1/2 phases）
+- **Progress**: `[██████████] 100%`（2/2 phases）
 
 ## Performance Metrics
 
 | Metric | Value |
 |--------|-------|
 | Phases total | 2 |
-| Phases complete | 1 |
+| Phases complete | 2 |
 | Requirements total | 7 |
-| Requirements delivered | 4 |
+| Requirements delivered | 7 |
 
 | Phase | Plan | Duration | Tasks | Files |
 |-------|------|----------|-------|-------|
 | 1 | 01 | ~8min | 3 | 2 |
+| 2 | 01 | ~5min | 3 | 2 |
 
 ## Accumulated Context
 
@@ -61,9 +62,9 @@ progress:
 
 ## Session Continuity
 
-- **Last action**: 執行 Phase 1 Plan 01-01 — task 遷移為 dict{name, done}、新增 complete_task / list_pending、15 測試全綠（commits efca883 / e89de5c）
-- **Next step**: `/gsd-plan-phase 2`（規劃 Phase 2：存檔持久化）
-- **Key constraint**: 每階段都必須保持既有測試全綠（現為 15 個），並新增 pytest 測試
+- **Last action**: 執行 Phase 2 Plan 02-01 — 新增 save_tasks / load_tasks（stdlib json）、TestPersistence 4 測試、19 測試全綠（commits 8dae636 / 748c668）
+- **Next step**: milestone v1.0 全部 phase 完成；可執行 `/gsd-verify-phase 2` 或進入 v2 規劃
+- **Key constraint**: 每階段都必須保持既有測試全綠（現為 19 個），並新增 pytest 測試
 
 ---
-*Last updated: 2026-06-22 after 01-01 execution*
+*Last updated: 2026-06-22 after 02-01 execution*
