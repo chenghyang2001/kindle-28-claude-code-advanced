@@ -22,7 +22,11 @@
   2. Calling `complete_task` with a name that does not exist returns a clear failure signal (False or equivalent) without raising an exception or crashing
   3. When tasks are listed, completed tasks are visually distinguishable from incomplete tasks (e.g. `[x]` vs `[ ]` prefix)
   4. All new tests (happy path, edge case, error case for `complete_task`) pass alongside the existing 12 tests — total test suite stays green
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+
+- [ ] 01-task-completion-01-PLAN.md — dict-model migration + complete_task + [x]/[ ] display + green test suite
 
 ## Progress Table
 
