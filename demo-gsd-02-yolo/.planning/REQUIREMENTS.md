@@ -42,18 +42,18 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| TASK-01 | TBD | Pending |
-| TASK-02 | TBD | Pending |
-| TEST-01 | TBD | Pending |
-| TEST-02 | TBD | Pending |
-| TEST-03 | TBD | Pending |
+| TASK-01 | Phase 1 | Pending |
+| TASK-02 | Phase 1 | Pending |
+| TEST-01 | Phase 1 | Pending |
+| TEST-02 | Phase 1 | Pending |
+| TEST-03 | Phase 1 | Pending |
 
 **Coverage:**
 
 - v1 requirements: 5 total
-- Mapped to phases: 0（待 roadmap）
-- Unmapped: 5 ⚠️（roadmap 後應為 0）
+- Mapped to phases: 5
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-06-22*
-*Last updated: 2026-06-22 after initial definition*
+*Last updated: 2026-06-22 after roadmap creation — all 5 requirements mapped to Phase 1*
