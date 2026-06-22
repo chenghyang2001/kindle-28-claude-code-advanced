@@ -17,6 +17,28 @@
 完成第 N 課後執行：`/study-scaffold carry N`
 → 自動把 `[N]/answer/` 複製到 `[N+1]/starter/`
 
+## 本專案自動化（2026-06-23 建立，第 9 章外掛實戰產出）
+
+學習過程中為本專案打造的 Claude Code 自動化，分三類：
+
+### Slash 指令（`.claude/commands/`，已進版控）
+
+| 指令 | 用途 |
+|------|------|
+| `/chapter-audio <章節號\|檔名> [--quality]` | 章節 `.m4a` 一鍵：ffmpeg → faster-whisper 轉錄 → 繁中摘要 `.md` → 放進對應 `demo-chNN/`。預設 `small` 模型求快，`--quality` 改 `medium` |
+| `/next-lesson <剛完成課號 N>` | `study-scaffold carry N` + 開 `[N+1]` STEP_LOG + 進互動教學模式（只問第一題） |
+
+### hookify 規則（`.claude/hookify.*.local.md`，**git-ignored 本機檔**，即時生效不用重啟）
+
+| 規則 | 行為 |
+|------|------|
+| `no-hardcoded-paths` | 寫入**程式碼/設定副檔名**（py/js/ts/sh/bat/json/yaml…）且 content 含 `C:\Users\` 或 `C:/Users/` 時 `warn`（呼應全域 no-hardcoded-paths 鐵律；文件 `.md`/`.txt` 不觸發）|
+| `interactive-guard` | Bash 含 `git push`/`git commit`/`git reset --hard`/`rm -rf` 時 `warn`，提醒先確認使用者說「執行」（呼應互動教學模式第 6/7 條）|
+
+### 已啟用的官方外掛（user level `~/.claude/settings.json`）
+
+`pr-review-toolkit`、`commit-commands`（`/commit-commands:commit`、`:commit-push-pr`）、`hookify`、`claude-md-management`（`/revise-claude-md`）。每課收尾的 commit 可改用 `commit-commands` 取代手敲。
+
 ## 來源
 
 - 原始 PDF：`pdf/claude-code-advanced.pdf`（圖片型，722 頁）
