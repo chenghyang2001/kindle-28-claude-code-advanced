@@ -9,9 +9,9 @@
 
 ### Task Completion
 
-- [ ] **COMP-01**: 使用者可用名稱把既有任務標記為完成
-- [ ] **COMP-02**: 標記不存在的任務時，回傳清楚的失敗訊號且不讓程式崩潰
-- [ ] **COMP-03**: 列出任務時，已完成的任務可與未完成的區分
+- [x] **COMP-01**: 使用者可用名稱把既有任務標記為完成
+- [x] **COMP-02**: 標記不存在的任務時，回傳清楚的失敗訊號且不讓程式崩潰
+- [x] **COMP-03**: 列出任務時，已完成的任務可與未完成的區分
 
 ## v2 Requirements
 
@@ -37,9 +37,9 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| COMP-01 | Phase 1 | Pending |
-| COMP-02 | Phase 1 | Pending |
-| COMP-03 | Phase 1 | Pending |
+| COMP-01 | Phase 1 | Complete (2026-06-22) |
+| COMP-02 | Phase 1 | Complete (2026-06-22) |
+| COMP-03 | Phase 1 | Complete (2026-06-22) |
 
 **Coverage:**
 

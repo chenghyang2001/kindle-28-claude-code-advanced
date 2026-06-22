@@ -6,7 +6,7 @@
 
 ## Phases
 
-- [ ] **Phase 1: Task Completion** - 讓使用者能把任務標記為完成，並在列表中區分完成狀態
+- [x] **Phase 1: Task Completion** - 讓使用者能把任務標記為完成，並在列表中區分完成狀態
 
 ## Phase Details
 
@@ -26,10 +26,10 @@
 
 Plans:
 
-- [ ] 01-task-completion-01-PLAN.md — dict-model migration + complete_task + [x]/[ ] display + green test suite
+- [x] 01-task-completion-01-PLAN.md — dict-model migration + complete_task + [x]/[ ] display + green test suite
 
 ## Progress Table
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Task Completion | 0/1 | Not started | - |
+| 1. Task Completion | 1/1 | Complete | 2026-06-22 |
