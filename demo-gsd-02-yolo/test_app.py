@@ -35,11 +35,15 @@ class TestListTasks:
         assert [t["name"] for t in list_tasks(tasks)] == ["a", "b"]
 
     def test_list_returns_copy(self):
-        """回傳的是複本，竄改它不應影響內部清單。"""
+        """回傳的是深層複本，竄改 list 或 dict 欄位均不應影響內部清單。"""
         tasks = [{"name": "a", "done": False}]
         returned = list_tasks(tasks)
+        # 測試 list 層隔離：append 不影響原始清單
         returned.append({"name": "b", "done": False})
         assert len(tasks) == 1
+        # 測試 dict 欄位層隔離：修改 done 欄位不影響原始清單
+        returned[0]["done"] = True
+        assert tasks[0]["done"] is False
 
 
 class TestDeleteTask:
@@ -92,3 +96,7 @@ class TestListPending:
         """部分已完成時，只有未完成任務的名稱出現。"""
         tasks = [{"name": "a", "done": True}, {"name": "b", "done": False}]
         assert list_pending(tasks) == ["b"]
+
+    def test_list_pending_empty(self):
+        """空清單應回傳空 list。"""
+        assert list_pending([]) == []

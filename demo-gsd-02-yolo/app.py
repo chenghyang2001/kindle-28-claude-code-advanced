@@ -5,6 +5,7 @@ complete_task / list_pending），task 以 dict 形式存放於
 in-memory list[dict]，每個任務結構為 {"name": str, "done": bool}。
 """
 
+import copy
 import sys
 
 
@@ -26,17 +27,18 @@ def add_task(tasks: list, name: str) -> None:
 
 
 def list_tasks(tasks: list) -> list:
-    """回傳任務清單的淺層複本。
+    """回傳任務清單的深層複本。
 
-    回傳 copy 而非內部 reference，避免呼叫端在外部直接竄改內部狀態。
+    回傳 deepcopy 而非內部 reference，確保呼叫端無論是對 list 本身
+    或對 dict 內的欄位（如 done）進行修改，都不會竄改內部狀態。
 
     Args:
         tasks: 儲存任務的 list[dict]。
 
     Returns:
-        與內部內容相同、但獨立的新 list[dict]。
+        與內部內容相同、但完全獨立的新 list[dict]。
     """
-    return list(tasks)
+    return copy.deepcopy(tasks)
 
 
 def delete_task(tasks: list, name: str) -> bool:
