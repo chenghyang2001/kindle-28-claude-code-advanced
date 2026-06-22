@@ -146,25 +146,38 @@ claude --dangerously-skip-permissions
 
 ---
 
-## 七、互動 vs YOLO 對照（練完填心得）
+## 七、互動 vs YOLO 對照（練完心得 — 2026-06-22 實測）
 
-| 面向 | 互動（demo-gsd-01） | YOLO（demo-gsd-02-yolo） |
+> 本表是 demo-gsd-02-yolo 走完 `map-codebase → new-project → autonomous` 後的**親身數據**，不是估計值。
+
+| 面向 | 互動（demo-gsd-01） | YOLO（demo-gsd-02-yolo 實測） |
 |---|---|---|
-| 我下了幾次指令 | 5+（每 phase 一次） | 1～2（autonomous / quick） |
-| 中途被問幾次 | 多次（每 phase gate） | 幾乎 0 |
-| 我對計劃的掌控 | 高（逐份審 PLAN.md） | 低（它自己決定） |
+| 我下了幾次指令 | 5+（每 phase 一次） | **3**（`/gsd-map-codebase` / `/gsd-new-project` / `/gsd-autonomous`） |
+| 中途被問幾次決策 | 多次（每 phase gate） | **3**（2 個灰色決策：資料模型、行為細節 + 1 個「修不修 MF-01」） |
+| 我對計劃的掌控 | 高（逐份審 PLAN.md） | 低（roadmapper / planner 自己決定，我只核可） |
+| 品質防線 | 有 | **一樣有**（plan-check + verifier + code-review 照跑） |
 | 適合的任務 | 需求模糊 / 要把關 | 需求清楚 / 信任它 |
-| 風險 | 慢 | 跑偏了較晚發現 |
+| 風險 | 慢 | 跑偏較晚發現 —— 但 review 兜住了（見下） |
+
+### 核心心得
+
+1. **YOLO 拿掉的是「phase gate」，不是「品質 gate」。** autonomous 一路跑 discuss→plan→execute，中間不停；但 `plan-check`、`verifier`、`code-review` 仍在背後守門。真正「喝咖啡看它跑完」= `/gsd-autonomous` + `--dangerously-skip-permissions`（前者拿掉 phase gate，後者拿掉工具授權 gate）。
+
+2. **brownfield walking-skeleton 踩坑（必記）。** Phase 1 是 `**Mode:** mvp`，GSD 的 walking-skeleton 閘門（mvp + phase 01 + 無前置 summary）會誤觸發，叫 planner 從零搭「專案+路由+DB+UI」骨架——對既有純函式 todo 完全錯誤。**手動覆寫**：派 planner 時強制 `WALKING_SKELETON=false` + 標 brownfield/no-scaffold。
+
+3. **code-review 真的攔下一個隱藏 regression（MF-01）。** 任務從 `list[str]` 升級成 `list[dict]` 後，`list_tasks` 的 `list(tasks)` 淺複本**不再隔離**——dict 是可變的、被共享參照，呼叫端改 `done` 會偷改內部狀態，但 docstring 還保證「不會被外部竄改」。既有測試只測 list 層 `.append`，沒測 dict 欄位，所以**沒抓到**。修法：`copy.deepcopy(tasks)` + 強化測試去改 `returned[0]["done"]` 斷言內部不變。→ 這就是「自動」之下品質防線的價值。
+
+4. **最終戰果**：`list[str]`→`list[dict]`、新增 `complete_task`/`list_pending`、測試 6→**12 全綠**、9 個 atomic commit。
 
 ---
 
 ## 八、驗收標準
 
-- [ ] `app.py` 多了 `complete_task()` 和 `list_pending()`
-- [ ] `test_app.py` 多了對應測試
-- [ ] `PYTHONUTF8=1 pytest test_app.py -v` 全綠（含原 6 個）
-- [ ] 你能說出 `/gsd-autonomous` 和 `/gsd-discuss-phase` 逐步的差別
-- [ ] 你知道 `--dangerously-skip-permissions` 是什麼、為何只能本地用
+- [x] `app.py` 多了 `complete_task()` 和 `list_pending()`
+- [x] `test_app.py` 多了對應測試
+- [x] `PYTHONUTF8=1 pytest test_app.py -v` 全綠（**12 passed**：原 6 更新 + 新 6）
+- [x] 你能說出 `/gsd-autonomous` 和 `/gsd-discuss-phase` 逐步的差別
+- [x] 你知道 `--dangerously-skip-permissions` 是什麼、為何只能本地用
 
 ---
 
