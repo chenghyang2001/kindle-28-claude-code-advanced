@@ -4,6 +4,8 @@
 儲存於 in-memory 的 list[str]。complete / persistence 等功能留給學習者
 之後用 GSD autonomous 自動補上的 2 個 phase，因此此處不要先寫。
 """
+import json
+import os
 import sys
 
 
@@ -64,6 +66,31 @@ def list_pending(tasks: list) -> list:
     原 dict reference），改動回傳值的長度不影響原 tasks。
     """
     return [task for task in tasks if not task["done"]]
+
+
+def save_tasks(tasks: list, path: str) -> None:
+    """把 tasks（含 done 狀態）以 JSON 寫入 path，覆寫既有內容。
+
+    用 "w" 模式開檔（即覆寫），`ensure_ascii=False` 讓中文任務名以字面
+    保存（非 \\uXXXX 轉義）、`indent=2` 讓檔案人類可讀。一律 UTF-8 編碼
+    （符合 cp950 防禦規則）。空清單 tasks=[] 直接序列化為 "[]"，不需特例。
+    不回傳值（回 None）。
+    """
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(tasks, f, ensure_ascii=False, indent=2)
+
+
+def load_tasks(path: str) -> list:
+    """從 path 讀回 list[dict{name, done}]。
+
+    檔案不存在 → 回傳 []（優雅處理，呼應「可預期的沒有回空」慣例，不拋例外）。
+    檔案存在但 JSON 格式損壞 → 讓 json.JSONDecodeError 自然往外拋（不靜默吞掉，
+    讓呼叫端自行決定後續）。一律 UTF-8 讀取。
+    """
+    if not os.path.exists(path):
+        return []
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
 def main() -> None:
