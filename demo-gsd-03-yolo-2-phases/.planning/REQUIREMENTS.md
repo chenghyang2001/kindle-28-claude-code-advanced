@@ -7,10 +7,10 @@
 
 ### 任務完成狀態（Status）
 
-- [ ] **STAT-01**: task 以 `dict{name, done}` 儲存（取代純字串），既有 add/list/delete 行為不變
-- [ ] **STAT-02**: 使用者可用 `complete_task(tasks, name)` 把指定任務標記為已完成（done=True）
-- [ ] **STAT-03**: 使用者可用 `list_pending(tasks)` 只取得尚未完成（done=False）的任務
-- [ ] **STAT-04**: 既有 6 個測試維持全綠；新增 Status 相關 pytest 測試（含 happy/edge/error）
+- [x] **STAT-01**: task 以 `dict{name, done}` 儲存（取代純字串），既有 add/list/delete 行為不變
+- [x] **STAT-02**: 使用者可用 `complete_task(tasks, name)` 把指定任務標記為已完成（done=True）
+- [x] **STAT-03**: 使用者可用 `list_pending(tasks)` 只取得尚未完成（done=False）的任務
+- [x] **STAT-04**: 既有 6 個測試維持全綠；新增 Status 相關 pytest 測試（含 happy/edge/error）
 
 ### 存檔持久化（Persistence）
 
@@ -33,10 +33,10 @@
 
 | REQ-ID | Phase | Status |
 |--------|-------|--------|
-| STAT-01 | Phase 1 | Pending |
-| STAT-02 | Phase 1 | Pending |
-| STAT-03 | Phase 1 | Pending |
-| STAT-04 | Phase 1 | Pending |
+| STAT-01 | Phase 1 | Complete |
+| STAT-02 | Phase 1 | Complete |
+| STAT-03 | Phase 1 | Complete |
+| STAT-04 | Phase 1 | Complete |
 | PERS-01 | Phase 2 | Pending |
 | PERS-02 | Phase 2 | Pending |
 | PERS-03 | Phase 2 | Pending |
