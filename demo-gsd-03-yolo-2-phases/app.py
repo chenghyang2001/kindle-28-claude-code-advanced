@@ -1,8 +1,8 @@
 """極簡待辦清單 CLI（GSD YOLO 2-phase 練習的 brownfield 起點）。
 
-刻意只實作 3 個核心函式（add / list / delete），且 task 以純字串 str
-儲存於 in-memory 的 list[str]。complete / persistence 等功能留給學習者
-之後用 GSD autonomous 自動補上的 2 個 phase，因此此處不要先寫。
+原為極簡 brownfield 起點（add / list / delete，task 曾為純字串 str）。task 已於
+GSD autonomous Phase 1 升級為 dict{name, done}（並加 complete_task / list_pending），
+Phase 2 加入 JSON 持久化（save_tasks / load_tasks）。詳見 .planning/ROADMAP.md。
 """
 import json
 import os
