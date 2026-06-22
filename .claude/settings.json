@@ -5,7 +5,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "git -C \"C:/Users/user/workspace/kindle-28-claude-code-advanced\" log -1 --format=\"📚 學習進度：%s (%h)\""
+            "command": "git -C \"$CLAUDE_PROJECT_DIR\" log -1 --format=\"📚 學習進度：%s (%h)\""
           }
         ]
       }
