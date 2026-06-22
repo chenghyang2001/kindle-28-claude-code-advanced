@@ -33,10 +33,10 @@
 
 | REQ-ID | Phase | Status |
 |--------|-------|--------|
-| STAT-01 | — | （roadmap 填入）|
-| STAT-02 | — | |
-| STAT-03 | — | |
-| STAT-04 | — | |
-| PERS-01 | — | |
-| PERS-02 | — | |
-| PERS-03 | — | |
+| STAT-01 | Phase 1 | Pending |
+| STAT-02 | Phase 1 | Pending |
+| STAT-03 | Phase 1 | Pending |
+| STAT-04 | Phase 1 | Pending |
+| PERS-01 | Phase 2 | Pending |
+| PERS-02 | Phase 2 | Pending |
+| PERS-03 | Phase 2 | Pending |
