@@ -8,7 +8,7 @@
 
 ## Phases
 
-- [ ] **Phase 1: Task Completion & Filtering** - 新增 complete_task / list_pending 函式 + 測試，確保全部測試通過
+- [x] **Phase 1: Task Completion & Filtering** - 新增 complete_task / list_pending 函式 + 測試，確保全部測試通過
 
 ## Phase Details
 
@@ -29,10 +29,10 @@
 
 Plans:
 
-- [ ] 01-01-PLAN.md — refactor app.py to dict model + add complete_task/list_pending + update all tests (11 total)
+- [x] 01-01-PLAN.md — refactor app.py to dict model + add complete_task/list_pending + update all tests (11 total)
 
 ## Progress
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Task Completion & Filtering | 0/1 | Not started | - |
+| 1. Task Completion & Filtering | 1/1 | Complete | 2026-06-22 |

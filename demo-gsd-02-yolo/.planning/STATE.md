@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2026-06-22)
 ## Current Position
 
 Phase: 1 of 1 (Task Completion & Filtering)
-Plan: 0 of TBD in current phase
-Status: Ready to plan
-Last activity: 2026-06-22 — Roadmap created, ready to begin planning Phase 1
+Plan: 1 of 1 in current phase
+Status: Phase 1 Complete
+Last activity: 2026-06-22 — Phase 1 Plan 1 executed; 11 tests passing
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [██████████] 100%
 
 ## Performance Metrics
 
@@ -28,12 +28,12 @@ Progress: [░░░░░░░░░░] 0%
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| - | - | - | - |
+| 1. Task Completion & Filtering | 1 | ~5 min | ~5 min |
 
 **Recent Trend:**
 
-- Last 5 plans: -
-- Trend: -
+- Last 5 plans: Phase 1 Plan 1 (01-01)
+- Trend: On track
 
 *Updated after each plan completion*
 
@@ -44,7 +44,9 @@ Progress: [░░░░░░░░░░] 0%
 Decisions are logged in PROJECT.md Key Decisions table.
 Recent decisions affecting current work:
 
-- [Pre-Phase 1]: 「已完成」狀態表示法（task 目前是 `list[str]` 純字串）尚未決定——需在實作時選定（改 `list[dict]`、另維護 completed set、或命名約定）
+- [Phase 1 Plan 1]: 採 dict 模型 `{"name": str, "done": bool}` 表示完成狀態（取代 list[str]）
+- [Phase 1 Plan 1]: complete_task 採冪等設計（已完成再呼叫仍回 True）
+- [Phase 1 Plan 1]: list_pending 回傳 name 字串清單（非 dict），方便呼叫端直接使用
 
 ### Pending Todos
 
@@ -52,7 +54,7 @@ None yet.
 
 ### Blockers/Concerns
 
-- [Phase 1]: 資料模型需在執行期決定：`list[str]` 改為 `list[dict]` 或另維護 completed set，選哪種會影響既有 6 個測試是否需要調整（必須保持全綠）
+None — Phase 1 complete, all blockers resolved.
 
 ## Deferred Items
 
@@ -63,5 +65,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-06-22
-Stopped at: Roadmap created — Phase 1 ready to plan
+Stopped at: Phase 1 Plan 1 complete — 11 tests passing, all requirements fulfilled
 Resume file: None
