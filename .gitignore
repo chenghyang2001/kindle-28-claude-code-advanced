@@ -32,5 +32,8 @@ skills/_answer.txt
 # hook 每回合自動改寫的狀態檔，本機再生不進版控
 .claude/session-state.md
 
+# hookify 外掛自動生成的本機規則檔（重啟時再生，屬本機設定不進版控）
+.claude/hookify.*.local.md
+
 # === Node.js 練習專案 ===
 node_modules/
