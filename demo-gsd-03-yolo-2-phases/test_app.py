@@ -4,9 +4,19 @@ task 已從純字串遷移為 dict{"name": str, "done": bool}。涵蓋
 add_task / list_tasks / delete_task（既有 6 個，已對齊 dict 模型）
 與 Status 階段新增的 complete_task / list_pending。
 """
+import json
+
 import pytest
 
-from app import add_task, complete_task, delete_task, list_pending, list_tasks
+from app import (
+    add_task,
+    complete_task,
+    delete_task,
+    list_pending,
+    list_tasks,
+    load_tasks,
+    save_tasks,
+)
 
 
 class TestAddTask:
@@ -134,3 +144,35 @@ class TestListPending:
         pending = list_pending(tasks)
         pending.append({"name": "b", "done": False})
         assert len(tasks) == 1
+
+
+class TestPersistence:
+    """save_tasks / load_tasks：round-trip 無損、空清單、缺檔、壞 JSON。"""
+
+    def test_round_trip_lossless(self, tmp_path):
+        """混合 done 狀態 + 多筆順序 + 中文 name，save→load 後完全相等（含順序）。"""
+        path = str(tmp_path / "tasks.json")
+        data = [
+            {"name": "買牛奶", "done": True},
+            {"name": "寫程式", "done": False},
+            {"name": "睡覺", "done": True},
+        ]
+        save_tasks(data, path)
+        assert load_tasks(path) == data
+
+    def test_empty_list_round_trip(self, tmp_path):
+        """空清單 save→load 回 []，不報錯。"""
+        path = str(tmp_path / "tasks.json")
+        save_tasks([], path)
+        assert load_tasks(path) == []
+
+    def test_missing_file_returns_empty(self, tmp_path):
+        """檔案不存在時 load_tasks 回 []（不拋例外）。"""
+        assert load_tasks(str(tmp_path / "missing.json")) == []
+
+    def test_malformed_json_raises(self, tmp_path):
+        """格式損壞的 JSON 檔讓 json.JSONDecodeError 自然往外拋（不被吞）。"""
+        bad = tmp_path / "bad.json"
+        bad.write_text("{壞 not json", encoding="utf-8")
+        with pytest.raises(json.JSONDecodeError):
+            load_tasks(str(bad))
