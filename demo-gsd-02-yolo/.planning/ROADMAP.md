@@ -25,10 +25,14 @@
   3. `complete_task` 有 pytest 測試，涵蓋正常標記（found）與任務不存在（not found）兩個案例
   4. `list_pending` 有 pytest 測試，涵蓋「全部未完成」與「部分已完成」兩個場景
   5. 既有 6 個測試（TestAddTask、TestListTasks、TestDeleteTask）在 `PYTHONUTF8=1 pytest` 下全部通過（回歸防線）
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+
+- [ ] 01-01-PLAN.md — refactor app.py to dict model + add complete_task/list_pending + update all tests (11 total)
 
 ## Progress
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Task Completion & Filtering | 0/TBD | Not started | - |
+| 1. Task Completion & Filtering | 0/1 | Not started | - |
