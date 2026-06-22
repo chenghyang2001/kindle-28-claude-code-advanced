@@ -37,16 +37,16 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| COMP-01 | TBD | Pending |
-| COMP-02 | TBD | Pending |
-| COMP-03 | TBD | Pending |
+| COMP-01 | Phase 1 | Pending |
+| COMP-02 | Phase 1 | Pending |
+| COMP-03 | Phase 1 | Pending |
 
 **Coverage:**
 
 - v1 requirements: 3 total
-- Mapped to phases: 0（待 roadmapper 填）
-- Unmapped: 3 ⚠️（roadmap 建立後應為 0）
+- Mapped to phases: 3
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-06-22*
-*Last updated: 2026-06-22 after initial definition*
+*Last updated: 2026-06-22 after roadmap creation (traceability filled)*
