@@ -35,6 +35,18 @@
 | `no-hardcoded-paths` | 寫入**程式碼/設定副檔名**（py/js/ts/sh/bat/json/yaml…）且 content 含 `C:\Users\` 或 `C:/Users/` 時 `warn`（呼應全域 no-hardcoded-paths 鐵律；文件 `.md`/`.txt` 不觸發）|
 | `interactive-guard` | Bash 含 `git push`/`git commit`/`git reset --hard`/`rm -rf` 時 `warn`，提醒先確認使用者說「執行」（呼應互動教學模式第 6/7 條）|
 
+### Stop hook（`~/.claude/hooks/quality-gate.sh`）
+
+Session 結束時偵測未提交變更並阻擋。結束前若有 `git status -s` 輸出，需先 `git add + commit + push` 才能正常收工。
+
+### PostToolUse hook（`.claude/settings.json`，cfa444b 加入）
+
+Edit/Write `.py` 後自動跑 `ruff check --fix + format`。無需手動觸發，但需本機已裝 ruff（`pip install ruff`）。
+
+### 推薦用 skill（可按需重跑）
+
+`/claude-code-setup:claude-automation-recommender` — 掃描專案給出 MCP / Hook / Skill / Subagent 推薦，適合每隔幾章課程跑一次評估有無新自動化機會。
+
 ### 已啟用的官方外掛（user level `~/.claude/settings.json`）
 
 `pr-review-toolkit`、`commit-commands`（`/commit-commands:commit`、`:commit-push-pr`）、`hookify`、`claude-md-management`（`/revise-claude-md`）。每課收尾的 commit 可改用 `commit-commands` 取代手敲。
