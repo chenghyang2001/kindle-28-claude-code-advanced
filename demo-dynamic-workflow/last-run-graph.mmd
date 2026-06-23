@@ -1,0 +1,55 @@
+---
+title: "Dynamic Workflow 實跑圖 — wf_e2d5a8c7-24a（10 agents / 97s）"
+---
+flowchart LR
+    START(["pipeline 啟動<br/>3 主題並行進場"]):::start
+
+    subgraph T1["主題1：Slash Commands"]
+        direction LR
+        G1["gen<br/>(出題)"]:::gen --> V1A["verifyA"]:::ver
+        G1 --> V1B["verifyB"]:::ver
+        V1A --> D1{"雙審<br/>通過?"}:::dec
+        V1B --> D1
+        D1 -->|"是 ✓"| O1["採用原題"]:::ok
+        D1 -.->|"否 (本次未觸發)"| R1["refine<br/>(修正)"]:::skip
+    end
+
+    subgraph T2["主題2：CLAUDE.md 記憶"]
+        direction LR
+        G2["gen"]:::gen --> V2A["verifyA"]:::ver
+        G2 --> V2B["verifyB"]:::ver
+        V2A --> D2{"雙審<br/>通過?"}:::dec
+        V2B --> D2
+        D2 -->|"是 ✓"| O2["採用原題"]:::ok
+        D2 -.->|"否 (本次未觸發)"| R2["refine"]:::skip
+    end
+
+    subgraph T3["主題3：Output Styles"]
+        direction LR
+        G3["gen"]:::gen --> V3A["verifyA"]:::ver
+        G3 --> V3B["verifyB"]:::ver
+        V3A --> D3{"雙審<br/>通過?"}:::dec
+        V3B --> D3
+        D3 -->|"是 ✓"| O3["採用原題"]:::ok
+        D3 -.->|"否 (本次未觸發)"| R3["refine"]:::skip
+    end
+
+    START --> G1
+    START --> G2
+    START --> G3
+
+    O1 --> ASM["assemble<br/>(彙整測驗卷)"]:::asm
+    O2 --> ASM
+    O3 --> ASM
+    ASM --> DONE(["回傳：3 題測驗卷"]):::start
+
+    NOTE["實跑統計：10 agents = 3 gen + 6 verify + 1 assemble<br/>Refine 階段 0（3 題雙審全過）｜耗時 97 秒｜pipeline 無等待牆"]:::note
+
+    classDef start fill:#1f2937,color:#fff,stroke:#111;
+    classDef gen fill:#bfdbfe,stroke:#1e40af,color:#111;
+    classDef ver fill:#ddd6fe,stroke:#6d28d9,color:#111;
+    classDef dec fill:#fde68a,stroke:#b45309,color:#111;
+    classDef ok fill:#bbf7d0,stroke:#15803d,color:#111;
+    classDef skip fill:#f3f4f6,stroke:#9ca3af,color:#9ca3af,stroke-dasharray:4 3;
+    classDef asm fill:#fed7aa,stroke:#c2410c,color:#111;
+    classDef note fill:#fffbeb,stroke:#d97706,color:#111;
