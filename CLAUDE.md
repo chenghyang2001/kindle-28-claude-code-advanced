@@ -39,6 +39,10 @@
 
 `pr-review-toolkit`、`commit-commands`（`/commit-commands:commit`、`:commit-push-pr`）、`hookify`、`claude-md-management`（`/revise-claude-md`）。每課收尾的 commit 可改用 `commit-commands` 取代手敲。
 
+> ⚠️ 配置漂移修正（2026-06-23，本機 B00332 公司機）：`claude-md-management` 原先只記在本文件、卻沒在這台的 `~/.claude/settings.json` `enabledPlugins` 啟用（市集快取有、但 `enabled` 缺項），導致 `/revise-claude-md` 跑不出來。以 `claude plugin install claude-md-management@claude-plugins-official` 補裝啟用，`/reload-plugins` 後即生效（毋須重啟）。教訓：跨機器同步時 `enabledPlugins` 不會自動帶過來，文件記「已啟用」≠ 該機真的啟用。
+>
+> 🔧 外掛 slash 指令失蹤排錯通則：先 `grep <plugin> ~/.claude/settings.json` 看 `enabledPlugins` 有沒有該項（市集快取有≠已啟用）；缺項就 `claude plugin install <name>@<marketplace>` 補裝、或 `claude plugin enable <name>@<marketplace>`（已裝但停用時），再 `/reload-plugins` 生效（免重啟）。
+
 ## 來源
 
 - 原始 PDF：`pdf/claude-code-advanced.pdf`（圖片型，722 頁）
