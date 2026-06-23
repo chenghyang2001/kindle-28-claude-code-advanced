@@ -53,3 +53,25 @@
 
 - 當任務是「**很多項目 × 多階段 × 要程式化控制（迴圈/扇出/交叉驗證）**」時。
 - 單一任務一律先想 subagent / loop / schedule / skill，項目一旦變多再升級 workflow。
+
+---
+
+## 延伸練習（2026-06-23 同日）
+
+### A. `/loop`（決策矩陣左上角）
+- 實跑：60 秒間隔、3 次自動停的 self-paced loop（`loop-demo-log.md`）。
+- 學到：
+  - `/loop` = session 內固定間隔/自抓節奏的重複任務；**停止條件必須寫在 prompt 裡**，否則無限跑。
+  - self-paced loop = 一串 **one-shot** 喚醒（受 60 秒下限）；`/loop 1m` = 真正 **recurring cron**（最長 7 天）。
+  - **`CronList`/`CronDelete`/`ScheduleWakeup` 是 Claude 內部工具**（叫 Claude 跑，**不是** shell/斜線指令）；`/schedule` 才是使用者能打的斜線指令（雲端 routine）。
+
+### B. 把 workflow 包成 skill（右上 → 左下 降維）
+- 產出：`.claude/skills/quiz-workflow/SKILL.md`（內嵌出題 workflow 腳本 + 觸發詞 + 參數）。
+- 學到：
+  - **skill 不會自己跑 JS**；它是「指示」，被觸發時叫主 Claude 去呼叫 `Workflow` 工具。
+  - 效果：原本要貼整段 JS，現在「一句話 + 主題參數」就重跑 → 把右上角強但麻煩的武器降成左下角高頻指令。
+  - project skill 放 `.claude/skills/` **熱載入**（`/reload-skills` 或新 session）。
+  - 端到端驗證：打 `quiz-workflow Hooks, MCP Servers, Plugins` → skill 觸發 → Workflow 跑 4 agent → 回測驗卷 ✅。
+
+### 成本實感（同日 4 次 workflow 累計）
+- 簡單版 ~44 萬 token/次；3 階段交叉驗證版 ~109 萬/次。層數/審查員越多越貴 → 依任務價值取捨。
