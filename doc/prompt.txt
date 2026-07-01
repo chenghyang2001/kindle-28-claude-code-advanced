@@ -7,3 +7,8 @@
 [執行 / 要 現在整理]（每課收尾寫 answer + STEP_LOG + carry）
 [先 commit + push 第 N 課，再接著上第 N+1 課]（第 9～14 課逐課）
 [1. 先收工（我跑收工流程：summary + memory + hot-cache）]
+
+## 2026-07-02 GSD→VPS→Ralph demo
+- 規劃一個 demo，用 GSD 從 new-project 一步步到 PLAN，最後派到 VPS 用 Ralph standalone 自動 build
+- （中途）為什麼 GSD 提示是 /gsd:plan-phase 冒號、實際要打連字號？找出原因
+- 全自動：3b-2 到收工，不互動；build 完寫文件、寄 Gmail、建 NotebookLM 語音+簡報、收工
