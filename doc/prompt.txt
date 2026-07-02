@@ -12,3 +12,10 @@
 - 規劃一個 demo，用 GSD 從 new-project 一步步到 PLAN，最後派到 VPS 用 Ralph standalone 自動 build
 - （中途）為什麼 GSD 提示是 /gsd:plan-phase 冒號、實際要打連字號？找出原因
 - 全自動：3b-2 到收工，不互動；build 完寫文件、寄 Gmail、建 NotebookLM 語音+簡報、收工
+
+=== Session 17（2026-07-03）GSD→VPS→Ralph 第三次演練「全 VPS 自主 run A」morse-cli ===
+- 再做一個演練，出三個題目讓我選（同流程 GSD→VPS→Ralph）→ 選摩斯電碼
+- 這次全部放到 VPS：用命令叫 VPS 做 gsd new-project + plan-phase，轉 Ralph 格式再跑
+- 先回答：headless 能不能無互動跑完 GSD，還是一定要互動？→ 選 A（全 VPS 自主）
+- 完成後 VPS 寄 Gmail + Telegram 通知我（成功報結果、失敗報錯誤），我要離開，交代完不用輪詢
+- 收工：整理今天工作 + 總結存記憶（入口）+ 放進一個新的 notebook 檔
