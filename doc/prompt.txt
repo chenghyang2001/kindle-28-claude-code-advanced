@@ -19,3 +19,11 @@
 - 先回答：headless 能不能無互動跑完 GSD，還是一定要互動？→ 選 A（全 VPS 自主）
 - 完成後 VPS 寄 Gmail + Telegram 通知我（成功報結果、失敗報錯誤），我要離開，交代完不用輪詢
 - 收工：整理今天工作 + 總結存記憶（入口）+ 放進一個新的 notebook 檔
+
+=== Session 18（2026-07-04）worktree 綁 skill/subagent + 兩路 demo ===
+- 依昨天 todo 筆記：建 worktree-builder subagent + wt-feature skill（含 workflow 路2）；先列計畫別動手
+- 開始寫這三個檔 → commit 三檔一起 → 設計簡單但能展現用法的範例，我要看怎麼調用新 skill/agent
+- 先跑 B 的路1（worktree-builder 自建 worktree 做 greet.py）→ 執行收尾（merge+清理）
+- 跑 B 路2 看偵測（Task isolation:worktree 起 worktree-builder，看它偵測 SELF_CREATED:no）
+- 把兩個檔（skill / subagent）貼出來對照給我看內容
+- 把昨天 B 路2 沒清的 farewell.py worktree 收尾 → 收工
