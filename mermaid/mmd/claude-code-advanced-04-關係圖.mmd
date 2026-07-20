@@ -1,0 +1,37 @@
+flowchart LR
+    CC["Claude Code"]
+
+    subgraph 生產力 ["生產力技術"]
+        WT["Git Worktrees"]
+        PM["Plan Mode"]
+        CTX["上下文管理"]
+    end
+
+    subgraph 框架 ["開發框架"]
+        GSD["GSD 框架"]
+        RALPH["Ralph 循環"]
+        SUB["Subagents"]
+    end
+
+    subgraph 配置 ["配置與記憶"]
+        CMD["CLAUDE.md"]
+        MEM["記憶系統"]
+        PLG["插件與 Hooks"]
+    end
+
+    SEC["安全與成本"]
+    SKILL["Skills 技能化"]
+
+    CC -- "並行隔離" --> WT
+    CC -- "先規劃後執行" --> PM
+    CC -- "保持整潔" --> CTX
+    WT -- "支撐多會話" --> SUB
+    PM -- "失敗返回重評估" --> GSD
+    GSD -- "四階段循環驅動" --> RALPH
+    SUB -- "分散 Context 壓力" --> CTX
+    CMD -- "規則自動加載" --> CC
+    MEM -- "跨會話延續知識" --> CMD
+    PLG -- "擴充能力" --> CC
+    SKILL -- "重複工作腳本化" --> CC
+    SEC -- "約束成本與權限" --> CC
+    RALPH -- "無人值守需要" --> SEC
