@@ -1,0 +1,38 @@
+flowchart TD
+    subgraph 操作 ["操作介面層"]
+        TERM["終端機 / CLI"]
+        PLAN["Plan Mode<br/>先規劃後執行"]
+    end
+    subgraph 工作流 ["核心工作流層"]
+        WT["Git Worktrees<br/>並行隔離"]
+        CTX["上下文管理<br/>Context Rot 監控"]
+        SUB["Subagents<br/>編排"]
+    end
+    subgraph 框架 ["開發框架層"]
+        GSD["GSD<br/>四階段循環"]
+        RALPH["Ralph<br/>自主循環"]
+        BATCH["batch<br/>大規模平行"]
+    end
+    subgraph 配置 ["配置與記憶層"]
+        CMD["CLAUDE.md<br/>規則自動加載"]
+        MEM["記憶系統"]
+        PLG["插件 / Hooks"]
+    end
+    subgraph 基礎 ["基礎設施層"]
+        GIT["Git"]
+        DOCKER["Docker<br/>容器化"]
+        SEC["權限 / 成本控制"]
+    end
+
+    TERM -- "先規劃再動手" --> PLAN
+    PLAN -- "拆分平行任務" --> WT
+    WT -- "多會話支撐" --> SUB
+    SUB -- "分散 Context 壓力" --> CTX
+    WT -- "隔離分支" --> GIT
+    GSD -- "驅動" --> RALPH
+    SUB -- "大規模變更" --> BATCH
+    CMD -- "規則自動加載" --> PLAN
+    MEM -- "跨會話延續知識" --> CMD
+    PLG -- "擴充能力" --> TERM
+    RALPH -- "無人值守需要" --> SEC
+    DOCKER -- "沙盒隔離" --> SEC

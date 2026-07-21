@@ -1,0 +1,21 @@
+flowchart TD
+    Start(["開始學習 Claude Code"]) --> Check{"已有終端機與<br/>Git 經驗？"}
+    Check -- "否" --> P1["Part I 核心基礎<br/>五大支柱 + 必備條件"]
+    Check -- "是" --> P2
+    P1 --> P2["Part II 生產力提升<br/>Worktrees 並行化 + Plan Mode"]
+
+    P2 --> P3["Part III+V 開發框架<br/>GSD 框架 + Agent 編排"]
+
+    subgraph GSD ["GSD 四階段循環"]
+        direction LR
+        G1["討論<br/>Discussion"] --> G2["計畫<br/>Planning"] --> G3["執行<br/>Execution"] --> G4["驗證<br/>Verification"]
+        G4 -. "出錯即返回重新評估" .-> G2
+    end
+
+    P3 --> GSD
+    GSD --> P4["Part IV 配置自定義<br/>CLAUDE.md + 記憶系統 + 插件"]
+    P4 --> P6["Part VI 進階掌握<br/>技能化 + 安全與成本"]
+    P6 --> Ref["附錄快速查閱<br/>常用命令與 Flags"]
+    Ref --> Loop{"遇到新工作流？"}
+    Loop -- "是" --> P2
+    Loop -- "否" --> End(["熟練掌握"])
