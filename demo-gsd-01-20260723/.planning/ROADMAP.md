@@ -30,12 +30,18 @@ Decimal phases appear between their surrounding integers in numeric order.
   1. 既有 12 個測試在資料結構改為 `Task` 後全數通過（斷言改為 `Task(...)` 建構式，但驗證的行為語意——新增去空白、清單順序、刪除只影響第一筆同名——維持不變）
   2. `list_tasks` 回傳的清單是安全複製：修改回傳值中的元素（含其 `.done` 欄位）不會污染 `main()` 持有的原始 `tasks`
   3. `delete_task` 能刪除任意完成狀態（已完成或未完成）的任務，刪除行為不因任務是否標記完成而不同
-**Plans**: TBD
+
+**Plans**: 2 plans
 
 Plans:
 
-- [ ] 01-01: 定義 `Task` dataclass，改寫 `add_task`/`delete_task`/`list_tasks` 內部邏輯與淺複製語意
-- [ ] 01-02: 遷移既有 12 個測試斷言為 `Task(...)` 建構式，補上 `delete_task` 對已完成任務的驗證，確認全數綠燈
+**Wave 1**
+
+- [ ] 01-01-PLAN.md — 定義 `Task` dataclass，遷移 `add_task`/`list_tasks`/`_print_task_list` 內部邏輯與元素級複製語意，並將 `TestAddTask`/`TestListTasks` 斷言遷移為 `Task(...)` + 補別名污染防線測試（套件保持綠燈）
+
+**Wave 2** *(blocked on Wave 1 completion)*
+
+- [ ] 01-02-PLAN.md — 整段重寫 `delete_task` 為逐筆名稱比對（消除靜默失效），遷移 `TestDeleteTask` 斷言、補「刪除已完成任務」測試（COMPAT-02），並以 CLI 端到端煙霧測試驗證可觀察行為零回歸（14 測試全綠）
 
 ### Phase 2: complete_task 核心邏輯與冪等性設計
 
@@ -50,6 +56,7 @@ Plans:
   3. 使用者對已完成的任務再次呼叫 `complete_task` 時，得到「已經完成過」的回傳結果，狀態不改變（單向冪等，不 toggle）
   4. `complete_task` 的名稱比對規則（去頭尾空白）與 `delete_task` 完全一致，同一個名稱字串在兩個函式中定位到同一筆任務；面對重複名稱任務時只影響第一個尚未完成的同名任務
   5. 新增至少涵蓋成功完成、找不到任務、重複 complete 三種情境的測試，全數通過
+
 **Plans**: TBD
 
 Plans:
@@ -69,6 +76,7 @@ Plans:
   2. 已完成任務留在清單顯示中不消失，完成與刪除語意在畫面上清楚區分
   3. 使用者在 CLI 互動迴圈中輸入 `complete <名稱>` 能觸發對應指令分支，並依三態結果印出對應訊息（成功/找不到/已完成過）
   4. 在未設定 `PYTHONUTF8=1` 的原生 Windows 終端機執行 `list` 時，✓ 字元正常印出而不拋出 `UnicodeEncodeError`
+
 **Plans**: TBD
 
 Plans:
