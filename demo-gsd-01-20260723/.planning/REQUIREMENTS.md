@@ -43,15 +43,15 @@
 
 | REQ-ID | Phase | Status |
 | -------- | ------- | -------- |
-| COMP-01 | — | Pending |
-| COMP-02 | — | Pending |
-| COMP-03 | — | Pending |
-| COMP-04 | — | Pending |
-| DISP-01 | — | Pending |
-| DISP-02 | — | Pending |
-| COMPAT-01 | — | Pending |
-| COMPAT-02 | — | Pending |
-| COMPAT-03 | — | Pending |
+| COMP-01 | Phase 2 | Pending |
+| COMP-02 | Phase 2 | Pending |
+| COMP-03 | Phase 2 | Pending |
+| COMP-04 | Phase 2 | Pending |
+| DISP-01 | Phase 3 | Pending |
+| DISP-02 | Phase 3 | Pending |
+| COMPAT-01 | Phase 1 | Pending |
+| COMPAT-02 | Phase 1 | Pending |
+| COMPAT-03 | Phase 2 | Pending |
 
 ---
-*Last updated: 2026-07-23 after requirements definition*
+*Last updated: 2026-07-23 after roadmap creation*
