@@ -1,0 +1,35 @@
+flowchart TD
+    subgraph L1 ["意圖輸入層"]
+        USR["使用者指令<br/>（領域專家）"]
+        LOG["攝取日誌<br/>Intake Log"]
+    end
+    subgraph L2 ["規則與上下文層"]
+        RULE["持久規則<br/>CLAUDE.md"]
+        GLOS["專案詞彙表<br/>Glossary"]
+        CTX["上下文<br/>Context"]
+    end
+    subgraph L3 ["執行層"]
+        AGT["AI Agent<br/>本地代理＋遠端模型"]
+    end
+    subgraph L4 ["真相層"]
+        SOT["真相來源 SOT<br/>Markdown 規格檔"]
+        REG["檔案註冊表"]
+    end
+    subgraph L5 ["驗證與產出層"]
+        POLY["測謊儀<br/>Polygraph"]
+        DEVIL["魔鬼代言人<br/>Devil's Advocate"]
+        DRY["乾跑<br/>Dry Run"]
+        ART["產出物 Artifact<br/>圖表／程式碼／文件"]
+    end
+    USR -- "逐字記錄" --> LOG
+    LOG -- "意圖沉澱" --> SOT
+    RULE -- "每次載入" --> CTX
+    GLOS -- "統一語意" --> CTX
+    CTX -- "全量傳遞" --> AGT
+    AGT -- "草擬／更新" --> SOT
+    SOT -- "登錄管理" --> REG
+    POLY -- "比對內部矛盾" --> SOT
+    DEVIL -- "揪無根據假設" --> SOT
+    DRY -- "壓測找漏洞" --> SOT
+    SOT -- "regen-all 生成" --> ART
+    ART -. "發現錯誤只改真相" .-> SOT

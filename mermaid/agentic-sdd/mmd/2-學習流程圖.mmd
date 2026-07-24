@@ -1,0 +1,20 @@
+flowchart TD
+    Start(["開始學習<br/>Agentic SDD"]) --> Check{"已具備領域專業<br/>與版本控制習慣？"}
+    Check -- "否" --> P1["第1-2章<br/>先決條件與 Token 效率"]
+    Check -- "是" --> P2
+    P1 --> P2["第3-5章<br/>AI 代理・提示詞・持久規則"]
+    P2 --> P3["第6章<br/>Bootstrap 建立專案骨架"]
+    P3 --> P4["第7-9章<br/>攝取日誌・Session 紀律・詞彙表"]
+    P4 --> P5["第10章<br/>SOT 真相來源→產出物"]
+    subgraph 驗證循環 ["規格驗證循環（第11-13章）"]
+        direction LR
+        V1["草擬/更新 SOT"] --> V2["測謊儀<br/>比對矛盾"]
+        V2 --> V3["魔鬼代言人<br/>抓幻覺"]
+        V3 --> V4["乾跑<br/>模擬構建找漏洞"]
+        V4 -. "發現漏洞<br/>回補規格" .-> V1
+    end
+    P5 --> 驗證循環
+    驗證循環 --> Regen["regen-all<br/>由 SOT 重生產出物"]
+    Regen --> NewCase{"開始新專案<br/>或新主題？"}
+    NewCase -- "是" --> P3
+    NewCase -- "否" --> End(["熟練掌握<br/>規格驅動開發"])

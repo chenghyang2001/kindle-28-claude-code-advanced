@@ -1,0 +1,33 @@
+flowchart LR
+    CORE["Agentic SDD<br/>先造完美規格<br/>再由規格生產品"]
+
+    subgraph G1 ["記憶與語意"]
+        CTX["Context<br/>上下文"]
+        RULE["Durable Rules<br/>持久規則"]
+        GLOS["Glossary<br/>詞彙表"]
+        LOG["Intake Log<br/>攝取日誌"]
+    end
+    subgraph G2 ["真相與產出"]
+        SOT["SOT<br/>真相來源"]
+        ART["Artifact<br/>產出物"]
+    end
+    subgraph G3 ["驗證三件套"]
+        POLY["Polygraph<br/>測謊儀"]
+        DEVIL["Devil's Advocate<br/>魔鬼代言人"]
+        DRY["Dry Run<br/>乾跑"]
+    end
+
+    AGT["AI Agent<br/>本地代理"]
+
+    CORE -- "指揮執行" --> AGT
+    AGT -- "維護並傳遞" --> CTX
+    RULE -- "每次載入約束" --> CTX
+    GLOS -- "消除語意落差" --> CTX
+    LOG -- "意圖沉澱寫入" --> SOT
+    AGT -- "草擬" --> SOT
+    SOT -- "自動生成" --> ART
+    ART -. "錯誤時只改真相" .-> SOT
+    POLY -- "比對內部矛盾" --> SOT
+    DEVIL -- "揪外部幻覺" --> SOT
+    DRY -- "壓測找漏洞回饋" --> SOT
+    CORE -- "信任但驗證" --> G3
