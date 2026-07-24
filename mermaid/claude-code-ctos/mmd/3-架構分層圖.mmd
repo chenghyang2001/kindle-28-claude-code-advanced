@@ -1,0 +1,38 @@
+flowchart TD
+    subgraph L1 ["戰略與文化層"]
+        CTO["CTO 原型評估<br/>依團隊規模分流"]
+        BIZ["商業論證<br/>週期時間／缺陷率"]
+        ONB["團隊導入劇本<br/>沙盒＋分享會"]
+    end
+    subgraph L2 ["治理與控制層 The Harness"]
+        MEM["Memory<br/>CLAUDE.md 分層記憶"]
+        PERM["Permissions<br/>讀寫執行白名單"]
+        HOOK["Hooks<br/>強制檢查與日誌"]
+        ISO["Isolation<br/>Subagent／Worktree"]
+    end
+    subgraph L3 ["工作流執行層"]
+        LOOP["Plan → Execute → Review<br/>每日微觀循環"]
+        LEG["遺留系統<br/>測試安全網＋絞殺者"]
+        MULTI["多倉庫協作<br/>Coordinator → Specialist"]
+    end
+    subgraph L4 ["自動化與基礎設施層"]
+        HEAD["Headless 無頭模式<br/>CI/CD 代碼審查"]
+        DYN["Dynamic Workflows<br/>可重複編排腳本"]
+        MCP["MCP Server<br/>外部系統直連"]
+    end
+    OTEL["OpenTelemetry<br/>成本與使用度量"]
+
+    CTO -- "決定導入節奏" --> ONB
+    BIZ -- "取得董事會授權" --> ONB
+    ONB -- "開發者進場前<br/>先配置好框架" --> MEM
+    MEM -- "每次載入約束" --> LOOP
+    PERM -- "限制可動範圍" --> LOOP
+    HOOK -- "自動攔截違規" --> LOOP
+    ISO -- "限制爆炸半徑" --> MULTI
+    LOOP -- "產出 PR" --> HEAD
+    MULTI -- "跨倉庫變更" --> HEAD
+    LEG -- "漸進替換" --> LOOP
+    HEAD -- "呼叫可重複腳本" --> DYN
+    DYN -- "即時抓取外部狀態" --> MCP
+    HEAD -- "回傳活動數據" --> OTEL
+    OTEL -. "指標回饋修正策略" .-> BIZ

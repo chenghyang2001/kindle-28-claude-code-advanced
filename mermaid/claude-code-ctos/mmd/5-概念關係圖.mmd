@@ -1,0 +1,32 @@
+flowchart LR
+    CORE["Agentic 代理化<br/>觀察→計畫→執行→驗證<br/>開發者從打字員變編排者"]
+
+    subgraph G1 ["控制框架 The Harness"]
+        HAR["The Harness<br/>四層控制"]
+        CMD["CLAUDE.md<br/>記憶層"]
+    end
+    subgraph G2 ["平行化執行"]
+        SUB["Subagent<br/>乾淨上下文"]
+        WT["Git Worktree<br/>互不干擾目錄"]
+        HAND["Handoff Document<br/>跨倉庫交接規格"]
+    end
+    subgraph G3 ["工作流與擴展"]
+        PM["Plan Mode<br/>改碼前先確認"]
+        DYN["Dynamic Workflow<br/>可重複編排腳本"]
+        MCP["MCP<br/>代理直連外部系統"]
+    end
+
+    VIBE["Vibecoding<br/>快速生成但脆弱"]
+
+    CORE -- "被框架約束" --> HAR
+    HAR -- "強制讀取" --> CMD
+    CMD -- "確保不偏離架構標準" --> CORE
+    CORE -- "改碼前先走" --> PM
+    PM -- "拆解後分派任務" --> SUB
+    SUB -- "各自運行於" --> WT
+    HAND -- "指導專家代理在<br/>專屬工作樹作業" --> WT
+    MCP -- "擴充能力邊界<br/>即時抓外部狀態" --> SUB
+    MCP -- "擴充能力邊界" --> DYN
+    DYN -- "大規模審計與遷移" --> VIBE
+    VIBE -. "必須重寫而非疊代" .-> CMD
+    HAR -- "隔離限制爆炸半徑" --> SUB
