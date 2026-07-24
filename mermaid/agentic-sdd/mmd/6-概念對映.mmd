@@ -1,0 +1,52 @@
+flowchart LR
+    subgraph K ["Kindle 34 概念"]
+        direction TB
+        K1["Bootstrap 啟動框架"]
+        K2["Durable Rules<br/>持久規則 CLAUDE.md"]
+        K3["Source of Truth<br/>SOT 真相來源"]
+        K4["Intake Log<br/>攝取日誌"]
+        K5["Polygraph<br/>測謊儀"]
+        K6["Devil's Advocate<br/>魔鬼代言人"]
+        K7["Dry Run<br/>乾跑"]
+        K8["Project Glossary<br/>詞彙表"]
+        K9["Artifact 產出物<br/>不可直接編輯"]
+        K10["Course Correction<br/>路線修正"]
+    end
+    subgraph G ["GSD 的對應物"]
+        direction TB
+        G1["/gsd-new-project<br/>+ .planning 骨架 + config"]
+        G2["CLAUDE.md<br/>+ @instructions/*.md 模組"]
+        G3["PROJECT / REQUIREMENTS<br/>/ ROADMAP / PLAN.md"]
+        G4["01-DISCUSSION-LOG.md"]
+        G5["gsd-plan-checker<br/>+ VERIFICATION Evidence"]
+        G6["gsd-code-reviewer<br/>+ 三 agent 鐵律"]
+        G7["（無對應）"]
+        G8["（無對應）<br/>grep 67 skill 零命中"]
+        G9["程式碼<br/>但 GSD 允許直改"]
+        G10["/gsd-audit-milestone<br/>/gsd-update"]
+    end
+
+    K1 -- "幾乎一對一" --> G1
+    K2 -- "你做得比書更細" --> G2
+    K3 -- "張力點" --> G3
+    K4 -- "精神像做法不同" --> G4
+    K5 -- "對得上" --> G5
+    K6 -- "對得上" --> G6
+    K7 -- "缺口 1" --> G7
+    K8 -- "缺口 2" --> G8
+    K9 -- "缺口 3 / 張力" --> G9
+    K10 -- "對得上" --> G10
+
+    classDef good fill:#c6f6d5,stroke:#2f855a,color:#1a202c
+    classDef warn fill:#feebc8,stroke:#c05621,color:#1a202c
+    classDef gap fill:#fed7d7,stroke:#c53030,color:#1a202c
+    classDef none fill:#e2e8f0,stroke:#718096,color:#1a202c
+
+    class K1,K2,K5,K6,K10 good
+    class K3,K4 warn
+    class K7,K8,K9 gap
+    class G7,G8 none
+
+    linkStyle 0,1,4,5,9 stroke:#2f855a,stroke-width:2px
+    linkStyle 2,3 stroke:#c05621,stroke-width:2px
+    linkStyle 6,7,8 stroke:#c53030,stroke-width:2px

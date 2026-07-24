@@ -37,3 +37,6 @@ skills/_answer.txt
 
 # === Node.js 練習專案 ===
 node_modules/
+
+# Office 開檔暫存鎖定檔（PowerPoint/Word/Excel）
+~$*
