@@ -1,0 +1,165 @@
+{
+  "book": "K28",
+  "repo": "kindle-28-claude-code-advanced",
+  "title": "Claude Code Advanced",
+  "prompt_source": "teaching/LESSON-PLAN.md",
+  "chapters": [
+    {
+      "id": "01",
+      "folder": "k28-ch01-practice",
+      "mode": "normal",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[01-快速上手]"
+    },
+    {
+      "id": "02",
+      "folder": "k28-ch02-practice",
+      "mode": "normal",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[02-平行化]",
+      "note": "git worktree 只在練習資料夾內建，不動其他 repo"
+    },
+    {
+      "id": "03",
+      "folder": "k28-ch03-practice",
+      "mode": "normal",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[03-計畫模式]",
+      "note": "示範 plan 模式後切回 bypass"
+    },
+    {
+      "id": "04",
+      "folder": "k28-ch04-practice",
+      "mode": "normal",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[04-脈絡管理]"
+    },
+    {
+      "id": "05",
+      "folder": "k28-ch05-practice",
+      "mode": "normal",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[05-GSD 框架]"
+    },
+    {
+      "id": "06",
+      "folder": "k28-ch06-practice",
+      "mode": "normal",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[06-Ralph 自主迴圈]"
+    },
+    {
+      "id": "07",
+      "folder": "k28-ch07-practice",
+      "mode": "normal",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[07-精通 CLAUDE.md]"
+    },
+    {
+      "id": "08",
+      "folder": "k28-ch08-practice",
+      "mode": "isolated",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[08-環境配置]",
+      "note": "hook 寫專案 .claude/settings.json"
+    },
+    {
+      "id": "09",
+      "folder": "k28-ch09-practice",
+      "mode": "isolated",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[09-官方外掛]",
+      "note": "官方外掛一律 --scope project，測完移除並比對全域"
+    },
+    {
+      "id": "10",
+      "folder": "k28-ch10-practice",
+      "mode": "normal",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[10-既有專案]"
+    },
+    {
+      "id": "11",
+      "folder": "k28-ch11-practice",
+      "mode": "normal",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[11-大規模開發]"
+    },
+    {
+      "id": "12",
+      "folder": "k28-ch12-practice",
+      "mode": "normal",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[12-自動化]"
+    },
+    {
+      "id": "13",
+      "folder": "k28-ch13-practice",
+      "mode": "normal",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[13-Agent 編排]"
+    },
+    {
+      "id": "14",
+      "folder": "k28-ch14-practice",
+      "mode": "normal",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[14-進階技巧]"
+    },
+    {
+      "id": "15",
+      "folder": "k28-ch15-practice",
+      "mode": "normal",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[15-安全與成本]",
+      "note": "permissions 只寫專案層"
+    },
+    {
+      "id": "16",
+      "folder": "k28-ch16-practice",
+      "mode": "normal",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[16-快速參考]"
+    },
+    {
+      "id": "17",
+      "folder": "k28-ch17-practice",
+      "mode": "normal",
+      "minutes": 6,
+      "parallel_with": [],
+      "demo_dir": "demo/[17-資源]"
+    },
+    {
+      "id": "18",
+      "folder": "k28-ch18-practice",
+      "mode": "normal",
+      "minutes": 10,
+      "parallel_with": [],
+      "note": "無 demo，見課表"
+    },
+    {
+      "id": "19",
+      "folder": "k28-ch19-practice",
+      "mode": "normal",
+      "minutes": 8,
+      "parallel_with": [],
+      "note": "無 demo，見課表"
+    }
+  ]
+}
