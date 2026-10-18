@@ -25,3 +25,4 @@
 | 15 | 2026-10-18 | 6 分 | 題目只要估算，改 claude -p 實測 9 次（H:S:O≈1:18:37，haiku 推理題答錯）；permissions 專案層＋多加 deny，-p 下 ask 等同拒絕照實記錄；模型為 5.5 版非題目 4.5 |
 | 16 | 2026-10-18 | 8 分 | flag 以腳本對 --help 核對 60 項 0 FAIL；本版無 claude config 子指令；/resume /plugin 為 TUI 專用無法自動證明；mcp add --scope project 測完移除無殘留；alias 寫 aliases.sh |
 | 17 | 2026-10-18 | 4 分 | 5 來源以 urllib 實測全 200、CHANGELOG 抓到 2.1.302；Discord/Reddit 改列備選；提醒只寫設計不建排程；只第 1 週驗收腳本實跑 |
+| 18 | 2026-10-18 | 7 分 | worktree 建 ./wt/ 非兄弟目錄（多加 pytest.ini 排除）；兩子代理平行核心＋契約測試→merge→review 3 MUST_FIX 修正 29 passed；修正由主 session 做；技巧章節未對照書本原文 |
