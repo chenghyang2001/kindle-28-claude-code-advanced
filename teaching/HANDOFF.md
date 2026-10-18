@@ -13,3 +13,4 @@
 | 03 | 2026-10-18 | 10 分 | EnterPlanMode 實跑，核准選 BYPASS 確認回 bypass；設定改 settings.local.json；無 pre-setup 對照放 scratchpad 避免吃上層 CLAUDE.md；全域 ~/.claude/plans 3 檔已複製到 answer 後刪除；C:\tmp\tmp.fIP5SDubc1 待手動刪 |
 | 04 | 2026-10-18 | 12 分 | 用 claude -p --resume＋haiku 12 回合模擬長 session（非互動聊天）；run1 被 CLAUDE.md 答案污染重跑 run2；教練實下 /compact 驗證 3 項全保留 |
 | 05 | 2026-10-18 | 9 分 | gate 寫成可執行腳本實跑＋反向測試；真派 Researcher/Builder/Reviewer 三子代理＋信號檔，src 越權 0；未跑 /gsd-* 指令（手寫 PHASES.md）；指揮者改了型別註記與 2 行整合 |
+| 06 | 2026-10-18 | 7 分 | 未用 Ralph 本體，改 bash＋claude -p（haiku）迴圈；MAX 10→6；紅燈停／無進展停各故意觸發一次（EXIT 2/3）；修正無進展輪也 commit 的 bug |
