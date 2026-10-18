@@ -11,3 +11,4 @@
 | 01 | 2026-10-18 | 9 分 | claude -p 非互動量不到反問次數，改記指令次數＋假設數；CSV 用自建模擬資料；範例資料洩漏提示讓模糊版偏好 |
 | 02 | 2026-10-18 | 6 分 | worktree 改建在資料夾內 ./wt/（非 ../ 兄弟）；無遠端改用本地 master；bashrc 不動改 scripts/ccwt.sh；MSYS 路徑坑誤建 C:\c\…\k28-ch02-practice 空目錄待手動刪 |
 | 03 | 2026-10-18 | 10 分 | EnterPlanMode 實跑，核准選 BYPASS 確認回 bypass；設定改 settings.local.json；無 pre-setup 對照放 scratchpad 避免吃上層 CLAUDE.md；全域 ~/.claude/plans 3 檔已複製到 answer 後刪除；C:\tmp\tmp.fIP5SDubc1 待手動刪 |
+| 04 | 2026-10-18 | 12 分 | 用 claude -p --resume＋haiku 12 回合模擬長 session（非互動聊天）；run1 被 CLAUDE.md 答案污染重跑 run2；教練實下 /compact 驗證 3 項全保留 |
