@@ -20,3 +20,4 @@
 | 10 | 2026-10-18 | 7 分 | onboard itsdangerous（vendor/ 只讀，--depth 1 看不到歷史）；追問改自問自答 5 題附腳本實證；/init 草稿放 answer 不寫進 vendor；audit 10 項（高1中3低6） |
 | 11 | 2026-10-18 | 7 分 | 題目只要規劃，實際做完三層測試＋coverage 76→81→96%＋3 步重構各一 commit；模組 277 行略超；cli list 錯誤路徑只手動驗證 |
 | 12 | 2026-10-18 | 9 分 | skill 建專案層 .claude/skills，claude -p 自然語言觸發 3 案例過；CI yml 只寫範本不 push、不設 Secrets，gh pr comment 未實跑；review 腳本本機乾跑抓到 4/4 埋點 |
+| 13 | 2026-10-18 | 8 分 | 題目只要設計，實派研究/實作/審查三子代理＋git diff 驗邊界；辯論題取自審查必改項，3 審查者平行投票後再派修正閉環；邊界靠 prompt 約束非工具強制 |
