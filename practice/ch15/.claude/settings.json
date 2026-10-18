@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Read(./data/**)",
+      "Bash(python scripts/ex01-cost-table.py)"
+    ],
+    "ask": [
+      "Bash(git push:*)",
+      "Bash(rm:*)",
+      "Write(./scripts/**)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Bash(cat .env*)",
+      "Bash(curl:*)"
+    ]
+  }
+}

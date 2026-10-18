@@ -1,0 +1,19 @@
+=== normal：幫我做 csv 報告：data/sales.csv
+exit=0
+TOOL_USE: Skill {"skill":"csv-report","args":"data/sales.csv"}
+TOOL_USE: Bash {"command":"cd ~/workspace/k28-ch12-practice && PYTHONUTF8=1 python .claude/skills/csv-report/scripts/csv_report.py \"data/sales.csv\"; echo \"exit=$?\"","description":"執行 CSV 報告腳本"}
+TOOL_USE: Bash {"command":"cd ~/workspace/k28-ch12-practice && cat data/sales-summary.md","description":"查看產生的報告"}
+RESULT: `data/sales.csv` 的報告產生好了。
+
+處理列數：4
+
+報告檔在 `data/sales-summary.md`，內容如下：
+
+| 欄位 | 型別 | 有效筆數 | 平均 |
+| --- | --- | ---: | ---: |
+| month | 文字 | - | - |
+| region | 文字 | - | - |
+| revenue | 數值 | 4 | 1250.19 |
+| units | 數值 | 4 | 33.0 |
+
+`units` 的平均顯示成 `33.0`，不是兩位小數的 `33.00`。數值沒錯，只是格式和 `revenue` 不一樣。原因是腳本用 `round()` 四捨五入，結果是整數時就會這樣顯示。想統一成兩位小數的話，我可以改腳本。

@@ -1,0 +1,7 @@
+__pycache__/
+*.stackdump
+core
+*.core
+*.dmp
+.env
+.claude/session-state.md

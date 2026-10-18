@@ -1,0 +1,49 @@
+$ python ../check_cart.py   # 先確認 HEAD 是壞的
+BAD：total([(500, 2)], member=False) = 1060，預期 1000
+exit=1
+$ git bisect start
+status: waiting for both good and bad commits
+$ git bisect bad HEAD
+status: waiting for good commit(s), bad commit known
+$ git bisect good e5ec83eba460851c1d3d5fe3794de3fd26a7190d   # c1
+Bisecting: 4 revisions left to test after this (roughly 2 steps)
+[aa2eb54dab15f233f4e9de40ea7814a95a0a5266] c5 新增總價 total
+$ git bisect run python ../check_cart.py
+running 'python' '../check_cart.py'
+GOOD：3 個案例全過
+Bisecting: 2 revisions left to test after this (roughly 1 step)
+[b675b3bf899f86b5aadc0777bf447b0d6f265d4b] c7 README 補充計價規則
+running 'python' '../check_cart.py'
+BAD：total([(500, 2)], member=False) = 1060，預期 1000
+Bisecting: 0 revisions left to test after this (roughly 0 steps)
+[d9eef376e62bed17a63d3526ff07b64cc19e874e] c6 重構 shipping 判斷式寫法
+running 'python' '../check_cart.py'
+BAD：total([(500, 2)], member=False) = 1060，預期 1000
+d9eef376e62bed17a63d3526ff07b64cc19e874e is the first bad commit
+commit d9eef376e62bed17a63d3526ff07b64cc19e874e
+Author: bisect-demo <bisect-demo@example.invalid>
+Date:   Sun Oct 18 13:56:29 2026 +0800
+
+    c6 重構 shipping 判斷式寫法
+
+ cart.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+bisect found first bad commit
+$ git bisect log
+git bisect start
+# status: waiting for both good and bad commits
+# bad: [9ce6c9bb6a10dd0d63fe30d09bf7596be17cb640] c10 新增版本號 1.0.0
+git bisect bad 9ce6c9bb6a10dd0d63fe30d09bf7596be17cb640
+# status: waiting for good commit(s), bad commit known
+# good: [e5ec83eba460851c1d3d5fe3794de3fd26a7190d] c1 新增購物車小計 subtotal
+git bisect good e5ec83eba460851c1d3d5fe3794de3fd26a7190d
+# good: [aa2eb54dab15f233f4e9de40ea7814a95a0a5266] c5 新增總價 total
+git bisect good aa2eb54dab15f233f4e9de40ea7814a95a0a5266
+# bad: [b675b3bf899f86b5aadc0777bf447b0d6f265d4b] c7 README 補充計價規則
+git bisect bad b675b3bf899f86b5aadc0777bf447b0d6f265d4b
+# bad: [d9eef376e62bed17a63d3526ff07b64cc19e874e] c6 重構 shipping 判斷式寫法
+git bisect bad d9eef376e62bed17a63d3526ff07b64cc19e874e
+# first bad commit: [d9eef376e62bed17a63d3526ff07b64cc19e874e] c6 重構 shipping 判斷式寫法
+$ git bisect reset
+Previous HEAD position was d9eef37 c6 重構 shipping 判斷式寫法
+Switched to branch 'main'

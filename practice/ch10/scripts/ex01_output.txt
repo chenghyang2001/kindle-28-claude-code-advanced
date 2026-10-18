@@ -1,0 +1,10 @@
+Q1 OK：sign 用最後一把 key；unsign 逐把（由新到舊）嘗試，舊 token 仍有效
+Q2 OK：手算簽章 7KTthSs1fJgtbigPvFpQH1bpoGA == 函式庫結果（20 bytes SHA1 → 27 字元）
+Q3 小 token = eyJpZCI6MX0.atRVYg.4OxgercsqGiGW2LyJbnXrdHGyWQ
+   payload=eyJpZCI6MX0 → b'{"id":1}', ts=atRVYg→1792300386, sig=4OxgercsqGiGW2LyJbnXrdHGyWQ
+   大 token 開頭為 '.'（zlib 壓縮旗標），長度 70（原 JSON 約 513 字）
+Q4 OK：過期 → SignatureExpired（Signature age 100 > 10 seconds），date_signed=2026-10-18 05:11:26+00:00
+   錯 key → BadTimeSignature（BadTimeSignature），不是過期
+Q5 OK：unsign 用 rsplit(sep, 1) 只切最後一段；sep 若在 base64 字母表內會被拒：The given separator cannot be used because it may be contained in the signature itself. ASCII letters, digits, and '-_=' must not be used.
+
+全部 5 題驗證通過

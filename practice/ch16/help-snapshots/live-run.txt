@@ -1,0 +1,35 @@
+$ claude mcp add --scope project demo-echo -- node -e "process.stdin.resume()"
+Added stdio MCP server demo-echo with command: node -e process.stdin.resume() to project config
+File modified: ~\workspace\k28-ch16-practice\.mcp.json
+$ cat .mcp.json
+{
+  "mcpServers": {
+    "demo-echo": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "-e",
+        "process.stdin.resume()"
+      ],
+      "env": {}
+    }
+  }
+}$ claude mcp get demo-echo
+demo-echo:
+  Scope: Project config (shared via .mcp.json)
+  Status: ⏸ Pending approval (run `claude` to approve)
+  Type: stdio
+  Command: node
+  Args: -e process.stdin.resume()
+  Environment:
+
+To remove this server, run: claude mcp remove demo-echo -s project
+$ claude mcp remove --scope project demo-echo
+Removed MCP server demo-echo from project config
+File modified: ~\workspace\k28-ch16-practice\.mcp.json
+$ cat .mcp.json
+{
+  "mcpServers": {}
+}
+$ claude -p ... --output-format json --max-budget-usd 0.05 --no-session-persistence --model haiku
+{'type': 'result', 'subtype': 'success', 'is_error': False, 'result': '完成', 'num_turns': 1}

@@ -1,0 +1,2 @@
+Denying Bash also turns off the PowerShell tool, so Claude has neither. To use PowerShell, set CLAUDE_CODE_USE_POWERSHELL_TOOL=1.
+第一個未完成項目「串接付款閘道 API」無法完成：專案裡只有 TASK.md 和 log 提到 `PAYMENT_API_KEY`，沒有廠商文件，我也無法確認環境變數是否存在，因此沒有修改任何檔案、也沒有打勾。第二項「寄出收據 email」依賴第一項，所以同樣跳過。

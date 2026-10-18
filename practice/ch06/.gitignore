@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.ralph-*
+.pytest_cache/
+*.stackdump
+.claude/session-state.md
+ralph-demo/.claude/

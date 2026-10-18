@@ -1,0 +1,51 @@
+# 範本：PR 開啟／更新時自動跑 Claude code review 並回貼 comment。
+# 本練習不 push、不建 repo、不設 Secrets；實際使用前需在 repo 設定 ANTHROPIC_API_KEY Secret。
+name: claude-review
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write   # gh pr comment 需要
+
+concurrency:             # 同一 PR 連推多次只留最新一輪
+  group: claude-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    # fork 來的 PR 拿不到 Secrets，直接跳過避免失敗
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # 需要 base 分支歷史才能 diff
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: 安裝 Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run Claude review
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}  # 機密用 Secrets，不寫死
+          GH_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          ./scripts/claude_review.sh \
+            --base "origin/${{ github.base_ref }}" \
+            --out review.md \
+            --post
+
+      - name: 保存審查結果
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: claude-review
+          path: review.md
+          if-no-files-found: ignore

@@ -1,0 +1,24 @@
+===== weak-clean：共用驗收測試
+FAILED ex01/acceptance/test_acceptance.py::test_cli_flow
+ERROR ex01/acceptance/test_acceptance.py::test_register_ok
+ERROR ex01/acceptance/test_acceptance.py::test_login_ok
+ERROR ex01/acceptance/test_acceptance.py::test_wrong_password
+ERROR ex01/acceptance/test_acceptance.py::test_user_not_found
+ERROR ex01/acceptance/test_acceptance.py::test_duplicate_user_case_insensitive
+ERROR ex01/acceptance/test_acceptance.py::test_weak_password
+ERROR ex01/acceptance/test_acceptance.py::test_empty_field[-secret123]
+ERROR ex01/acceptance/test_acceptance.py::test_empty_field[   -secret123]
+ERROR ex01/acceptance/test_acceptance.py::test_empty_field[carol-]
+ERROR ex01/acceptance/test_acceptance.py::test_no_plaintext_in_memory
+1 failed, 10 errors in 0.40s
+----- weak-clean：自帶測試
+15 passed in 0.13s
+===== strong-clean：共用驗收測試
+FAILED ex01/acceptance/test_acceptance.py::test_cli_flow
+1 failed, 10 passed in 1.90s
+----- strong-clean：自帶測試
+32 passed in 4.26s
+===== strong-global：共用驗收測試
+11 passed in 7.45s
+----- strong-global：自帶測試
+18 passed in 15.51s

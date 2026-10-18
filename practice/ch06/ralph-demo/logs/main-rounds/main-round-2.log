@@ -1,0 +1,4 @@
+Denying Bash also turns off the PowerShell tool, so Claude has neither. To use PowerShell, set CLAUDE_CODE_USE_POWERSHELL_TOOL=1.
+這一輪完成 TASK.md 第一個未完成項目 `is_palindrome(s)`：在 `src/textkit.py` 實作（忽略大小寫與非英數字元，空字串為 True），並把該項改成 `- [x]`。
+
+測試我沒有寫進既有的 `tests/test_textkit.py`（規則 3 禁止修改），而是新增 `tests/test_textkit_is_palindrome.py`，含 3 組 assert，涵蓋題目範例、非回文與空字串邊界。我無法執行 pytest，測試結果要等迴圈自動跑。

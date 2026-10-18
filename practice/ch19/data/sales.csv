@@ -1,0 +1,11 @@
+date,region,product,units,price
+2026-10-01,North,Apple,10,3.5
+2026-10-01,South,Banana,5,1.2
+2026-10-02,North,Banana,8,1.2
+2026-10-02,East,Apple,12,3.5
+2026-10-03,South,Apple,7,3.6
+2026-10-03,East,Cherry,3,8.0
+2026-10-04,North,Cherry,4,7.5
+2026-10-04,South,Banana,,1.1
+2026-10-05,East,Banana,9,1.3
+2026-10-05,North,Apple,6,3.4

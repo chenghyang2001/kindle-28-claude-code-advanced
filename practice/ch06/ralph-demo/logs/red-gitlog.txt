@@ -1,0 +1,4 @@
+8516de8 ralph: 基線（第 0 輪）
+?? .ralph-pytest.log
+?? .ralph-round-1.log
+?? tests/__pycache__/

@@ -1,0 +1,7 @@
+wt/
+__pycache__/
+.pytest_cache/
+todo.json
+*.stackdump
+.claude/session-state.md
+*.tmp

@@ -1,0 +1,72 @@
+[
+ {
+  "subtotal": 200,
+  "discount": 0,
+  "shipping": 60,
+  "tax": 10,
+  "total": 270
+ },
+ {
+  "subtotal": 1200,
+  "discount": 120.0,
+  "shipping": 60,
+  "tax": 54,
+  "total": 1194.0
+ },
+ {
+  "subtotal": 1000,
+  "discount": 100,
+  "shipping": 60,
+  "tax": 45,
+  "total": 1005
+ },
+ {
+  "subtotal": 999,
+  "discount": 0,
+  "shipping": 60,
+  "tax": 50,
+  "total": 1109
+ },
+ {
+  "subtotal": 600,
+  "discount": 50,
+  "shipping": 60,
+  "tax": 28,
+  "total": 638
+ },
+ {
+  "subtotal": 450,
+  "discount": 0,
+  "shipping": 60,
+  "tax": 22,
+  "total": 532
+ },
+ {
+  "subtotal": 200,
+  "discount": 0,
+  "shipping": 150,
+  "tax": 10,
+  "total": 360
+ },
+ {
+  "subtotal": 1600,
+  "discount": 160.0,
+  "shipping": 150,
+  "tax": 72,
+  "total": 1662.0
+ },
+ {
+  "subtotal": 1100,
+  "discount": 150,
+  "shipping": 60,
+  "tax": 48,
+  "total": 1058
+ },
+ {
+  "subtotal": 0,
+  "discount": 0,
+  "shipping": 60,
+  "tax": 0,
+  "total": 60
+ }
+]

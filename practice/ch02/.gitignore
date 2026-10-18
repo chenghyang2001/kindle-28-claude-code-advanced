@@ -1,0 +1,7 @@
+# 練習用 worktree 目錄（每個子目錄是獨立工作樹，不入版控）
+wt/
+# 當機/垃圾檔
+*.stackdump
+core
+*.core
+*.dmp

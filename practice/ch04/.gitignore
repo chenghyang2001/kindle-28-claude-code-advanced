@@ -1,0 +1,7 @@
+.env
+*.stackdump
+core
+*.core
+*.dmp
+__pycache__/
+.claude/settings.local.json

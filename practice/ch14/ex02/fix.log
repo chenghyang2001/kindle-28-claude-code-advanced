@@ -1,0 +1,40 @@
+$ git show d9eef37 -- cart.py
+c6 重構 shipping 判斷式寫法
+
+diff --git a/cart.py b/cart.py
+index 92a9e4a..81d5d40 100644
+--- a/cart.py
++++ b/cart.py
+@@ -17,7 +17,7 @@ SHIPPING_FEE = 60
+ 
+ def shipping(amount):
+     """滿 1000 免運，否則 60 元"""
+-    return 0 if amount >= FREE_SHIPPING_THRESHOLD else SHIPPING_FEE
++    return SHIPPING_FEE if amount <= FREE_SHIPPING_THRESHOLD else 0
+ 
+ 
+ def total(items, is_member=False):
+$ git diff HEAD~1 -- cart.py
+diff --git a/cart.py b/cart.py
+index c3cad8d..2fc510d 100644
+--- a/cart.py
++++ b/cart.py
+@@ -17,7 +17,7 @@ SHIPPING_FEE = 60
+ 
+ def shipping(amount):
+     """滿 1000 免運，否則 60 元"""
+-    return SHIPPING_FEE if amount <= FREE_SHIPPING_THRESHOLD else 0
++    return 0 if amount >= FREE_SHIPPING_THRESHOLD else SHIPPING_FEE
+ 
+ 
+ def total(items, is_member=False):
+$ python ../check_cart.py
+GOOD：3 個案例全過
+exit=0
+$ python -m pytest -q
+....                                                                     [100%]
+4 passed in 0.01s
+$ python main.py
+NT$ 1,000
+89765c5 c11 修復 shipping 邊界：滿 1000 應免運，並加回歸測試
+9ce6c9b c10 新增版本號 1.0.0

@@ -1,0 +1,2 @@
+Denying Bash also turns off the PowerShell tool, so Claude has neither. To use PowerShell, set CLAUDE_CODE_USE_POWERSHELL_TOOL=1.
+本輪完成 TASK.md 中第一個未完成項目 `word_count(text)`：在 `src/textkit.py` 實作（以非英數字元切分、轉小寫計數，空字串回傳 `{}`），新增 `tests/test_textkit_word_count.py`（3 組 assert，含空字串邊界），並將該項打勾為 `[x]`。我無法執行指令，測試結果需等迴圈自動跑。

@@ -1,0 +1,19 @@
+== 改成 bool(order.get("vip"))
+DIFF apply_discount {'vip': 'yes', 'items': [{'price': 100, 'qty': 1}]} ('ok', 100) -> ('ok', 90.0)
+DIFF is_vip {'vip': 'yes', 'items': [{'price': 100, 'qty': 1}]} ('ok', False) -> ('ok', True)
+DIFF apply_discount+coupons {'vip': 'yes', 'items': [{'price': 100, 'qty': 1}]} ('ok', 90) -> ('ok', 80.0)
+DIFF summarize ('ok', (2446.0, 271.77777777777777, 2)) -> ('ok', (2436.0, 270.6666666666667, 2))
+比對 11 筆輸入 × 3 種呼叫 + 4 批 summarize，差異 4 處
+exit=1
+== 改成 order.get("vip") is True
+DIFF apply_discount {'vip': 1, 'items': [{'price': 100, 'qty': 1}]} ('ok', 90.0) -> ('ok', 100)
+DIFF is_vip {'vip': 1, 'items': [{'price': 100, 'qty': 1}]} ('ok', True) -> ('ok', False)
+DIFF apply_discount+coupons {'vip': 1, 'items': [{'price': 100, 'qty': 1}]} ('ok', 80.0) -> ('ok', 90)
+DIFF summarize ('ok', (2446.0, 271.77777777777777, 2)) -> ('ok', (2456.0, 272.8888888888889, 2))
+比對 11 筆輸入 × 3 種呼叫 + 4 批 summarize，差異 4 處
+exit=1
+
+== 同樣兩種改法跑現有單元測試
+bool(order.get("vip")): 10 passed
+order.get("vip") is True: 10 passed
+=> 單元測試攔不住，只有行為比對腳本攔得住

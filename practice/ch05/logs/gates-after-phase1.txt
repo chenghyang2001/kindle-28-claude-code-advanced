@@ -1,0 +1,23 @@
+### gate 0
+  [PASS] spec 四節齊全
+  [PASS] spec Status: APPROVED
+  [PASS] 公開介面至少 1 個函式
+  [PASS] 特徵測試對舊模組全綠
+GATE 0: PASS
+exit=0
+### gate 1
+  [PASS] pricing.py 可編譯可匯入
+  [PASS] spec 函式存在且有型別註記 ['subtotal', 'discount', 'shipping', 'tax', 'calculate']
+  [PASS] contracts/CLAUDE.md 含 Never modifies
+  [PASS] gate 0 仍成立
+GATE 1: PASS
+exit=0
+### gate 2
+  snapshot 比對失敗：NotImplementedError: 
+  [FAIL] 三個信號檔存在且三段完整
+  [FAIL] REVIEW_COMPLETE: MUST_FIX: 0
+  [FAIL] test_pricing.py 全綠
+  [FAIL] pricing.calculate 與 snapshot 逐筆一致
+  [FAIL] pricing.py 無 NotImplementedError
+GATE 2: FAIL
+exit=1

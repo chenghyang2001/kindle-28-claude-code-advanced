@@ -1,0 +1,23 @@
+=== edge：/csv-report data/edge.csv
+exit=0
+TOOL_USE: Bash {"command":"cd \"$HOME/workspace/k28-ch12-practice\" && PYTHONUTF8=1 python .claude/skills/csv-report/scripts/csv_report.py \"data/edge.csv\"; echo \"EXIT=$?\"","description":"執行 CSV 報告腳本"}
+TOOL_USE: Bash {"command":"cd \"$HOME/workspace/k28-ch12-practice\" && cat data/edge.csv; echo ---; cat data/edge-summary.md","description":"檢視原始 CSV 與產出的報告"}
+RESULT: 腳本執行成功（結束碼 0），報告已寫好。
+
+處理列數：4
+
+報告檔：`data/edge-summary.md`
+
+| 欄位 | 型別 | 有效筆數 | 平均 |
+| --- | --- | ---: | ---: |
+| id | 數值 | 4 | 2.5 |
+| name | 文字 | - | - |
+| score | 數值 | 2 | 90.0 |
+| bonus | 數值 | 2 | 6.0 |
+
+我拿原始 CSV 比對過，邊界情況都處理對了：
+- **缺值**：`score` 的空值和 `N/A` 都略過不算，平均是 (88+92)/2 = 90.0；`bonus` 的空值也略過，平均是 (5+7)/2 = 6.0。
+- **含逗號的欄位**：`"Lee, Dan"` 被當成同一格讀取，欄位沒有跑掉。
+- **文字欄**：`name` 判定為文字欄，不計算平均。
+
+有一點跟規則不完全一樣：平均值四捨五入到小數 2 位，但數字沒補滿兩位，所以顯示成 `2.5`、`90.0`，不是 `2.50`、`90.00`。數值本身沒錯，想統一顯示兩位的話可以改腳本的輸出格式。

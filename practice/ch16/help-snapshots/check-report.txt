@@ -1,0 +1,62 @@
+[PASS] FLAG  claude --help                                 OK
+[PASS] FLAG  claude -p                                     OK
+[PASS] FLAG  claude --output-format                        OK
+[PASS] FLAG  claude --verbose                              OK
+[PASS] SLASH /clear                                        OK
+[PASS] SLASH /compact                                      OK
+[PASS] FLAG  claude -c                                     OK
+[PASS] FLAG  claude --fork-session                         OK
+[PASS] FLAG  claude -r                                     OK
+[PASS] FLAG  claude --from-pr                              OK
+[PASS] SLASH /resume                                       TUI 專用（已標註）
+[PASS] SLASH /rename                                       OK
+[PASS] FLAG  claude -n                                     OK
+[PASS] SLASH /context                                      OK
+[PASS] SLASH /model                                        OK
+[PASS] FLAG  claude --model                                OK
+[PASS] FLAG  claude --fallback-model                       OK
+[PASS] SLASH /effort                                       OK
+[PASS] FLAG  claude --effort                               OK
+[PASS] FLAG  claude --permission-mode                      OK
+[PASS] SLASH /init                                         OK
+[PASS] FLAG  claude --add-dir                              OK
+[PASS] FLAG  claude -w                                     OK
+[PASS] FLAG  claude --tmux                                 OK
+[PASS] SLASH /memory                                       TUI 專用（已標註）
+[PASS] SLASH /config                                       OK
+[PASS] SUB   claude config                                 已標註不存在
+[PASS] FLAG  claude --settings                             OK
+[PASS] FLAG  claude --max-budget-usd                       OK
+[PASS] FLAG  claude --allowedTools                         OK
+[PASS] FLAG  claude --disallowedTools                      OK
+[PASS] FLAG  claude --json-schema                          OK
+[PASS] FLAG  claude --no-session-persistence               OK
+[PASS] FLAG  claude --append-system-prompt                 OK
+[PASS] FLAG  claude --bg                                   OK
+[PASS] SUB   claude agents                                 OK
+[PASS] SUB   claude attach                                 OK
+[PASS] SUB   claude logs                                   OK
+[PASS] SUB   claude stop                                   OK
+[PASS] SLASH /code-review                                  OK
+[PASS] SLASH /loop                                         OK
+[PASS] SUB   claude ultrareview                            OK
+[PASS] SLASH /ultrareview                                  OK
+[PASS] SUB   claude mcp list                               OK
+[PASS] SUB   claude mcp get                                OK
+[PASS] SUB   claude mcp add                                OK
+[PASS] FLAG  claude mcp add --scope                        OK
+[PASS] FLAG  claude mcp add --transport                    OK
+[PASS] FLAG  claude mcp add -e                             OK
+[PASS] SUB   claude mcp remove                             OK
+[PASS] FLAG  claude mcp remove --scope                     OK
+[PASS] SLASH /mcp                                          OK
+[PASS] SLASH /plugin                                       TUI 專用（已標註）
+[PASS] SUB   claude plugin install                         OK
+[PASS] FLAG  claude plugin install --scope                 OK
+[PASS] SUB   claude plugin list                            OK
+[PASS] SUB   claude plugin details                         OK
+[PASS] SLASH /reload-plugins                               OK
+[PASS] FLAG  claude --safe-mode                            OK
+[PASS] FLAG  claude --bare                                 OK
+
+共 60 項，FAIL 0 項

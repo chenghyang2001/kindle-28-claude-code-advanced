@@ -1,0 +1,38 @@
+=== 任務 1：建兩個 worktree（./wt/featA、./wt/featB），各自不同分支 ===
+Preparing worktree (new branch 'feature/a')
+HEAD is now at ff61225 新增 練習題與 .gitignore（worktree 練習起點）
+Preparing worktree (new branch 'feature/b')
+HEAD is now at ff61225 新增 練習題與 .gitignore（worktree 練習起點）
+~/workspace/k28-ch02-practice           ff61225 [master]
+~/workspace/k28-ch02-practice/wt/featA  ff61225 [feature/a]
+~/workspace/k28-ch02-practice/wt/featB  ff61225 [feature/b]
+
+=== 任務 2：兩個工作樹『同時』各改不同檔案並 commit（背景平行各 20 次）===
+featA 結束碼=0，featB 結束碼=0
+✅ 40 次平行 commit，index.lock 錯誤 0 次
+--- 每個工作樹的 index 檔各自獨立 ---
+.          -> .git/index
+wt/featA   -> ~/workspace/k28-ch02-practice/.git/worktrees/featA/index
+wt/featB   -> ~/workspace/k28-ch02-practice/.git/worktrees/featB/index
+--- commit 互不干擾：各分支只多了自己的檔案 ---
+feature/a：比 master 多 20 個 commit，新增檔案 = a.txt 
+feature/b：比 master 多 20 個 commit，新增檔案 = b.txt 
+主工作樹 master 仍在：ff61225 新增 練習題與 .gitignore（worktree 練習起點）
+
+=== 對照組：同一個工作樹裡兩個行程同時 commit ===
+同一工作樹平行 commit：index.lock 錯誤 1 次
+fatal: Unable to create '~/workspace/k28-ch02-practice/.git/worktrees/race/index.lock': File exists.
+
+=== 任務 3：清理 ===
+--- 清理前 git worktree list ---
+~/workspace/k28-ch02-practice           ff61225 [master]
+~/workspace/k28-ch02-practice/wt/featA  026f034 [feature/a]
+~/workspace/k28-ch02-practice/wt/featB  dc88708 [feature/b]
+~/workspace/k28-ch02-practice/wt/race   ae330f9 [race]
+Deleted branch feature/a (was 026f034).
+Deleted branch feature/b (was dc88708).
+Deleted branch race (was ae330f9).
+--- 清理後 git worktree list ---
+~/workspace/k28-ch02-practice  ff61225 [master]
+✅ 只剩主工作樹
+剩餘分支：master 

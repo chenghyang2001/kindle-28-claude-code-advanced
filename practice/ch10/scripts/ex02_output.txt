@@ -1,0 +1,16 @@
+F1 token 只有 27,216 bytes
+   loads()        → BadSignature，5.7 ms，峰值 0.2 MB
+   loads_unsafe() → ok=False, 解出 20,971,520 字元，51.9 ms，峰值 60.1 MB（放大 770x）
+   修補後 loads_unsafe → ok=False, value=None，3.6 ms，峰值 2.1 MB
+   修補後正常壓縮 token 仍可往返（回歸測試 OK）
+F2 同樣寫法 loads(token, 'ctx')：Serializer 成功、TimedSerializer → BadTimeSignature
+   預設 salt 的 token 則爆未包裝的 TypeError：'>' not supported between instances of 'int' and 'str'
+F3 Signer('') 可簽：b'admin.SvypXjgS-1GbQKhUTunmvKLGGJI'（任何人都能用空 key 重算）
+   Signer([]) 建構成功，sign 時才 IndexError：list index out of range
+F4 NoneAlgorithm 下 unsign(b'role=admin.') → b'role=admin'（零成本偽造）
+F5 預設 digest = _lazy_sha1，簽章長度 27 字元（SHA1）
+F6 退訂 token 被『重設密碼』serializer 接受：{'user': 42}（兩者 salt=b'itsdangerous'）
+F8 key_derivation='bogus' 建構不報錯，sign 才拋 TypeError：Unknown key derivation method
+F10 時鐘快 2 秒就被拒：SignatureExpired：Signature age -2 < 0 seconds
+
+全部佐證腳本執行完成

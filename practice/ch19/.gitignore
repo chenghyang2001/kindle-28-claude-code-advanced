@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+*.stackdump
+core
+*.core
+*.dmp
+.env
+# hook 產生的本機 session 狀態
+.claude/session-state.md

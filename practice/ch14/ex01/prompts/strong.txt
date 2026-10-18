@@ -1,0 +1,26 @@
+在目前資料夾用 Python 3（只用標準庫）做一個「CLI 登入模擬」，分 4 步完成，每步完成後自己驗收再進下一步：
+
+步驟 1：資料結構 —— 在 auth.py 建 class AuthStore，帳號表存在記憶體 dict（不寫檔、不用資料庫）。
+  驗收：AuthStore() 可建立，初始沒有任何帳號。
+步驟 2：註冊／登入（含錯誤碼）—— AuthStore.register(username, password) 與 AuthStore.login(username, password)，都回傳字串錯誤碼：
+  - "OK"：成功
+  - "E_EMPTY_FIELD"：username 或 password 為空字串或只有空白
+  - "E_WEAK_PASSWORD"：註冊時密碼少於 8 個字元
+  - "E_USER_EXISTS"：註冊時帳號已存在（帳號比對不分大小寫）
+  - "E_USER_NOT_FOUND"：登入時帳號不存在
+  - "E_WRONG_PASSWORD"：登入時密碼錯誤
+  檢查順序：先 E_EMPTY_FIELD，再其他。
+  驗收：每個錯誤碼都能被觸發。
+步驟 3：密碼安全 —— 記憶體中不可存明碼，用 hashlib.pbkdf2_hmac('sha256') + 每個帳號隨機 salt（os.urandom(16)）。
+  驗收：AuthStore 內部任何屬性都找不到明碼字串。
+步驟 4：CLI + 測試 ——
+  - cli.py：從 stdin 逐行讀指令「register <u> <p>」「login <u> <p>」「quit」，每行指令印出一行錯誤碼；參數數量不對或未知指令印 "E_BAD_COMMAND"；讀到 EOF 或 quit 結束，exit code 0。
+  - test_auth.py：pytest 測試，涵蓋全部錯誤碼與 CLI 流程（註冊→登入成功→錯誤密碼）。
+  驗收：python -m pytest -q 全綠。
+
+成功標準：
+1. 錯誤密碼回 E_WRONG_PASSWORD，不存在帳號回 E_USER_NOT_FOUND
+2. 不存明碼
+3. echo 指令經 stdin 餵給 cli.py 時每行輸出一個錯誤碼
+4. python -m pytest -q 全綠
+不要建 JWT、不要建 web 服務、不要問我問題，直接做完。最後列出你建了哪些檔案與 pytest 結果。

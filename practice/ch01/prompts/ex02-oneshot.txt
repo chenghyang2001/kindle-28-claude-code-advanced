@@ -1,0 +1,27 @@
+目標：分析 ./data/sales.csv，把每個數值欄位的平均值輸出成 Markdown 表。這是一次性任務，請直接完成，不要反問；本 prompt 未涵蓋的細節照下方規則處理。
+
+輸入脈絡：
+- 檔案：./data/sales.csv，UTF-8（無 BOM），第一列是表頭，逗號分隔，換行 LF，共 8 筆資料列。
+- 欄位：order_id, date, product, region, unit_price, quantity, total。
+- 只計算這 3 個數值欄：unit_price, quantity, total。其餘欄位（含中文的 product、region）一律忽略，不要轉型。
+- 缺值定義：欄位為空字串（或只有空白）。缺值「逐欄」略過：某列 quantity 為空，只在算 quantity 平均時排除該列，該列的 unit_price、total 照算。
+- 不會有非數字字串；若遇到，視為缺值並在終端警告列號。
+
+計算規則：
+- 平均值 = 該欄非缺值總和 ÷ 該欄非缺值個數。
+- 四捨五入到小數 2 位，用 ROUND_HALF_UP（不要用 Python round 的銀行家捨入），一律顯示 2 位小數（例：2.10）。
+
+輸出：
+- 寫到 ./out/summary.md（./out/ 不存在就建立），UTF-8，內容只有：一行標題「# sales.csv 數值欄平均」、一個空行、一個三欄表：
+  | 欄位 | 平均值 | 有效筆數 |
+  欄位順序固定為 unit_price, quantity, total；數字欄靠右對齊（|---:|）。
+- 終端印出三行：
+  處理資料列：N
+  含缺值的列：M（任一數值欄為空即算一列）
+  各欄略過數：unit_price=a, quantity=b, total=c
+- 用 Python 標準函式庫（csv、decimal）即可，不要安裝套件；程式可寫在 ./out/summarize.py 方便重跑。
+
+成功標準（完成前自行驗證，並在最後回報驗證結果）：
+1. summary.md 是合法 GFM 表格（表頭、分隔列、3 列資料，欄數一致）。
+2. 平均值與手算一致：請另外用一段獨立的計算（例如逐欄列出數值加總）交叉核對。
+3. 終端三行的數字與資料一致。

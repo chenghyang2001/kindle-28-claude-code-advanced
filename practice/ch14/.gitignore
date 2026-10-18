@@ -1,0 +1,10 @@
+# 演練用巢狀 repo，由 ex02/build_repo.sh 重建，不入版控
+ex02/bisect-demo/
+__pycache__/
+.pytest_cache/
+*.stackdump
+core
+*.core
+*.dmp
+.env
+**/.claude/session-state.md

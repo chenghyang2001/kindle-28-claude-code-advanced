@@ -1,0 +1,2 @@
+耗時秒數：214
+沙盒：/tmp/claude/C--Users-user-workspace-k28-ch14-practice/c92d8658-0a0d-4b4e-8793-d9195ccd6339/scratchpad/k28-ex01-weak-clean-eQRP

@@ -1,0 +1,5 @@
+Denying Bash also turns off the PowerShell tool, so Claude has neither. To use PowerShell, set CLAUDE_CODE_USE_POWERSHELL_TOOL=1.
+1) 單一輸入檔大小上限 MAX_FILE_BYTES 是 2 MB（2_097_152 bytes），超過要印警告並略過。
+2) 本專案 commit 前綴是 `[notestat]`。
+3) 發版 tag 格式是 `ns-v<主>.<次>.<修>`，例如 `ns-v0.1.0`。
+4) 新範例筆記要放在 `data/extra/` 子資料夾。

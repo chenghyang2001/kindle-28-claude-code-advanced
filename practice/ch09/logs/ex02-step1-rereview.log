@@ -1,0 +1,43 @@
+CRITICAL_COUNT=0
+
+# 複審結果：`git diff HEAD~2 HEAD -- src tests`
+
+這份 diff 包含原功能和修正兩個 commit，我只審查、沒有改任何程式碼。測試結果：`pytest` 7 個全部通過。下面每一項都跑過實際案例確認。
+
+上次審查的四個 Critical 都已修好，各有回歸測試：
+- 可變預設參數：改成 `list(coupons or [])` 複製一份
+- 門檻邊界：改成 `>=`
+- 裸 `except`：改成只抓特定例外，並用 `logger.exception` 記錄
+- 除以零：成功筆數為 0 時平均值回傳 `None`
+
+## Critical（0）
+這次沒有發現必須修才能合併的問題。
+
+## Important（4）
+1. **`summarize` 遇到非 dict 的訂單會在錯誤處理時當掉**（`src/orders.py:47`）。如果 `orders` 裡有 `None`，`apply_discount` 先丟出 `TypeError` 並被接住，但接著 `o.get("id")` 又丟出 `AttributeError`，整個函式就中斷了。實測 `summarize([None])` 會得到 `AttributeError`。修法：記錄錯誤時改用 `o.get("id") if isinstance(o, dict) else o`，或在迴圈開頭先檢查型別。
+2. **優惠券扣完後金額可能變成負數**（`src/orders.py:33-34`）。實測 10 元的訂單加上 50 元優惠券，`apply_discount` 回傳 `-40`，然後 `summarize` 會直接把負數加進總營收。建議改成 `max(total, 0)`，或在優惠券超過金額時丟出 `ValueError`，至於要用哪一種，取決於業務規則。
+3. **金額用 float 計算，`summarize` 的結果沒有四捨五入**（`src/orders.py:45、51`）。實測三筆 0.1 元的訂單，總營收是 `0.30000000000000004`，平均是 `0.10000000000000002`。建議把 `revenue` 和 `average` 都 `round(..., 2)`；更正確的做法是全面改用 `Decimal`。
+4. **VIP 判斷用 `== True`**（`src/orders.py:25、56`）。實測 `vip: 1` 也會打九折，而 `"yes"` 這類字串會被悄悄當成非 VIP，兩種情況都不會報錯。建議改成 `order.get("vip") is True`，或者明確規定 `vip` 欄位必須是布林值。
+
+## Suggestions（6）
+1. 沒有作用的程式碼：`else: total = total`（`src/orders.py:27-28`），以及 `failed = failed + 1` 後面多出來的 `pass`（`src/orders.py:49`），兩者都可以刪掉。
+2. `is_vip()`（`src/orders.py:55-59`）沒有被任何地方用到，邏輯又和 `apply_discount` 裡的判斷重複，而且缺 docstring。可以讓 `apply_discount` 改呼叫它，函式本體直接寫成 `return order.get("vip") is True`。
+3. 95 折的 `0.95` 是寫死的數字（`src/orders.py:30`），建議比照 `VIP_DISCOUNT` 抽成 `BULK_DISCOUNT` 常數。
+4. 測試檔在檔案中段才 import（`tests/test_orders.py:14`），不符合 PEP 8 的 E402 規則，應該移到檔案開頭。
+5. `test_summarize_runs` 只檢查 `failed == 0`，對 `revenue` 和 `average` 都沒有斷言，跟 `test_summarize_values_and_failure` 的內容重疊，可以刪掉或補上斷言。
+6. 缺少幾個測試案例：
+   - VIP 加上滿額的疊加折扣，例如 1200 元應得 1026
+   - 用 `coupons` 參數傳入多張優惠券
+   - 優惠券超過訂單金額
+   - `coupon: None` 的情況（目前會被算成失敗筆數）
+   - 非 dict 的訂單（就是 Important 第 1 項）
+
+## 優點
+- 例外的範圍收得很精準，失敗時有 log、失敗筆數也會回傳給呼叫端，沒有錯誤被默默吞掉。
+- 每個修正都有對應的回歸測試，測試名稱也直接說明要防的是什麼問題。
+- 邊界值用 `1000` 測試，正好驗證「含 1000」的規則。
+
+## 建議處理順序
+1. 先處理 Important 1 和 2：一個會讓程式當掉，一個會算出錯的金額。
+2. 再處理 Important 3 和 4，順便補上 Suggestion 6 的測試。
+3. 有時間的話處理其他 Suggestions。

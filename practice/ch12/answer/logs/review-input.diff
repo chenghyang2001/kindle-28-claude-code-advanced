@@ -1,0 +1,40 @@
+diff --git a/.gitignore b/.gitignore
+index 22bd2da..4e8755d 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -9,3 +9,4 @@ __pycache__/
+ .pytest_cache/
+ review.md
+ .claude/settings.local.json
++.claude/session-state.md
+diff --git a/demo/discount.py b/demo/discount.py
+index ed47d78..9e102af 100644
+--- a/demo/discount.py
++++ b/demo/discount.py
+@@ -1,13 +1,23 @@
+ """示範用：計算折扣後價格（給 CI review 乾跑當審查對象）。"""
++import requests
++
++COUPON_API_KEY = "sk-live-1234567890abcdef"
+ 
+ 
+ def apply_discount(price: float, percent: float) -> float:
+-    """回傳打折後價格；percent 必須介於 0~100。"""
+-    if not 0 <= percent <= 100:
+-        raise ValueError("percent 必須介於 0~100")
++    """回傳打折後價格。"""
+     return round(price * (100 - percent) / 100, 2)
+ 
+ 
++def average_price(prices):
++    return sum(prices) / len(prices)
++
++
++def fetch_coupon(code):
++    resp = requests.get(f"https://example.com/coupon?code={code}&key={COUPON_API_KEY}")
++    return resp.json()["percent"]
++
++
+ if __name__ == "__main__":
+     assert apply_discount(100, 20) == 80.0
+     print("ok")

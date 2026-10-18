@@ -1,0 +1,44 @@
+已平行啟動三個審查 agent（code、errors、tests），待它們回報後再彙整成 Critical / Important / Suggestions。
+
+錯誤處理審查已完成，還在等 code 與 tests 兩個 agent 回報，到齊後一併彙整。
+
+code 審查也完成了，只剩 tests 審查還在跑。
+
+# PR 審查彙整（`git diff HEAD~1 HEAD`：`src/orders.py`、`tests/test_orders.py`）
+
+這次只做審查，沒有改任何檔案。現有 3 個測試全部通過，但這只表示測試太弱：下面幾個 bug 單靠讀程式就看得出來，現有測試一個都抓不到。驗證行為用的指令被拒，所以下列問題都是讀程式推論出來的，沒有實際執行重現。
+
+## Critical（4 項，合併前必修）
+1. **[code / errors / tests] 可變預設參數 `coupons=[]`** `src/orders.py:20,29`
+   每呼叫一次就 append 一次，前面訂單的優惠券會被重複扣在後面的訂單上。例如帶 coupon=10 的訂單連續算兩次，第二次會得到 80 而不是 90。在 `summarize` 裡營收會越扣越少，甚至變成負數。修法：改成 `coupons=None`，或直接只扣 `order.get("coupon", 0)`。
+2. **[code / tests] 1000 邊界和註解不符** `src/orders.py:17,27`
+   docstring 和註解都寫「滿 1000（含）」，程式卻用 `>`，剛好 1000 元時不會打 95 折。應改成 `>=`。
+3. **[errors / code] 裸 `except:` 把錯誤吞掉** `src/orders.py:42-44`
+   連 `KeyboardInterrupt`、`SystemExit` 都會被吞掉，而且沒有任何 log。程式 bug（`KeyError`、`TypeError`）會被當成「失敗一筆」帶過。應只捕捉 `(KeyError, TypeError, ValueError)`，用 `logger.exception` 記下來，並刪掉多餘的 `pass`。
+4. **[errors / code / tests] 除以零** `src/orders.py:45`
+   `orders` 是空清單或全部失敗時，`len(orders) - failed == 0` 會拋出 `ZeroDivisionError`。分母為 0 時應明確處理：回傳 `None`，或拋出有意義的錯誤。
+
+## Important（6 項，建議修）
+1. **[errors] 失敗只計數、不記原因** `src/orders.py:43`：事後無從追查。可以改成回傳 `[(訂單id, 例外)]` 清單。
+2. **[errors] 優惠券沒有驗證** `src/orders.py:29-31`：字串會拋 `TypeError`，接著被裸 except 吞掉；負值則會變成加價。
+3. **[errors] 折扣後總額沒有下限** `src/orders.py:32`：結果小於 0 時，負營收會悄悄算進總營收。
+4. **[tests] `test_summarize_runs` 只斷言 `failed == 0`** `tests/test_orders.py:22-25`：營收或平均算錯，測試照樣通過。
+5. **[tests] 缺少關鍵測試**：連續呼叫 `apply_discount` 兩次的累積、1000 元邊界、優惠券扣抵、空清單和全部失敗的路徑、VIP 加滿額的疊加。
+6. **[code] 寫死的 `0.95`** `src/orders.py:28`：應比照 `VIP_DISCOUNT` 抽成常數，例如 `BULK_DISCOUNT`。
+
+## Suggestions（4 項）
+1. **[code]** `== True` 改成 `if order.get("vip"):`（`src/orders.py:23,50`）。
+2. **[code]** `else: total = total` 什麼都沒做，可以直接刪掉（`src/orders.py:25-26`）。
+3. **[code / tests]** `is_vip` 沒有任何地方呼叫，判斷邏輯又和 `apply_discount` 重複，也沒有測試。可以簡化成 `return bool(order.get("vip"))`，讓 `apply_discount` 改呼叫它，或者乾脆刪掉（`src/orders.py:49-53`）。
+4. **[code / tests]** 測試檔的 import 放在檔案中段，違反 PEP 8 E402，應移到檔頭（`tests/test_orders.py:14`）。
+
+## 優點
+- 把 VIP 折扣和滿額門檻抽成常數 `VIP_DISCOUNT`、`BULK_THRESHOLD`，方向是對的。
+- 函式的 docstring 清楚寫出業務規則，所以上面那個 1000 邊界和註解不符的 bug 才看得出來。
+- `apply_discount` 重用了 `order_total`，沒有重複計算邏輯。
+
+## 建議修正順序
+1. 先修 4 項 Critical，其中可變預設參數和 `>=` 最急，會直接算錯金額。
+2. 每修一個 bug，就補一個能重現它的測試：連續呼叫兩次、剛好 1000 元、空清單、驗證營收數值。
+3. 再處理錯誤記錄和輸入驗證（Important 1–3）。
+4. 最後清理寫法（Suggestions），修完再跑一次這個審查。

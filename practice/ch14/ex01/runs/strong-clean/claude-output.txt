@@ -1,0 +1,37 @@
+CLI 登入模擬已完成，4 個步驟都依序實作並各自驗收通過。`python -m pytest -q` 結果為 **32 passed**。
+
+## 建立的檔案
+
+目前資料夾（`k28-ex01-strong-clean-ZF1c`）內：
+
+- **`auth.py`**：`AuthStore` 類別
+  - 帳號表是記憶體中的 dict，不寫檔、不用資料庫，初始為空。
+  - `register` / `login` 回傳錯誤碼字串，檢查順序為先 `E_EMPTY_FIELD`，再依情況回傳其他碼。
+  - 密碼以 `hashlib.pbkdf2_hmac('sha256')`（200,000 次迭代）加上 `os.urandom(16)` 的每帳號 salt 儲存。登入比對用 `hmac.compare_digest`。
+- **`cli.py`**：從 stdin 逐行讀指令，每行輸出一行錯誤碼，遇到 EOF 或 `quit` 結束，exit code 為 0。
+- **`test_auth.py`**：32 個 pytest 測試，涵蓋全部錯誤碼、明碼掃描、salt 唯一性、CLI 函式流程，以及用子程序實際執行 `cli.py` 的測試。
+
+## 各步驟驗收
+
+1. **資料結構**：`AuthStore()` 可建立，`_users` 為空。
+2. **錯誤碼**：6 個錯誤碼都實際觸發，包含大小寫不分的 `E_USER_EXISTS`。
+3. **密碼安全**：遞迴掃描 `AuthStore` 的所有屬性，找不到明碼，salt 長度為 16 bytes。
+4. **CLI + 測試**：`register`、`login`、`quit` 流程正確。stdin 用 `printf` 和 `echo` 餵入時，每行都輸出一個錯誤碼。`python -m pytest -q` 全綠。
+
+## 成功標準檢核
+
+1. 錯誤密碼回 `E_WRONG_PASSWORD`，不存在帳號回 `E_USER_NOT_FOUND`。✅
+2. 不存明碼。✅
+3. stdin 每行輸出一個錯誤碼。✅
+4. `python -m pytest -q` 全綠（32 passed）。✅
+
+## 我做的決定（你可以改）
+
+- **帳號正規化**：比對用 `strip()` 加 `casefold()`，所以 `" Bob "` 與 `"bob"` 視為同一帳號。
+- **密碼內容**：只檢查是否為空白，不去除前後空白。密碼 `"  pass1234  "` 會照原樣雜湊。
+- **空行**：CLI 對空行輸出 `E_BAD_COMMAND`，以符合「每行一個輸出」的規則。
+- **quit**：CLI 對 `quit` 也輸出一行 `OK` 後結束，之後的行不再處理。
+- **密碼含空白**：CLI 用 `split()` 切參數，所以 `register a pass word` 是 4 個參數，回 `E_BAD_COMMAND`。
+- **E_EMPTY_FIELD**：CLI 無法透過 stdin 產生這個錯誤碼，因為 `split()` 會吃掉空白，只有直接呼叫 `AuthStore` 才會觸發。
+
+本專案不是 git repo，所以沒有 commit。目錄裡另有 `__pycache__/` 與 `.pytest_cache/`，是測試產生的快取。

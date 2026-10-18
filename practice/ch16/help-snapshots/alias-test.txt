@@ -1,0 +1,11 @@
+3
+alias ccc='claude -c'
+alias ccplan='claude --permission-mode plan'
+alias ccsafe='claude --safe-mode'
+用法：cc_p "提示詞"
+空參數 exit=1
+用法：cc_wt <worktree 名稱>
+空參數 exit=1
+--- cc_p 實跑 ---
+alias OK
+exit=0

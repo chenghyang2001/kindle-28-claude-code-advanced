@@ -1,0 +1,5 @@
+Denying Bash also turns off the PowerShell tool, so Claude has neither. To use PowerShell, set CLAUDE_CODE_USE_POWERSHELL_TOOL=1.
+1) 不知道
+2) 專案指示裡沒有專屬的 commit 前綴。全域規則是繁體中文、格式為「動詞 + 簡短說明」（如「新增」「修復」「重構」）。
+3) 不知道
+4) 不知道

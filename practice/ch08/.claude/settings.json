@@ -1,0 +1,28 @@
+{
+  "model": "sonnet",
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(echo:*)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          { "type": "command", "command": "python \"$CLAUDE_PROJECT_DIR/.claude/hooks/bash_audit.py\"" }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          { "type": "command", "command": "python \"$CLAUDE_PROJECT_DIR/.claude/hooks/bash_audit.py\"" }
+        ]
+      }
+    ]
+  }
+}

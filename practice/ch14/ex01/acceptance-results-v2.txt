@@ -1,0 +1,21 @@
+===== weak-clean：共用驗收測試 v2
+E           Failed: auth 模組沒有 AuthStore 類別
+E           Failed: auth 模組沒有 AuthStore 類別
+E           Failed: auth 模組沒有 AuthStore 類別
+E           Failed: auth 模組沒有 AuthStore 類別
+E           Failed: auth 模組沒有 AuthStore 類別
+E           Failed: auth 模組沒有 AuthStore 類別
+E           Failed: auth 模組沒有 AuthStore 類別
+E           Failed: auth 模組沒有 AuthStore 類別
+E           Failed: auth 模組沒有 AuthStore 類別
+E           Failed: auth 模組沒有 AuthStore 類別
+E       AssertionError: assert 130 == 0
+E        +  where 130 = CompletedProcess(args=['~\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe', '~\\wo...\n=== 使用者登入系統 ===\n1) 註冊  2) 登入  0) 離開\n請選擇：無效的選項。\n\n=== 使用者登入系統 ===\n1) 註冊  2) 登入  0) 離開\n請選擇：\n已中斷離開。\n', stderr='').returncode
+FAILED ex01/acceptance/test_acceptance.py::test_cli_flow - AssertionError: as...
+1 failed, 10 errors in 0.38s
+===== weak-global：共用驗收測試 v2
+（沒有產出任何程式檔）
+===== strong-clean：共用驗收測試 v2
+11 passed in 1.99s
+===== strong-global：共用驗收測試 v2
+11 passed in 7.40s

@@ -1,0 +1,19 @@
+## unit
+13 passed in 0.04s
+## integration
+6 passed in 0.07s
+## e2e
+1 passed in 0.69s
+## unit only coverage
+bookshelf\rules.py         31      1     12      1    95%
+TOTAL                     165    113     48      1    30%
+## full coverage
+Name                    Stmts   Miss Branch BrPart  Cover   Missing
+-------------------------------------------------------------------
+bookshelf\__init__.py       1      0      0      0   100%
+bookshelf\cli.py           49      5     14      2    86%   49-50, 52-54, 59->exit
+bookshelf\db.py            26      0      0      0   100%
+bookshelf\rules.py         31      1     12      1    95%   24
+bookshelf\service.py       58     26     22      4    50%   23, 25, 32, 43, 50-73
+-------------------------------------------------------------------
+TOTAL                     165     32     48      7    76%

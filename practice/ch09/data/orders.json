@@ -1,0 +1,6 @@
+[
+  {"id": "A001", "vip": true,  "items": [{"price": 600, "qty": 2}]},
+  {"id": "A002", "vip": false, "items": [{"price": 1000, "qty": 1}]},
+  {"id": "A003", "vip": false, "items": [{"price": 120, "qty": 3}, {"price": 40, "qty": 5}]},
+  {"id": "A004", "vip": true,  "items": [{"price": 80, "qty": "two"}]}
+]

@@ -1,0 +1,28 @@
+$ bash build_repo.sh
+warning: in the working copy of 'cart.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'cart.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'cart.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'cart.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'cart.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'cart.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'cart.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'cart.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'cart.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'main.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'version.py', LF will be replaced by CRLF the next time Git touches it
+9ce6c9b c10 新增版本號 1.0.0
+8641775 c9 新增 main.py 示範入口
+d2c8c5a c8 新增金額格式化 format_price
+b675b3b c7 README 補充計價規則
+d9eef37 c6 重構 shipping 判斷式寫法
+aa2eb54 c5 新增總價 total
+15e9204 c4 新增運費規則 shipping
+04d05e9 c3 新增會員九折 member_discount
+11c3c84 c2 新增 README
+e5ec83e c1 新增購物車小計 subtotal

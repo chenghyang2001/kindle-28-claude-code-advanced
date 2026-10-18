@@ -1,0 +1,2 @@
+Denying Bash also turns off the PowerShell tool, so Claude has neither. To use PowerShell, set CLAUDE_CODE_USE_POWERSHELL_TOOL=1.
+本輪完成 TASK.md 的第一個未完成項目 `fizzbuzz(n)`：在 `src/textkit.py` 實作並新增 `tests/test_textkit_fizzbuzz.py`（3 個測試、含 n≤0 的邊界案例），已將 TASK.md 該項打勾。我無法執行指令，測試結果需等迴圈跑完後確認。

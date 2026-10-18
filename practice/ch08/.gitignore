@@ -1,0 +1,4 @@
+.claude/settings.local.json
+.claude/hooks/logs/
+__pycache__/
+tests/out/

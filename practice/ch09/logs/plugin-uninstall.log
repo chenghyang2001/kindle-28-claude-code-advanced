@@ -1,0 +1,5 @@
+✔ Successfully uninstalled plugin: pr-review-toolkit (scope: project)
+
+卸載後 settings.json 內容為 {"enabledPlugins": {}}（空鍵殘留）→ 該檔由安裝產生、無其他設定，已 git rm 刪除。
+grep -rn enabledPlugins .claude → 無結果
+claude plugin list 已無 pr-review-toolkit@claude-plugins-official（project scope）

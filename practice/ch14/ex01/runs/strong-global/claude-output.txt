@@ -1,0 +1,65 @@
+code-writer 還在寫 `auth.py`，完成後會通知我。接下來的順序是：code-qa 獨立驗貨 → code-reviewer 審查 → 再派 writer 寫 `cli.py` 與 `test_auth.py`，每一步都會用 pytest 與 stdin 指令實際驗收。
+
+code-qa 和 code-reviewer 已並行啟動。兩者都只讀 `auth.py`，互不寫檔，所以可以並行。結果回來後我再決定是否要退回 writer 修改。
+
+QA 已通過：22 項動態測試全數正確，hash 與宣稱一致，ruff 無警告，沒有明碼殘留。code-reviewer 還在跑，等它的結論後再決定是否退回修改，之後才派 writer 寫 `cli.py` 和測試。
+
+code-reviewer 退回了 `auth.py`，我已派 code-writer 修正四項：鎖住重複檢查與寫入、非 UTF-8 輸入不讓例外冒出、登入時序補假雜湊、帳號 key 改 NFKC。其餘建議我沒採納，理由是超出需求範圍或會改變規格。修正完成後會重跑 QA 與 reviewer，之後才進入 `cli.py` 與測試。
+
+修正後的 `auth.py` 已重新派 code-qa 與 code-reviewer 並行驗收，兩者都只讀不改。QA 這次會額外覆蓋 lone surrogate、NFKC、8 執行緒併發註冊與假雜湊等修正點。結果回來後我再決定是否進入 `cli.py` 與測試。
+
+QA 對修正後的 `auth.py` 判定 PASS：42 項動態檢查全數通過，包括 lone surrogate、NFKC、8 執行緒併發註冊，以及不存在帳號也會執行雜湊。code-reviewer 還在跑，等它的結論後才會進入 `cli.py` 與測試。
+
+code-reviewer 的最後一項 must-fix 是零寬字元造成的重複帳號。我已退回 writer，要求在正規化時移除 `Cf` 類別字元，並讓正規化後為空的帳號回傳 `E_EMPTY_FIELD`。修正完成後會再跑一輪 QA 與 reviewer。
+
+零寬字元修正後的 `auth.py` 已重新派 code-qa 與 code-reviewer 並行驗收，QA 會覆蓋 `\u200b`、`\ufeff`、`\u2060` 等情況。結果回來後再決定是否進入 `cli.py` 與測試。
+
+QA 對零寬字元修正後的 `auth.py` 判定 PASS：39 項動態檢查全數通過，包括 `\u200b`、`\ufeff`、`\u2060` 的處理，以及前面修過的 lone surrogate、NFKC、8 執行緒併發與假雜湊。code-reviewer 還在跑，等它的結論後再進入 `cli.py` 與測試。
+
+`cli.py` 與 `test_auth.py` 已交給 code-writer 寫。`auth.py` 的最後一項 reviewer 意見（同形與不可見字元造成重複帳號）尚未解決，我會在最後回報中說明它的範圍與選項，請你決定要不要收緊帳號字元白名單。
+
+`cli.py` 與 `test_auth.py` 已派 code-qa 與 code-reviewer 並行驗收。QA 會實際跑 `pytest -q` 並手動驗 stdin 流程，reviewer 則唯讀審查。結果回來後我再整理最終報告。
+
+code-qa 對 `cli.py` 與 `test_auth.py` 都判定 PASS：`pytest -q` 為 `15 passed`，stdin 驗收流程輸出恰為 `OK / OK / E_WRONG_PASSWORD`，exit code 0。變異測試也證實測試會抓到錯誤回傳。code-reviewer 還在跑，完成後我會整理最終報告。
+
+code-reviewer 對 `cli.py` 與 `test_auth.py` 提出兩項 must-fix，我已退回 writer 修正：BOM 改用 `utf-8-sig` 解碼、補上 quit 停止讀取的測試，並順帶移除 reconfigure 死碼和兩個新測試（BOM、解碼失敗行）。修正後會再跑一輪 QA 與 reviewer，再整理最終報告。
+
+最後一輪的 code-qa 與 code-reviewer 已並行派出，驗收修正後的 `cli.py` 與 `test_auth.py`。QA 會實際跑 pytest 並覆蓋 BOM、quit 停止、解碼失敗三個新案例，reviewer 會確認修正沒有回歸。兩者都回報後，我整理最終報告。
+
+code-qa 對修正後的 `cli.py` 與 `test_auth.py` 判定 PASS：`pytest -q` 為 `18 passed`，BOM、quit 停止、解碼失敗三個新案例的 CLI 輸出都符合預期，lint 與語法檢查也通過。code-reviewer 還在跑，等它的結論後再整理最終報告。
+
+四步都已完成，`python -m pytest -q` 結果為 `18 passed`，stdin 驗收也符合成功標準。有一項未解決的風險，見最後一節。
+
+## 建立的檔案
+
+目錄：`~\AppData\Local\Temp\claude\C--Users-user-workspace-k28-ch14-practice\c92d8658-0a0d-4b4e-8793-d9195ccd6339\scratchpad\k28-ex01-strong-iZ5u`
+
+- **`auth.py`**（177 行）：`AuthStore` 類別，含 `register` / `login`，回傳字串錯誤碼。
+- **`cli.py`**（80 行）：從 stdin 逐行讀指令，每行輸出一個錯誤碼。
+- **`test_auth.py`**（261 行）：18 個 pytest 測試，涵蓋全部錯誤碼、明碼掃描與 CLI 流程。
+
+## 成功標準檢查
+
+1. **錯誤密碼 → `E_WRONG_PASSWORD`，不存在帳號 → `E_USER_NOT_FOUND`**：通過。
+2. **不存明碼**：通過。遞迴掃描所有屬性，沒有明碼；密碼以 `pbkdf2_hmac` 雜湊，每帳號獨立 `os.urandom(16)` salt，比對用 `hmac.compare_digest`。
+3. **echo 經 stdin 餵給 cli.py，每行一個錯誤碼**：通過。我實際跑了 `register / login / quit` 流程，輸出為 `OK / OK / E_WRONG_PASSWORD`，exit 0。未知指令、段數錯誤與空白行都輸出 `E_BAD_COMMAND`。
+4. **`python -m pytest -q` 全綠**：通過，`18 passed`。
+
+## 與原規格的偏差
+
+- **迭代次數**：採用 600,000 次，比任務例示的 100,000 高（OWASP 建議下限）。若要改回，只需改 `PBKDF2_ITERATIONS`。
+- **時序防護**：登入時帳號不存在也會執行一次雜湊，避免用回應時間判斷帳號是否存在。代價是模組載入約多 0.6 秒。
+- **帳號正規化**：採 NFKC + 移除零寬字元 + casefold，除了大小寫，全形字與零寬字元也會被視為同一帳號。
+- **無法編碼的輸入**（lone surrogate）：規格沒有對應的錯誤碼，我沿用 `E_EMPTY_FIELD`，語意上不夠精確。
+
+## 未解決的風險（需要你決定）
+
+code-reviewer 最後一輪仍提出「視覺相似字元造成重複帳號」的問題，例如 `al\u034fice`、`alice\u3164`。目前只處理了零寬字元，其他同形或不可見字元仍可能建出看似相同的帳號。
+
+要根本解決，需要改用白名單（只允許字母、數字、`_.-`），但這會限制帳號字元，並需要新增錯誤碼。規格只要求「大小寫不分」，所以我沒有擅自做這個行為變更。若你要我改，告訴我即可。
+
+## 流程說明
+
+依照全域鐵律，所有 `.py` 檔都由 code-writer 撰寫，並經 code-qa 獨立驗貨與 code-reviewer 審查。`auth.py` 經過 3 輪審查修正，`cli.py` 與 `test_auth.py` 經過 2 輪。reviewer 的建議我採納了安全與正確性相關的部分，超出規格的（例如記錄演算法參數、抽象儲存介面、密碼 Unicode 正規化）未採納。
+
+本次是學習／演練情境（路徑含 `practice`），依 learning-fast-mode 規則本應先問你是否用快速模式。你要求「不要問我問題」，因此我採用完整鐵律流程，並在此說明。

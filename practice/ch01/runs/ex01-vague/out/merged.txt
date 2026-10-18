@@ -1,0 +1,18 @@
+===== 01-meeting.txt =====
+會議紀錄：週一站會
+- 完成登入頁
+- 待辦：API 文件
+
+===== 02-shopping.txt =====
+Shopping list
+milk
+eggs
+bread
+coffee
+
+===== 3-idea.txt =====
+idea: 自動合併筆記工具
+
+===== 10-reading.txt =====
+讀書心得：提示工程
+脈絡越完整，回合越少。

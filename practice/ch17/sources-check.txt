@@ -1,0 +1,24 @@
+Claude Code 學習來源檢查  2026-10-18 06:23:37 UTC
+==================================================
+[OK]   官方文件 Claude Code Docs
+  網址：https://code.claude.com/docs/en/overview
+  HTTP 狀態：200
+  最近更新：（網站未提供 Last-Modified）
+[OK]   官方 CHANGELOG.md
+  網址：https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
+  HTTP 狀態：200
+  最近更新：2026-10-16T20:52:45Z（最新版本 2.1.302）
+[OK]   GitHub Releases
+  網址：https://github.com/anthropics/claude-code/releases
+  HTTP 狀態：200
+  最近更新：2026-10-16T20:53:06Z（v2.1.302）
+[OK]   GitHub Issues（社群踩坑）
+  網址：https://github.com/anthropics/claude-code/issues
+  HTTP 狀態：200
+  最近更新：2026-10-18T06:22:46Z
+[OK]   Anthropic Engineering Blog
+  網址：https://www.anthropic.com/engineering
+  HTTP 狀態：200
+  最近更新：（網站未提供 Last-Modified）
+
+總結：5/5 可連線

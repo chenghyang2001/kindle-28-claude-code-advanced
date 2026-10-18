@@ -1,0 +1,2 @@
+耗時秒數：> 600（第一次前景指令 600 秒逾時時仍在跑；原腳本中途被改，計時列未寫入）
+沙盒：/tmp/claude/C--Users-user-workspace-k28-ch14-practice/c92d8658-0a0d-4b4e-8793-d9195ccd6339/scratchpad/k28-ex01-strong-iZ5u

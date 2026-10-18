@@ -1,0 +1,11 @@
+## after adding gap tests
+Name                    Stmts   Miss Branch BrPart  Cover   Missing
+-------------------------------------------------------------------
+bookshelf\__init__.py       1      0      0      0   100%
+bookshelf\cli.py           49      5     14      2    86%   49-50, 52-54, 59->exit
+bookshelf\db.py            26      0      0      0   100%
+bookshelf\rules.py         31      0     12      0   100%
+bookshelf\service.py       58     22     22      0    60%   50-73
+-------------------------------------------------------------------
+TOTAL                     165     27     48      2    81%
+28 passed in 1.97s

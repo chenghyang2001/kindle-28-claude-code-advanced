@@ -1,0 +1,12 @@
+目標：分析 ./data/sales.csv，輸出每個數值欄位的平均值為 Markdown 表。
+
+脈絡：
+- 檔案：./data/sales.csv（UTF-8，有表頭，逗號分隔）
+- 數值欄：unit_price, quantity, total（其餘欄位忽略）
+- 缺值以空字串表示，計算平均時略過
+
+輸出：
+- 寫到 ./out/summary.md，格式為兩欄表（欄位 | 平均值，平均值四捨五入到 2 位）
+- 同時在終端印出處理了幾列、跳過幾列缺值
+
+成功標準：summary.md 能被 Markdown 預覽正常渲染；數字與手算一致。

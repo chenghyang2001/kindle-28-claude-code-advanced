@@ -1,0 +1,6 @@
+runs/**/_*.json
+runs/**/_*.log
+runs/*/.claude/
+__pycache__/
+*.stackdump
+.env

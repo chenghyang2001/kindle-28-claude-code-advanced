@@ -1,0 +1,1800 @@
+2026-10-04T15:48:00 INFO req_id=696853 path=/api/v1/items/1034 latency_ms=264
+2026-10-07T03:31:00 WARN req_id=595185 path=/api/v1/items/6220 latency_ms=810
+2026-10-01T22:28:00 INFO req_id=976363 path=/api/v1/items/6387 latency_ms=446
+2026-10-04T10:01:00 INFO req_id=856589 path=/api/v1/items/3749 latency_ms=608
+2026-10-13T21:13:00 INFO req_id=126681 path=/api/v1/items/8871 latency_ms=12
+2026-10-08T14:31:00 WARN req_id=861111 path=/api/v1/items/476 latency_ms=543
+2026-10-12T07:43:00 ERROR code=E202
+2026-10-01T13:53:00 INFO req_id=897911 path=/api/v1/items/7531 latency_ms=299
+2026-10-06T20:46:00 ERROR code=E101
+2026-10-17T13:32:00 INFO req_id=226762 path=/api/v1/items/5451 latency_ms=741
+2026-10-16T16:25:00 INFO req_id=418104 path=/api/v1/items/4656 latency_ms=604
+2026-10-13T13:42:00 INFO req_id=603554 path=/api/v1/items/3978 latency_ms=764
+2026-10-12T02:28:00 INFO req_id=484957 path=/api/v1/items/8992 latency_ms=722
+2026-10-06T16:53:00 ERROR code=E101
+2026-10-01T15:02:00 WARN req_id=488521 path=/api/v1/items/8024 latency_ms=753
+2026-10-13T20:10:00 INFO req_id=837549 path=/api/v1/items/9719 latency_ms=595
+2026-10-07T17:58:00 INFO req_id=626635 path=/api/v1/items/3719 latency_ms=15
+2026-10-13T16:22:00 ERROR code=E202
+2026-10-01T12:50:00 INFO req_id=581434 path=/api/v1/items/4412 latency_ms=678
+2026-10-17T17:13:00 ERROR code=E202
+2026-10-12T18:35:00 WARN req_id=158849 path=/api/v1/items/7883 latency_ms=893
+2026-10-12T13:22:00 INFO req_id=629237 path=/api/v1/items/6774 latency_ms=499
+2026-10-11T14:38:00 INFO req_id=664635 path=/api/v1/items/8850 latency_ms=641
+2026-10-06T17:37:00 INFO req_id=943652 path=/api/v1/items/3762 latency_ms=653
+2026-10-09T01:53:00 INFO req_id=196051 path=/api/v1/items/9029 latency_ms=819
+2026-10-01T08:15:00 INFO req_id=187277 path=/api/v1/items/274 latency_ms=466
+2026-10-10T02:10:00 INFO req_id=214807 path=/api/v1/items/3025 latency_ms=355
+2026-10-09T20:45:00 INFO req_id=367613 path=/api/v1/items/8641 latency_ms=175
+2026-10-16T03:01:00 INFO req_id=576789 path=/api/v1/items/5276 latency_ms=511
+2026-10-07T08:06:00 INFO req_id=505334 path=/api/v1/items/5626 latency_ms=434
+2026-10-14T00:14:00 INFO req_id=865620 path=/api/v1/items/8358 latency_ms=217
+2026-10-06T14:45:00 INFO req_id=516615 path=/api/v1/items/2400 latency_ms=39
+2026-10-08T20:51:00 ERROR code=E404
+2026-10-08T16:41:00 ERROR code=E404
+2026-10-11T21:40:00 INFO req_id=514080 path=/api/v1/items/9435 latency_ms=825
+2026-10-07T01:19:00 WARN req_id=161640 path=/api/v1/items/4893 latency_ms=131
+2026-10-06T13:36:00 INFO req_id=180159 path=/api/v1/items/5085 latency_ms=308
+2026-10-02T18:52:00 INFO req_id=236725 path=/api/v1/items/139 latency_ms=577
+2026-10-17T01:24:00 INFO req_id=697982 path=/api/v1/items/7551 latency_ms=178
+2026-10-14T18:12:00 INFO req_id=463783 path=/api/v1/items/1623 latency_ms=213
+2026-10-17T15:01:00 WARN req_id=209496 path=/api/v1/items/6391 latency_ms=306
+2026-10-01T05:12:00 INFO req_id=741863 path=/api/v1/items/6592 latency_ms=291
+2026-10-05T10:27:00 INFO req_id=950540 path=/api/v1/items/9230 latency_ms=804
+2026-10-13T17:22:00 INFO req_id=379482 path=/api/v1/items/1580 latency_ms=860
+2026-10-08T02:46:00 ERROR code=E404
+2026-10-06T17:13:00 INFO req_id=188793 path=/api/v1/items/2180 latency_ms=176
+2026-10-17T08:23:00 INFO req_id=895991 path=/api/v1/items/5444 latency_ms=617
+2026-10-08T19:49:00 INFO req_id=456814 path=/api/v1/items/1867 latency_ms=301
+2026-10-04T10:02:00 WARN req_id=241920 path=/api/v1/items/9503 latency_ms=567
+2026-10-05T04:21:00 WARN req_id=176748 path=/api/v1/items/6230 latency_ms=889
+2026-10-13T02:36:00 INFO req_id=745069 path=/api/v1/items/9625 latency_ms=803
+2026-10-03T08:23:00 ERROR code=E202
+2026-10-15T08:06:00 INFO req_id=691865 path=/api/v1/items/8754 latency_ms=120
+2026-10-01T02:26:00 INFO req_id=967977 path=/api/v1/items/4846 latency_ms=15
+2026-10-08T18:26:00 INFO req_id=966249 path=/api/v1/items/656 latency_ms=195
+2026-10-08T05:47:00 INFO req_id=221171 path=/api/v1/items/7388 latency_ms=174
+2026-10-10T17:16:00 INFO req_id=556238 path=/api/v1/items/6198 latency_ms=828
+2026-10-11T01:01:00 WARN req_id=429734 path=/api/v1/items/1641 latency_ms=215
+2026-10-11T14:25:00 INFO req_id=925082 path=/api/v1/items/4843 latency_ms=746
+2026-10-11T19:29:00 INFO req_id=517915 path=/api/v1/items/1032 latency_ms=68
+2026-10-16T21:22:00 INFO req_id=362209 path=/api/v1/items/3526 latency_ms=806
+2026-10-10T06:15:00 INFO req_id=292122 path=/api/v1/items/8874 latency_ms=215
+2026-10-15T02:41:00 INFO req_id=185321 path=/api/v1/items/4601 latency_ms=94
+2026-10-02T10:11:00 INFO req_id=338473 path=/api/v1/items/6398 latency_ms=317
+2026-10-08T10:06:00 INFO req_id=931239 path=/api/v1/items/9487 latency_ms=313
+2026-10-03T07:14:00 ERROR code=E505
+2026-10-03T08:35:00 INFO req_id=947525 path=/api/v1/items/3994 latency_ms=414
+2026-10-01T09:48:00 INFO req_id=864589 path=/api/v1/items/1231 latency_ms=25
+2026-10-05T03:32:00 INFO req_id=617221 path=/api/v1/items/7682 latency_ms=886
+2026-10-06T05:49:00 INFO req_id=180852 path=/api/v1/items/8344 latency_ms=684
+2026-10-04T22:32:00 INFO req_id=248413 path=/api/v1/items/5240 latency_ms=315
+2026-10-02T10:52:00 INFO req_id=232434 path=/api/v1/items/3388 latency_ms=148
+2026-10-06T09:27:00 ERROR code=E202
+2026-10-02T22:55:00 ERROR code=E202
+2026-10-15T13:35:00 INFO req_id=364856 path=/api/v1/items/1056 latency_ms=701
+2026-10-15T00:25:00 INFO req_id=667675 path=/api/v1/items/7200 latency_ms=874
+2026-10-01T20:59:00 INFO req_id=279849 path=/api/v1/items/4227 latency_ms=500
+2026-10-12T18:08:00 WARN req_id=698321 path=/api/v1/items/310 latency_ms=66
+2026-10-09T12:36:00 INFO req_id=245223 path=/api/v1/items/4246 latency_ms=851
+2026-10-16T00:11:00 WARN req_id=280537 path=/api/v1/items/1463 latency_ms=242
+2026-10-17T20:58:00 ERROR code=E303
+2026-10-11T15:43:00 WARN req_id=819861 path=/api/v1/items/3699 latency_ms=247
+2026-10-09T20:14:00 WARN req_id=335994 path=/api/v1/items/6755 latency_ms=348
+2026-10-12T05:32:00 INFO req_id=175027 path=/api/v1/items/8384 latency_ms=663
+2026-10-10T17:23:00 INFO req_id=426948 path=/api/v1/items/4895 latency_ms=712
+2026-10-03T03:57:00 INFO req_id=835348 path=/api/v1/items/7615 latency_ms=611
+2026-10-13T05:09:00 ERROR code=E505
+2026-10-02T15:43:00 INFO req_id=547482 path=/api/v1/items/3566 latency_ms=586
+2026-10-17T05:34:00 WARN req_id=851989 path=/api/v1/items/5702 latency_ms=396
+2026-10-09T20:06:00 INFO req_id=649636 path=/api/v1/items/1482 latency_ms=830
+2026-10-03T14:54:00 INFO req_id=872703 path=/api/v1/items/1372 latency_ms=145
+2026-10-14T12:10:00 INFO req_id=992339 path=/api/v1/items/6265 latency_ms=824
+2026-10-16T06:07:00 INFO req_id=559411 path=/api/v1/items/2070 latency_ms=640
+2026-10-04T21:18:00 WARN req_id=729857 path=/api/v1/items/8750 latency_ms=421
+2026-10-01T06:33:00 INFO req_id=360273 path=/api/v1/items/6208 latency_ms=770
+2026-10-08T08:13:00 WARN req_id=707212 path=/api/v1/items/345 latency_ms=34
+2026-10-07T08:19:00 INFO req_id=398615 path=/api/v1/items/2432 latency_ms=558
+2026-10-06T17:22:00 INFO req_id=972787 path=/api/v1/items/7314 latency_ms=813
+2026-10-07T18:56:00 WARN req_id=540366 path=/api/v1/items/1996 latency_ms=790
+2026-10-04T00:07:00 WARN req_id=314771 path=/api/v1/items/4654 latency_ms=833
+2026-10-05T02:32:00 INFO req_id=671774 path=/api/v1/items/4857 latency_ms=693
+2026-10-17T21:22:00 INFO req_id=700391 path=/api/v1/items/5100 latency_ms=450
+2026-10-01T03:28:00 ERROR code=E303
+2026-10-13T10:50:00 WARN req_id=467224 path=/api/v1/items/4994 latency_ms=555
+2026-10-07T17:00:00 WARN req_id=218589 path=/api/v1/items/6186 latency_ms=394
+2026-10-17T06:59:00 INFO req_id=766404 path=/api/v1/items/9801 latency_ms=742
+2026-10-10T22:10:00 WARN req_id=730018 path=/api/v1/items/8470 latency_ms=421
+2026-10-12T16:00:00 WARN req_id=750152 path=/api/v1/items/8700 latency_ms=205
+2026-10-11T19:37:00 WARN req_id=707488 path=/api/v1/items/6978 latency_ms=417
+2026-10-10T20:01:00 INFO req_id=616635 path=/api/v1/items/4058 latency_ms=658
+2026-10-13T08:54:00 WARN req_id=856321 path=/api/v1/items/2558 latency_ms=651
+2026-10-01T11:58:00 INFO req_id=904781 path=/api/v1/items/1203 latency_ms=837
+2026-10-10T04:29:00 INFO req_id=937075 path=/api/v1/items/6737 latency_ms=897
+2026-10-17T01:17:00 INFO req_id=608080 path=/api/v1/items/2780 latency_ms=481
+2026-10-14T02:22:00 ERROR code=E101
+2026-10-06T16:45:00 INFO req_id=788750 path=/api/v1/items/7250 latency_ms=23
+2026-10-09T19:19:00 INFO req_id=823986 path=/api/v1/items/1525 latency_ms=414
+2026-10-11T08:04:00 INFO req_id=653745 path=/api/v1/items/3404 latency_ms=245
+2026-10-12T14:32:00 INFO req_id=833159 path=/api/v1/items/8573 latency_ms=677
+2026-10-06T09:41:00 ERROR code=E101
+2026-10-12T19:47:00 ERROR code=E303
+2026-10-06T15:50:00 INFO req_id=511628 path=/api/v1/items/9193 latency_ms=412
+2026-10-08T08:39:00 INFO req_id=740052 path=/api/v1/items/5401 latency_ms=736
+2026-10-13T10:59:00 INFO req_id=984780 path=/api/v1/items/501 latency_ms=875
+2026-10-09T06:04:00 WARN req_id=898588 path=/api/v1/items/4071 latency_ms=807
+2026-10-05T19:16:00 INFO req_id=707279 path=/api/v1/items/7268 latency_ms=598
+2026-10-05T22:28:00 WARN req_id=652172 path=/api/v1/items/2663 latency_ms=144
+2026-10-04T22:13:00 INFO req_id=424808 path=/api/v1/items/6566 latency_ms=249
+2026-10-13T10:31:00 INFO req_id=171540 path=/api/v1/items/1744 latency_ms=236
+2026-10-01T06:43:00 INFO req_id=295833 path=/api/v1/items/737 latency_ms=59
+2026-10-15T10:42:00 INFO req_id=618479 path=/api/v1/items/8660 latency_ms=837
+2026-10-08T12:14:00 INFO req_id=223802 path=/api/v1/items/2830 latency_ms=100
+2026-10-06T07:15:00 WARN req_id=571664 path=/api/v1/items/6192 latency_ms=771
+2026-10-13T06:28:00 INFO req_id=585045 path=/api/v1/items/8963 latency_ms=596
+2026-10-04T06:05:00 INFO req_id=446153 path=/api/v1/items/8132 latency_ms=610
+2026-10-16T10:56:00 INFO req_id=116160 path=/api/v1/items/86 latency_ms=881
+2026-10-07T12:10:00 WARN req_id=989101 path=/api/v1/items/9507 latency_ms=297
+2026-10-13T04:56:00 INFO req_id=932288 path=/api/v1/items/500 latency_ms=18
+2026-10-13T08:08:00 ERROR code=E101
+2026-10-02T17:03:00 INFO req_id=585374 path=/api/v1/items/4971 latency_ms=17
+2026-10-02T08:49:00 ERROR code=E202
+2026-10-01T15:40:00 INFO req_id=553519 path=/api/v1/items/1492 latency_ms=197
+2026-10-07T21:28:00 INFO req_id=880784 path=/api/v1/items/4576 latency_ms=706
+2026-10-08T07:03:00 WARN req_id=445825 path=/api/v1/items/4391 latency_ms=269
+2026-10-17T01:57:00 INFO req_id=466597 path=/api/v1/items/7021 latency_ms=622
+2026-10-07T22:56:00 INFO req_id=673493 path=/api/v1/items/6761 latency_ms=554
+2026-10-03T22:17:00 ERROR code=E404
+2026-10-05T01:58:00 INFO req_id=363801 path=/api/v1/items/2910 latency_ms=101
+2026-10-02T01:40:00 INFO req_id=996080 path=/api/v1/items/7015 latency_ms=875
+2026-10-17T11:06:00 INFO req_id=952550 path=/api/v1/items/8403 latency_ms=483
+2026-10-02T14:42:00 INFO req_id=142066 path=/api/v1/items/2075 latency_ms=547
+2026-10-17T08:05:00 INFO req_id=514384 path=/api/v1/items/7309 latency_ms=28
+2026-10-10T01:55:00 INFO req_id=939273 path=/api/v1/items/5332 latency_ms=90
+2026-10-05T08:50:00 WARN req_id=160987 path=/api/v1/items/4277 latency_ms=323
+2026-10-10T03:27:00 WARN req_id=946116 path=/api/v1/items/1920 latency_ms=879
+2026-10-11T10:32:00 INFO req_id=627160 path=/api/v1/items/9129 latency_ms=213
+2026-10-05T20:52:00 WARN req_id=712515 path=/api/v1/items/7884 latency_ms=110
+2026-10-17T17:01:00 WARN req_id=649187 path=/api/v1/items/9153 latency_ms=739
+2026-10-12T12:33:00 INFO req_id=879279 path=/api/v1/items/2573 latency_ms=207
+2026-10-05T18:04:00 INFO req_id=202110 path=/api/v1/items/6710 latency_ms=356
+2026-10-14T09:20:00 INFO req_id=415093 path=/api/v1/items/8744 latency_ms=324
+2026-10-17T16:00:00 INFO req_id=385914 path=/api/v1/items/5330 latency_ms=769
+2026-10-05T10:58:00 ERROR code=E101
+2026-10-03T14:17:00 INFO req_id=922824 path=/api/v1/items/5367 latency_ms=589
+2026-10-13T02:59:00 WARN req_id=576202 path=/api/v1/items/5967 latency_ms=762
+2026-10-16T18:54:00 INFO req_id=241118 path=/api/v1/items/799 latency_ms=539
+2026-10-11T11:51:00 INFO req_id=922029 path=/api/v1/items/4021 latency_ms=722
+2026-10-11T17:32:00 INFO req_id=522130 path=/api/v1/items/5037 latency_ms=478
+2026-10-08T18:08:00 INFO req_id=130484 path=/api/v1/items/2431 latency_ms=259
+2026-10-02T03:34:00 INFO req_id=293567 path=/api/v1/items/6736 latency_ms=748
+2026-10-09T02:40:00 INFO req_id=849373 path=/api/v1/items/1753 latency_ms=212
+2026-10-03T06:41:00 ERROR code=E101
+2026-10-12T15:45:00 INFO req_id=636321 path=/api/v1/items/7080 latency_ms=25
+2026-10-16T07:27:00 INFO req_id=330618 path=/api/v1/items/3284 latency_ms=615
+2026-10-07T15:46:00 WARN req_id=808418 path=/api/v1/items/6016 latency_ms=560
+2026-10-07T00:47:00 INFO req_id=953574 path=/api/v1/items/4204 latency_ms=420
+2026-10-17T15:04:00 ERROR code=E404
+2026-10-14T01:22:00 WARN req_id=745759 path=/api/v1/items/8357 latency_ms=818
+2026-10-01T17:07:00 WARN req_id=106712 path=/api/v1/items/3110 latency_ms=309
+2026-10-10T16:26:00 INFO req_id=637386 path=/api/v1/items/5171 latency_ms=798
+2026-10-14T19:40:00 ERROR code=E505
+2026-10-17T14:37:00 INFO req_id=574503 path=/api/v1/items/4947 latency_ms=137
+2026-10-01T13:47:00 INFO req_id=676710 path=/api/v1/items/2671 latency_ms=261
+2026-10-10T21:57:00 INFO req_id=486256 path=/api/v1/items/6896 latency_ms=414
+2026-10-01T12:17:00 INFO req_id=194871 path=/api/v1/items/1476 latency_ms=869
+2026-10-16T10:24:00 WARN req_id=385168 path=/api/v1/items/6106 latency_ms=654
+2026-10-12T04:26:00 WARN req_id=942562 path=/api/v1/items/1909 latency_ms=498
+2026-10-09T11:54:00 INFO req_id=119045 path=/api/v1/items/2820 latency_ms=836
+2026-10-09T16:18:00 INFO req_id=718216 path=/api/v1/items/4705 latency_ms=425
+2026-10-11T15:13:00 WARN req_id=824902 path=/api/v1/items/4484 latency_ms=446
+2026-10-03T04:13:00 WARN req_id=521427 path=/api/v1/items/6966 latency_ms=96
+2026-10-09T04:30:00 INFO req_id=340363 path=/api/v1/items/429 latency_ms=108
+2026-10-01T02:27:00 INFO req_id=518518 path=/api/v1/items/3071 latency_ms=857
+2026-10-14T11:03:00 INFO req_id=676293 path=/api/v1/items/3577 latency_ms=550
+2026-10-14T21:47:00 INFO req_id=870200 path=/api/v1/items/9058 latency_ms=698
+2026-10-16T22:54:00 INFO req_id=378223 path=/api/v1/items/4568 latency_ms=186
+2026-10-03T12:07:00 INFO req_id=924624 path=/api/v1/items/3510 latency_ms=696
+2026-10-13T03:38:00 WARN req_id=408541 path=/api/v1/items/8321 latency_ms=512
+2026-10-07T05:33:00 WARN req_id=210970 path=/api/v1/items/2444 latency_ms=398
+2026-10-16T20:57:00 INFO req_id=536840 path=/api/v1/items/8794 latency_ms=298
+2026-10-11T15:06:00 ERROR code=E202
+2026-10-09T01:34:00 INFO req_id=894585 path=/api/v1/items/5684 latency_ms=728
+2026-10-17T08:17:00 WARN req_id=414430 path=/api/v1/items/1651 latency_ms=237
+2026-10-09T06:26:00 INFO req_id=531639 path=/api/v1/items/2431 latency_ms=136
+2026-10-02T17:53:00 ERROR code=E505
+2026-10-14T08:17:00 ERROR code=E202
+2026-10-16T06:31:00 WARN req_id=829203 path=/api/v1/items/5011 latency_ms=276
+2026-10-11T05:38:00 INFO req_id=728104 path=/api/v1/items/7710 latency_ms=250
+2026-10-15T17:09:00 INFO req_id=875114 path=/api/v1/items/9512 latency_ms=713
+2026-10-05T20:48:00 INFO req_id=628426 path=/api/v1/items/5342 latency_ms=544
+2026-10-11T03:08:00 INFO req_id=430685 path=/api/v1/items/8090 latency_ms=494
+2026-10-03T20:34:00 INFO req_id=832271 path=/api/v1/items/4202 latency_ms=233
+2026-10-04T07:36:00 INFO req_id=690424 path=/api/v1/items/2820 latency_ms=704
+2026-10-10T13:20:00 INFO req_id=627451 path=/api/v1/items/9300 latency_ms=678
+2026-10-10T19:14:00 INFO req_id=911376 path=/api/v1/items/329 latency_ms=844
+2026-10-11T08:38:00 INFO req_id=879145 path=/api/v1/items/3679 latency_ms=289
+2026-10-01T03:21:00 ERROR code=E404
+2026-10-05T21:36:00 INFO req_id=246214 path=/api/v1/items/1858 latency_ms=259
+2026-10-04T09:20:00 INFO req_id=463857 path=/api/v1/items/1268 latency_ms=97
+2026-10-12T00:05:00 INFO req_id=382420 path=/api/v1/items/8678 latency_ms=53
+2026-10-08T03:43:00 INFO req_id=518724 path=/api/v1/items/6096 latency_ms=740
+2026-10-11T03:22:00 INFO req_id=386925 path=/api/v1/items/131 latency_ms=530
+2026-10-03T21:36:00 INFO req_id=735605 path=/api/v1/items/4442 latency_ms=417
+2026-10-14T17:59:00 ERROR code=E404
+2026-10-10T17:08:00 WARN req_id=415721 path=/api/v1/items/3595 latency_ms=650
+2026-10-06T07:13:00 INFO req_id=729241 path=/api/v1/items/8332 latency_ms=115
+2026-10-09T17:17:00 WARN req_id=387827 path=/api/v1/items/8945 latency_ms=23
+2026-10-16T04:25:00 ERROR code=E303
+2026-10-12T17:35:00 INFO req_id=881100 path=/api/v1/items/6120 latency_ms=73
+2026-10-01T19:19:00 ERROR code=E505
+2026-10-03T18:09:00 WARN req_id=815561 path=/api/v1/items/2167 latency_ms=162
+2026-10-10T05:09:00 INFO req_id=607585 path=/api/v1/items/5497 latency_ms=376
+2026-10-04T19:09:00 WARN req_id=973600 path=/api/v1/items/7205 latency_ms=418
+2026-10-01T20:08:00 INFO req_id=409636 path=/api/v1/items/9891 latency_ms=11
+2026-10-15T00:49:00 WARN req_id=883274 path=/api/v1/items/9207 latency_ms=106
+2026-10-12T13:25:00 WARN req_id=727634 path=/api/v1/items/6919 latency_ms=285
+2026-10-02T20:45:00 WARN req_id=155862 path=/api/v1/items/1626 latency_ms=485
+2026-10-04T18:08:00 INFO req_id=951640 path=/api/v1/items/690 latency_ms=854
+2026-10-12T17:17:00 ERROR code=E505
+2026-10-08T19:15:00 INFO req_id=941049 path=/api/v1/items/7765 latency_ms=842
+2026-10-06T03:49:00 INFO req_id=689673 path=/api/v1/items/5861 latency_ms=895
+2026-10-12T08:42:00 INFO req_id=838254 path=/api/v1/items/5140 latency_ms=435
+2026-10-13T11:18:00 INFO req_id=746921 path=/api/v1/items/7125 latency_ms=427
+2026-10-17T04:03:00 INFO req_id=562443 path=/api/v1/items/3901 latency_ms=653
+2026-10-06T17:41:00 INFO req_id=805728 path=/api/v1/items/1860 latency_ms=528
+2026-10-01T15:57:00 WARN req_id=457548 path=/api/v1/items/1991 latency_ms=599
+2026-10-08T03:15:00 INFO req_id=501854 path=/api/v1/items/2863 latency_ms=409
+2026-10-15T23:30:00 INFO req_id=445032 path=/api/v1/items/4017 latency_ms=806
+2026-10-15T12:34:00 INFO req_id=616554 path=/api/v1/items/3175 latency_ms=445
+2026-10-05T04:00:00 INFO req_id=699186 path=/api/v1/items/8000 latency_ms=275
+2026-10-01T20:04:00 WARN req_id=534757 path=/api/v1/items/1786 latency_ms=821
+2026-10-17T09:58:00 INFO req_id=581083 path=/api/v1/items/6178 latency_ms=686
+2026-10-04T08:01:00 INFO req_id=261783 path=/api/v1/items/8596 latency_ms=848
+2026-10-13T00:34:00 WARN req_id=515810 path=/api/v1/items/3742 latency_ms=553
+2026-10-06T10:42:00 INFO req_id=543516 path=/api/v1/items/2604 latency_ms=681
+2026-10-06T05:24:00 INFO req_id=179751 path=/api/v1/items/8788 latency_ms=574
+2026-10-08T01:59:00 INFO req_id=638043 path=/api/v1/items/3554 latency_ms=440
+2026-10-17T22:39:00 ERROR code=E202
+2026-10-08T12:49:00 ERROR code=E101
+2026-10-02T12:05:00 WARN req_id=224878 path=/api/v1/items/9290 latency_ms=662
+2026-10-16T01:33:00 ERROR code=E101
+2026-10-10T14:17:00 INFO req_id=915116 path=/api/v1/items/200 latency_ms=24
+2026-10-11T17:40:00 WARN req_id=274795 path=/api/v1/items/9748 latency_ms=139
+2026-10-06T22:25:00 WARN req_id=625952 path=/api/v1/items/6843 latency_ms=570
+2026-10-09T11:59:00 WARN req_id=947643 path=/api/v1/items/3289 latency_ms=510
+2026-10-06T23:39:00 INFO req_id=372055 path=/api/v1/items/9288 latency_ms=289
+2026-10-05T08:16:00 INFO req_id=866548 path=/api/v1/items/5907 latency_ms=347
+2026-10-15T00:09:00 INFO req_id=466323 path=/api/v1/items/6296 latency_ms=288
+2026-10-03T18:34:00 INFO req_id=365000 path=/api/v1/items/3702 latency_ms=204
+2026-10-08T18:08:00 INFO req_id=669389 path=/api/v1/items/7033 latency_ms=736
+2026-10-13T22:12:00 ERROR code=E404
+2026-10-02T00:47:00 INFO req_id=755784 path=/api/v1/items/1265 latency_ms=159
+2026-10-05T18:38:00 WARN req_id=501215 path=/api/v1/items/6837 latency_ms=701
+2026-10-03T07:54:00 INFO req_id=805364 path=/api/v1/items/8823 latency_ms=562
+2026-10-13T11:47:00 WARN req_id=246199 path=/api/v1/items/4681 latency_ms=210
+2026-10-05T11:31:00 INFO req_id=336033 path=/api/v1/items/4880 latency_ms=729
+2026-10-03T16:52:00 ERROR code=E303
+2026-10-10T19:37:00 INFO req_id=318979 path=/api/v1/items/7594 latency_ms=25
+2026-10-15T08:39:00 INFO req_id=745068 path=/api/v1/items/6106 latency_ms=775
+2026-10-05T20:52:00 INFO req_id=154593 path=/api/v1/items/5171 latency_ms=166
+2026-10-08T23:13:00 INFO req_id=217983 path=/api/v1/items/7132 latency_ms=651
+2026-10-13T03:58:00 ERROR code=E505
+2026-10-17T04:52:00 INFO req_id=959079 path=/api/v1/items/6289 latency_ms=679
+2026-10-04T06:48:00 INFO req_id=860288 path=/api/v1/items/60 latency_ms=737
+2026-10-08T08:02:00 WARN req_id=795259 path=/api/v1/items/7898 latency_ms=561
+2026-10-08T13:17:00 INFO req_id=804194 path=/api/v1/items/9083 latency_ms=517
+2026-10-04T21:53:00 WARN req_id=517905 path=/api/v1/items/4457 latency_ms=508
+2026-10-15T01:31:00 INFO req_id=295719 path=/api/v1/items/9168 latency_ms=19
+2026-10-11T07:06:00 INFO req_id=513076 path=/api/v1/items/8826 latency_ms=845
+2026-10-14T14:12:00 INFO req_id=811057 path=/api/v1/items/699 latency_ms=869
+2026-10-17T12:33:00 INFO req_id=724235 path=/api/v1/items/8225 latency_ms=197
+2026-10-03T10:57:00 INFO req_id=306647 path=/api/v1/items/3813 latency_ms=371
+2026-10-06T04:54:00 INFO req_id=580729 path=/api/v1/items/725 latency_ms=857
+2026-10-17T02:55:00 INFO req_id=591945 path=/api/v1/items/706 latency_ms=600
+2026-10-17T18:41:00 WARN req_id=196453 path=/api/v1/items/6553 latency_ms=818
+2026-10-16T01:35:00 INFO req_id=513538 path=/api/v1/items/4390 latency_ms=363
+2026-10-11T04:38:00 WARN req_id=118272 path=/api/v1/items/6994 latency_ms=314
+2026-10-03T19:50:00 ERROR code=E303
+2026-10-01T18:37:00 INFO req_id=535295 path=/api/v1/items/6407 latency_ms=535
+2026-10-01T03:57:00 INFO req_id=138731 path=/api/v1/items/9402 latency_ms=545
+2026-10-02T20:23:00 INFO req_id=453052 path=/api/v1/items/6035 latency_ms=771
+2026-10-15T10:32:00 INFO req_id=608480 path=/api/v1/items/1373 latency_ms=870
+2026-10-06T10:23:00 ERROR code=E101
+2026-10-04T12:20:00 INFO req_id=253242 path=/api/v1/items/9507 latency_ms=154
+2026-10-12T10:54:00 ERROR code=E404
+2026-10-03T20:15:00 INFO req_id=738412 path=/api/v1/items/6038 latency_ms=41
+2026-10-10T18:50:00 INFO req_id=891253 path=/api/v1/items/6506 latency_ms=566
+2026-10-14T02:08:00 INFO req_id=178553 path=/api/v1/items/2792 latency_ms=276
+2026-10-07T03:17:00 INFO req_id=677592 path=/api/v1/items/4306 latency_ms=243
+2026-10-07T17:04:00 WARN req_id=149405 path=/api/v1/items/8392 latency_ms=311
+2026-10-11T09:55:00 ERROR code=E303
+2026-10-02T14:52:00 ERROR code=E202
+2026-10-11T13:47:00 INFO req_id=937871 path=/api/v1/items/611 latency_ms=32
+2026-10-17T13:11:00 INFO req_id=684057 path=/api/v1/items/666 latency_ms=726
+2026-10-05T18:32:00 INFO req_id=344149 path=/api/v1/items/1881 latency_ms=604
+2026-10-07T01:23:00 INFO req_id=856594 path=/api/v1/items/4368 latency_ms=472
+2026-10-01T00:31:00 WARN req_id=451194 path=/api/v1/items/5812 latency_ms=228
+2026-10-02T00:14:00 INFO req_id=272374 path=/api/v1/items/4151 latency_ms=568
+2026-10-17T06:13:00 INFO req_id=649772 path=/api/v1/items/2840 latency_ms=38
+2026-10-17T11:20:00 WARN req_id=402791 path=/api/v1/items/3982 latency_ms=505
+2026-10-06T06:43:00 WARN req_id=785171 path=/api/v1/items/1204 latency_ms=202
+2026-10-16T11:01:00 INFO req_id=709496 path=/api/v1/items/6984 latency_ms=631
+2026-10-14T22:37:00 WARN req_id=121658 path=/api/v1/items/1717 latency_ms=677
+2026-10-14T06:44:00 INFO req_id=455352 path=/api/v1/items/1214 latency_ms=665
+2026-10-17T15:38:00 ERROR code=E404
+2026-10-09T21:52:00 WARN req_id=733049 path=/api/v1/items/7720 latency_ms=172
+2026-10-13T19:34:00 ERROR code=E303
+2026-10-02T14:29:00 INFO req_id=367790 path=/api/v1/items/5084 latency_ms=18
+2026-10-07T22:30:00 INFO req_id=343420 path=/api/v1/items/8323 latency_ms=457
+2026-10-14T01:41:00 INFO req_id=830095 path=/api/v1/items/2373 latency_ms=396
+2026-10-02T09:24:00 INFO req_id=473628 path=/api/v1/items/135 latency_ms=264
+2026-10-02T06:45:00 INFO req_id=440239 path=/api/v1/items/5541 latency_ms=319
+2026-10-03T04:49:00 INFO req_id=444605 path=/api/v1/items/1965 latency_ms=690
+2026-10-08T00:41:00 INFO req_id=529560 path=/api/v1/items/9953 latency_ms=351
+2026-10-12T09:18:00 INFO req_id=892228 path=/api/v1/items/8261 latency_ms=770
+2026-10-03T06:26:00 WARN req_id=540859 path=/api/v1/items/8625 latency_ms=475
+2026-10-08T20:14:00 INFO req_id=737385 path=/api/v1/items/692 latency_ms=635
+2026-10-07T19:09:00 INFO req_id=847792 path=/api/v1/items/6467 latency_ms=391
+2026-10-10T14:31:00 INFO req_id=879945 path=/api/v1/items/5900 latency_ms=4
+2026-10-12T13:35:00 INFO req_id=808052 path=/api/v1/items/2399 latency_ms=34
+2026-10-11T19:07:00 INFO req_id=940111 path=/api/v1/items/8409 latency_ms=504
+2026-10-09T13:00:00 INFO req_id=949766 path=/api/v1/items/8980 latency_ms=681
+2026-10-16T03:32:00 INFO req_id=888795 path=/api/v1/items/1417 latency_ms=657
+2026-10-12T07:03:00 INFO req_id=735047 path=/api/v1/items/4337 latency_ms=450
+2026-10-17T05:08:00 INFO req_id=725915 path=/api/v1/items/8442 latency_ms=529
+2026-10-01T21:03:00 INFO req_id=150672 path=/api/v1/items/1120 latency_ms=226
+2026-10-02T00:02:00 WARN req_id=867274 path=/api/v1/items/345 latency_ms=70
+2026-10-11T00:39:00 ERROR code=E303
+2026-10-07T08:18:00 INFO req_id=686184 path=/api/v1/items/3463 latency_ms=483
+2026-10-09T07:11:00 ERROR code=E505
+2026-10-15T01:21:00 INFO req_id=510467 path=/api/v1/items/980 latency_ms=247
+2026-10-06T16:40:00 INFO req_id=526518 path=/api/v1/items/1962 latency_ms=19
+2026-10-08T05:19:00 INFO req_id=898477 path=/api/v1/items/3029 latency_ms=226
+2026-10-05T02:53:00 INFO req_id=161652 path=/api/v1/items/5143 latency_ms=746
+2026-10-10T11:03:00 WARN req_id=257345 path=/api/v1/items/3784 latency_ms=47
+2026-10-08T21:11:00 INFO req_id=564017 path=/api/v1/items/3281 latency_ms=815
+2026-10-04T02:50:00 INFO req_id=160239 path=/api/v1/items/3316 latency_ms=58
+2026-10-14T07:46:00 INFO req_id=400009 path=/api/v1/items/4131 latency_ms=542
+2026-10-07T10:22:00 INFO req_id=859100 path=/api/v1/items/4125 latency_ms=786
+2026-10-13T02:27:00 INFO req_id=576331 path=/api/v1/items/6267 latency_ms=888
+2026-10-06T19:41:00 INFO req_id=972429 path=/api/v1/items/8018 latency_ms=354
+2026-10-14T08:34:00 INFO req_id=351361 path=/api/v1/items/1185 latency_ms=794
+2026-10-15T11:22:00 INFO req_id=451312 path=/api/v1/items/6072 latency_ms=422
+2026-10-01T11:08:00 INFO req_id=515288 path=/api/v1/items/7723 latency_ms=526
+2026-10-05T17:45:00 INFO req_id=276177 path=/api/v1/items/4952 latency_ms=583
+2026-10-05T04:10:00 INFO req_id=275039 path=/api/v1/items/7499 latency_ms=663
+2026-10-12T20:20:00 INFO req_id=952130 path=/api/v1/items/4160 latency_ms=244
+2026-10-03T13:09:00 INFO req_id=390751 path=/api/v1/items/7751 latency_ms=320
+2026-10-15T03:54:00 ERROR code=E303
+2026-10-06T15:34:00 INFO req_id=817767 path=/api/v1/items/5175 latency_ms=73
+2026-10-12T23:23:00 INFO req_id=149150 path=/api/v1/items/3141 latency_ms=668
+2026-10-17T20:51:00 ERROR code=E303
+2026-10-13T01:17:00 INFO req_id=458693 path=/api/v1/items/1973 latency_ms=192
+2026-10-10T10:36:00 INFO req_id=165409 path=/api/v1/items/4047 latency_ms=860
+2026-10-02T07:18:00 WARN req_id=356211 path=/api/v1/items/5894 latency_ms=793
+2026-10-08T11:32:00 INFO req_id=304823 path=/api/v1/items/1592 latency_ms=141
+2026-10-03T09:36:00 INFO req_id=247702 path=/api/v1/items/2661 latency_ms=236
+2026-10-14T14:37:00 ERROR code=E505
+2026-10-06T16:55:00 ERROR code=E404
+2026-10-03T08:13:00 INFO req_id=304962 path=/api/v1/items/7096 latency_ms=826
+2026-10-07T00:10:00 INFO req_id=900059 path=/api/v1/items/2332 latency_ms=139
+2026-10-12T02:39:00 WARN req_id=480509 path=/api/v1/items/3014 latency_ms=53
+2026-10-15T20:41:00 INFO req_id=810907 path=/api/v1/items/3464 latency_ms=92
+2026-10-01T06:20:00 INFO req_id=730839 path=/api/v1/items/5611 latency_ms=171
+2026-10-12T15:35:00 WARN req_id=678916 path=/api/v1/items/594 latency_ms=56
+2026-10-17T10:42:00 INFO req_id=242097 path=/api/v1/items/7999 latency_ms=72
+2026-10-03T15:21:00 INFO req_id=734497 path=/api/v1/items/5207 latency_ms=805
+2026-10-03T21:41:00 WARN req_id=992414 path=/api/v1/items/1172 latency_ms=271
+2026-10-08T10:16:00 INFO req_id=119973 path=/api/v1/items/2953 latency_ms=338
+2026-10-01T09:10:00 INFO req_id=421088 path=/api/v1/items/7989 latency_ms=428
+2026-10-14T19:13:00 INFO req_id=150960 path=/api/v1/items/1898 latency_ms=444
+2026-10-10T19:16:00 INFO req_id=473777 path=/api/v1/items/9266 latency_ms=509
+2026-10-04T12:22:00 INFO req_id=438337 path=/api/v1/items/2340 latency_ms=363
+2026-10-07T12:28:00 ERROR code=E505
+2026-10-08T01:46:00 INFO req_id=973101 path=/api/v1/items/7883 latency_ms=717
+2026-10-17T16:30:00 INFO req_id=182828 path=/api/v1/items/1156 latency_ms=42
+2026-10-06T18:45:00 WARN req_id=833574 path=/api/v1/items/5362 latency_ms=535
+2026-10-15T05:37:00 WARN req_id=516989 path=/api/v1/items/217 latency_ms=398
+2026-10-12T14:15:00 INFO req_id=154088 path=/api/v1/items/6035 latency_ms=844
+2026-10-03T14:48:00 ERROR code=E303
+2026-10-15T01:23:00 INFO req_id=304715 path=/api/v1/items/2644 latency_ms=140
+2026-10-16T15:00:00 INFO req_id=947463 path=/api/v1/items/2842 latency_ms=585
+2026-10-06T16:13:00 INFO req_id=739041 path=/api/v1/items/974 latency_ms=457
+2026-10-09T04:10:00 WARN req_id=588552 path=/api/v1/items/2021 latency_ms=325
+2026-10-17T09:14:00 INFO req_id=238033 path=/api/v1/items/2957 latency_ms=827
+2026-10-15T14:32:00 ERROR code=E404
+2026-10-06T16:39:00 ERROR code=E303
+2026-10-07T09:43:00 ERROR code=E303
+2026-10-11T03:27:00 INFO req_id=815360 path=/api/v1/items/106 latency_ms=835
+2026-10-06T19:56:00 WARN req_id=847860 path=/api/v1/items/8402 latency_ms=755
+2026-10-12T06:03:00 WARN req_id=571237 path=/api/v1/items/8737 latency_ms=455
+2026-10-13T04:28:00 INFO req_id=857082 path=/api/v1/items/1759 latency_ms=102
+2026-10-17T18:02:00 WARN req_id=290827 path=/api/v1/items/7783 latency_ms=462
+2026-10-13T09:58:00 INFO req_id=719104 path=/api/v1/items/7373 latency_ms=503
+2026-10-09T05:56:00 INFO req_id=913561 path=/api/v1/items/2844 latency_ms=865
+2026-10-03T17:14:00 INFO req_id=683462 path=/api/v1/items/993 latency_ms=820
+2026-10-11T23:06:00 WARN req_id=991060 path=/api/v1/items/5227 latency_ms=455
+2026-10-14T14:21:00 WARN req_id=156406 path=/api/v1/items/7673 latency_ms=287
+2026-10-06T12:34:00 ERROR code=E101
+2026-10-05T10:09:00 WARN req_id=743370 path=/api/v1/items/7828 latency_ms=520
+2026-10-07T14:41:00 INFO req_id=243880 path=/api/v1/items/3171 latency_ms=233
+2026-10-02T14:09:00 INFO req_id=208425 path=/api/v1/items/1687 latency_ms=438
+2026-10-13T00:24:00 INFO req_id=687444 path=/api/v1/items/5270 latency_ms=289
+2026-10-10T20:37:00 WARN req_id=851554 path=/api/v1/items/7297 latency_ms=311
+2026-10-04T15:11:00 WARN req_id=428357 path=/api/v1/items/4746 latency_ms=181
+2026-10-04T17:20:00 WARN req_id=260782 path=/api/v1/items/7516 latency_ms=111
+2026-10-11T23:37:00 INFO req_id=964139 path=/api/v1/items/8099 latency_ms=696
+2026-10-15T10:31:00 INFO req_id=689681 path=/api/v1/items/9705 latency_ms=821
+2026-10-06T07:34:00 WARN req_id=963759 path=/api/v1/items/8787 latency_ms=226
+2026-10-11T19:48:00 INFO req_id=723365 path=/api/v1/items/4020 latency_ms=55
+2026-10-12T11:23:00 INFO req_id=444227 path=/api/v1/items/6878 latency_ms=33
+2026-10-11T12:44:00 WARN req_id=319265 path=/api/v1/items/4729 latency_ms=232
+2026-10-13T20:57:00 WARN req_id=802359 path=/api/v1/items/2878 latency_ms=11
+2026-10-03T19:20:00 INFO req_id=733575 path=/api/v1/items/3641 latency_ms=242
+2026-10-14T00:51:00 WARN req_id=313660 path=/api/v1/items/4812 latency_ms=101
+2026-10-04T17:50:00 INFO req_id=197777 path=/api/v1/items/6683 latency_ms=159
+2026-10-13T13:20:00 INFO req_id=890068 path=/api/v1/items/5577 latency_ms=150
+2026-10-09T06:12:00 ERROR code=E505
+2026-10-05T03:28:00 INFO req_id=272746 path=/api/v1/items/8813 latency_ms=167
+2026-10-14T04:54:00 ERROR code=E202
+2026-10-05T00:22:00 INFO req_id=736170 path=/api/v1/items/5199 latency_ms=611
+2026-10-16T18:31:00 INFO req_id=337298 path=/api/v1/items/3851 latency_ms=712
+2026-10-16T18:09:00 INFO req_id=783024 path=/api/v1/items/1471 latency_ms=139
+2026-10-12T02:24:00 INFO req_id=478027 path=/api/v1/items/2259 latency_ms=289
+2026-10-07T23:15:00 WARN req_id=131278 path=/api/v1/items/8668 latency_ms=475
+2026-10-10T01:17:00 INFO req_id=822657 path=/api/v1/items/83 latency_ms=742
+2026-10-03T03:52:00 ERROR code=E202
+2026-10-15T22:59:00 INFO req_id=519725 path=/api/v1/items/5438 latency_ms=110
+2026-10-09T04:27:00 ERROR code=E404
+2026-10-13T13:27:00 INFO req_id=779530 path=/api/v1/items/5717 latency_ms=771
+2026-10-03T04:15:00 INFO req_id=675666 path=/api/v1/items/3375 latency_ms=203
+2026-10-13T14:50:00 INFO req_id=121860 path=/api/v1/items/3950 latency_ms=688
+2026-10-06T16:00:00 WARN req_id=695331 path=/api/v1/items/1563 latency_ms=58
+2026-10-05T07:44:00 INFO req_id=551081 path=/api/v1/items/4563 latency_ms=428
+2026-10-02T16:29:00 INFO req_id=534875 path=/api/v1/items/5601 latency_ms=602
+2026-10-02T11:07:00 INFO req_id=822194 path=/api/v1/items/8572 latency_ms=375
+2026-10-05T00:23:00 INFO req_id=766552 path=/api/v1/items/2041 latency_ms=450
+2026-10-16T20:01:00 INFO req_id=257768 path=/api/v1/items/4723 latency_ms=28
+2026-10-03T15:34:00 WARN req_id=170398 path=/api/v1/items/9661 latency_ms=444
+2026-10-05T17:54:00 ERROR code=E101
+2026-10-14T07:58:00 WARN req_id=774409 path=/api/v1/items/9864 latency_ms=560
+2026-10-16T23:20:00 ERROR code=E404
+2026-10-12T03:06:00 WARN req_id=222461 path=/api/v1/items/1102 latency_ms=218
+2026-10-03T00:32:00 INFO req_id=210847 path=/api/v1/items/3210 latency_ms=116
+2026-10-16T19:03:00 WARN req_id=345861 path=/api/v1/items/1499 latency_ms=317
+2026-10-02T21:38:00 WARN req_id=687708 path=/api/v1/items/4887 latency_ms=404
+2026-10-08T08:58:00 INFO req_id=390210 path=/api/v1/items/7838 latency_ms=451
+2026-10-02T08:32:00 INFO req_id=912113 path=/api/v1/items/7827 latency_ms=455
+2026-10-10T18:37:00 INFO req_id=881356 path=/api/v1/items/7176 latency_ms=469
+2026-10-13T21:44:00 INFO req_id=436568 path=/api/v1/items/8356 latency_ms=677
+2026-10-13T15:48:00 WARN req_id=818533 path=/api/v1/items/9175 latency_ms=614
+2026-10-05T15:52:00 INFO req_id=421243 path=/api/v1/items/281 latency_ms=67
+2026-10-10T17:56:00 INFO req_id=967207 path=/api/v1/items/5892 latency_ms=268
+2026-10-05T14:54:00 INFO req_id=245268 path=/api/v1/items/1751 latency_ms=516
+2026-10-11T17:23:00 INFO req_id=567406 path=/api/v1/items/7695 latency_ms=750
+2026-10-07T08:39:00 INFO req_id=845530 path=/api/v1/items/240 latency_ms=553
+2026-10-01T20:17:00 INFO req_id=923149 path=/api/v1/items/7569 latency_ms=293
+2026-10-13T03:06:00 ERROR code=E101
+2026-10-03T19:31:00 INFO req_id=734855 path=/api/v1/items/9386 latency_ms=461
+2026-10-02T06:10:00 ERROR code=E303
+2026-10-02T03:35:00 INFO req_id=747115 path=/api/v1/items/1906 latency_ms=828
+2026-10-07T05:34:00 ERROR code=E303
+2026-10-17T11:57:00 INFO req_id=339004 path=/api/v1/items/3561 latency_ms=94
+2026-10-08T02:54:00 WARN req_id=379781 path=/api/v1/items/2207 latency_ms=295
+2026-10-10T15:27:00 INFO req_id=159616 path=/api/v1/items/357 latency_ms=445
+2026-10-07T21:02:00 WARN req_id=981339 path=/api/v1/items/1113 latency_ms=192
+2026-10-12T16:58:00 WARN req_id=990321 path=/api/v1/items/6792 latency_ms=366
+2026-10-02T11:04:00 INFO req_id=287588 path=/api/v1/items/3703 latency_ms=237
+2026-10-09T04:44:00 WARN req_id=437514 path=/api/v1/items/3566 latency_ms=227
+2026-10-04T15:43:00 ERROR code=E404
+2026-10-10T06:51:00 INFO req_id=595103 path=/api/v1/items/5115 latency_ms=271
+2026-10-02T12:29:00 INFO req_id=823044 path=/api/v1/items/6235 latency_ms=681
+2026-10-05T07:54:00 ERROR code=E101
+2026-10-14T06:33:00 WARN req_id=776786 path=/api/v1/items/1624 latency_ms=306
+2026-10-16T18:07:00 INFO req_id=203135 path=/api/v1/items/4077 latency_ms=251
+2026-10-14T12:35:00 INFO req_id=620584 path=/api/v1/items/5874 latency_ms=726
+2026-10-13T04:27:00 WARN req_id=977849 path=/api/v1/items/391 latency_ms=643
+2026-10-14T20:06:00 INFO req_id=163596 path=/api/v1/items/4792 latency_ms=400
+2026-10-14T08:32:00 INFO req_id=727273 path=/api/v1/items/4447 latency_ms=493
+2026-10-09T21:57:00 INFO req_id=441657 path=/api/v1/items/2508 latency_ms=577
+2026-10-12T14:16:00 INFO req_id=688801 path=/api/v1/items/1591 latency_ms=791
+2026-10-03T13:45:00 INFO req_id=397891 path=/api/v1/items/2278 latency_ms=825
+2026-10-05T17:25:00 WARN req_id=129245 path=/api/v1/items/7847 latency_ms=599
+2026-10-01T12:51:00 WARN req_id=940521 path=/api/v1/items/3818 latency_ms=524
+2026-10-08T21:02:00 INFO req_id=530486 path=/api/v1/items/9843 latency_ms=89
+2026-10-02T11:49:00 WARN req_id=187857 path=/api/v1/items/4811 latency_ms=628
+2026-10-02T18:19:00 INFO req_id=171674 path=/api/v1/items/1200 latency_ms=850
+2026-10-16T19:22:00 INFO req_id=422838 path=/api/v1/items/1488 latency_ms=553
+2026-10-12T16:15:00 INFO req_id=997823 path=/api/v1/items/2804 latency_ms=645
+2026-10-07T09:19:00 INFO req_id=732301 path=/api/v1/items/3813 latency_ms=257
+2026-10-10T18:00:00 ERROR code=E303
+2026-10-08T05:05:00 WARN req_id=364999 path=/api/v1/items/3772 latency_ms=154
+2026-10-06T17:58:00 INFO req_id=518074 path=/api/v1/items/3320 latency_ms=144
+2026-10-07T05:02:00 INFO req_id=431554 path=/api/v1/items/6326 latency_ms=725
+2026-10-04T22:57:00 WARN req_id=326498 path=/api/v1/items/6566 latency_ms=812
+2026-10-10T16:50:00 INFO req_id=909392 path=/api/v1/items/3602 latency_ms=741
+2026-10-03T07:07:00 WARN req_id=452842 path=/api/v1/items/1367 latency_ms=73
+2026-10-15T00:38:00 ERROR code=E404
+2026-10-04T06:00:00 INFO req_id=580416 path=/api/v1/items/7090 latency_ms=556
+2026-10-10T09:16:00 INFO req_id=422741 path=/api/v1/items/3510 latency_ms=534
+2026-10-01T00:40:00 INFO req_id=378573 path=/api/v1/items/4711 latency_ms=51
+2026-10-11T14:42:00 WARN req_id=144448 path=/api/v1/items/3380 latency_ms=81
+2026-10-04T06:01:00 INFO req_id=219875 path=/api/v1/items/4041 latency_ms=692
+2026-10-01T14:46:00 INFO req_id=767367 path=/api/v1/items/2223 latency_ms=641
+2026-10-16T05:53:00 INFO req_id=686657 path=/api/v1/items/3726 latency_ms=853
+2026-10-08T04:04:00 ERROR code=E101
+2026-10-03T16:34:00 INFO req_id=243784 path=/api/v1/items/5249 latency_ms=593
+2026-10-09T11:16:00 INFO req_id=304306 path=/api/v1/items/6528 latency_ms=11
+2026-10-13T16:33:00 ERROR code=E404
+2026-10-09T02:11:00 ERROR code=E404
+2026-10-07T16:01:00 WARN req_id=690118 path=/api/v1/items/6455 latency_ms=139
+2026-10-11T04:14:00 ERROR code=E101
+2026-10-16T16:56:00 INFO req_id=516177 path=/api/v1/items/670 latency_ms=421
+2026-10-14T17:24:00 INFO req_id=937016 path=/api/v1/items/564 latency_ms=137
+2026-10-02T06:12:00 ERROR code=E303
+2026-10-17T00:59:00 INFO req_id=840678 path=/api/v1/items/6231 latency_ms=309
+2026-10-06T07:05:00 INFO req_id=299979 path=/api/v1/items/8780 latency_ms=536
+2026-10-13T09:00:00 INFO req_id=603759 path=/api/v1/items/2699 latency_ms=56
+2026-10-02T22:37:00 INFO req_id=939767 path=/api/v1/items/1621 latency_ms=861
+2026-10-07T18:29:00 WARN req_id=597949 path=/api/v1/items/2871 latency_ms=841
+2026-10-08T02:08:00 INFO req_id=794807 path=/api/v1/items/6633 latency_ms=896
+2026-10-17T21:23:00 INFO req_id=630676 path=/api/v1/items/7780 latency_ms=508
+2026-10-15T08:25:00 WARN req_id=956672 path=/api/v1/items/9541 latency_ms=257
+2026-10-13T19:55:00 INFO req_id=505030 path=/api/v1/items/9279 latency_ms=237
+2026-10-12T02:01:00 INFO req_id=289654 path=/api/v1/items/9828 latency_ms=648
+2026-10-15T03:40:00 WARN req_id=714716 path=/api/v1/items/8096 latency_ms=65
+2026-10-03T10:43:00 INFO req_id=576743 path=/api/v1/items/5754 latency_ms=527
+2026-10-11T04:36:00 INFO req_id=390133 path=/api/v1/items/9657 latency_ms=539
+2026-10-15T23:15:00 INFO req_id=550720 path=/api/v1/items/5106 latency_ms=736
+2026-10-17T08:07:00 WARN req_id=886309 path=/api/v1/items/6288 latency_ms=31
+2026-10-03T10:40:00 INFO req_id=372380 path=/api/v1/items/407 latency_ms=582
+2026-10-08T09:47:00 ERROR code=E202
+2026-10-13T20:52:00 INFO req_id=278715 path=/api/v1/items/7463 latency_ms=383
+2026-10-04T18:31:00 WARN req_id=947625 path=/api/v1/items/7735 latency_ms=683
+2026-10-01T08:02:00 INFO req_id=802971 path=/api/v1/items/558 latency_ms=63
+2026-10-16T19:45:00 INFO req_id=426038 path=/api/v1/items/2889 latency_ms=553
+2026-10-11T07:54:00 INFO req_id=117866 path=/api/v1/items/7451 latency_ms=897
+2026-10-15T16:12:00 INFO req_id=462631 path=/api/v1/items/949 latency_ms=26
+2026-10-03T12:02:00 WARN req_id=260525 path=/api/v1/items/2938 latency_ms=240
+2026-10-17T05:02:00 INFO req_id=435827 path=/api/v1/items/77 latency_ms=468
+2026-10-17T14:12:00 WARN req_id=332903 path=/api/v1/items/4215 latency_ms=692
+2026-10-13T16:27:00 INFO req_id=734625 path=/api/v1/items/6187 latency_ms=423
+2026-10-01T02:30:00 INFO req_id=564177 path=/api/v1/items/5522 latency_ms=581
+2026-10-17T16:46:00 WARN req_id=269870 path=/api/v1/items/7055 latency_ms=167
+2026-10-06T08:26:00 ERROR code=E505
+2026-10-15T12:35:00 WARN req_id=399443 path=/api/v1/items/5691 latency_ms=727
+2026-10-17T07:16:00 WARN req_id=400265 path=/api/v1/items/3935 latency_ms=370
+2026-10-13T05:16:00 INFO req_id=993612 path=/api/v1/items/1188 latency_ms=272
+2026-10-16T03:14:00 INFO req_id=614482 path=/api/v1/items/258 latency_ms=166
+2026-10-06T02:06:00 INFO req_id=218414 path=/api/v1/items/6298 latency_ms=61
+2026-10-01T01:17:00 WARN req_id=675884 path=/api/v1/items/7673 latency_ms=807
+2026-10-07T11:38:00 INFO req_id=654996 path=/api/v1/items/7739 latency_ms=762
+2026-10-13T20:24:00 WARN req_id=215901 path=/api/v1/items/5552 latency_ms=329
+2026-10-15T17:22:00 INFO req_id=186629 path=/api/v1/items/3756 latency_ms=840
+2026-10-09T05:09:00 WARN req_id=552321 path=/api/v1/items/7141 latency_ms=604
+2026-10-03T20:37:00 INFO req_id=446383 path=/api/v1/items/5762 latency_ms=388
+2026-10-04T17:13:00 INFO req_id=703869 path=/api/v1/items/2902 latency_ms=151
+2026-10-17T20:45:00 WARN req_id=838691 path=/api/v1/items/3820 latency_ms=370
+2026-10-06T23:08:00 INFO req_id=910605 path=/api/v1/items/3332 latency_ms=309
+2026-10-02T17:04:00 WARN req_id=546423 path=/api/v1/items/8015 latency_ms=362
+2026-10-07T12:28:00 INFO req_id=486004 path=/api/v1/items/4077 latency_ms=162
+2026-10-09T13:38:00 ERROR code=E505
+2026-10-02T04:58:00 INFO req_id=605379 path=/api/v1/items/5582 latency_ms=86
+2026-10-06T02:00:00 ERROR code=E404
+2026-10-07T23:29:00 INFO req_id=125248 path=/api/v1/items/3005 latency_ms=288
+2026-10-09T22:55:00 WARN req_id=848285 path=/api/v1/items/8878 latency_ms=526
+2026-10-04T22:25:00 INFO req_id=683847 path=/api/v1/items/6297 latency_ms=892
+2026-10-11T04:43:00 WARN req_id=353138 path=/api/v1/items/1167 latency_ms=747
+2026-10-02T09:22:00 INFO req_id=760006 path=/api/v1/items/6203 latency_ms=655
+2026-10-01T17:20:00 INFO req_id=828219 path=/api/v1/items/7195 latency_ms=327
+2026-10-15T21:44:00 WARN req_id=828065 path=/api/v1/items/839 latency_ms=600
+2026-10-04T18:56:00 INFO req_id=544109 path=/api/v1/items/6655 latency_ms=756
+2026-10-14T11:11:00 INFO req_id=112066 path=/api/v1/items/9127 latency_ms=612
+2026-10-10T16:44:00 WARN req_id=870051 path=/api/v1/items/666 latency_ms=149
+2026-10-16T23:18:00 WARN req_id=963916 path=/api/v1/items/2723 latency_ms=810
+2026-10-13T17:37:00 INFO req_id=877177 path=/api/v1/items/573 latency_ms=800
+2026-10-15T12:36:00 WARN req_id=253575 path=/api/v1/items/5309 latency_ms=177
+2026-10-17T20:05:00 ERROR code=E202
+2026-10-02T20:47:00 WARN req_id=373151 path=/api/v1/items/6420 latency_ms=503
+2026-10-09T03:16:00 INFO req_id=267339 path=/api/v1/items/4405 latency_ms=400
+2026-10-05T14:15:00 INFO req_id=225402 path=/api/v1/items/1751 latency_ms=482
+2026-10-04T03:46:00 INFO req_id=143542 path=/api/v1/items/3684 latency_ms=84
+2026-10-09T13:09:00 INFO req_id=707162 path=/api/v1/items/1869 latency_ms=47
+2026-10-13T19:39:00 INFO req_id=219584 path=/api/v1/items/820 latency_ms=865
+2026-10-16T05:22:00 INFO req_id=266966 path=/api/v1/items/8787 latency_ms=590
+2026-10-06T10:33:00 WARN req_id=966891 path=/api/v1/items/8397 latency_ms=813
+2026-10-10T03:28:00 INFO req_id=759518 path=/api/v1/items/816 latency_ms=18
+2026-10-09T17:19:00 INFO req_id=100690 path=/api/v1/items/780 latency_ms=762
+2026-10-08T09:41:00 INFO req_id=580912 path=/api/v1/items/6279 latency_ms=123
+2026-10-01T11:55:00 INFO req_id=634466 path=/api/v1/items/8217 latency_ms=766
+2026-10-05T08:07:00 WARN req_id=198989 path=/api/v1/items/7061 latency_ms=834
+2026-10-05T17:14:00 INFO req_id=364632 path=/api/v1/items/3458 latency_ms=339
+2026-10-05T13:42:00 INFO req_id=341247 path=/api/v1/items/7906 latency_ms=370
+2026-10-09T01:33:00 INFO req_id=548200 path=/api/v1/items/7209 latency_ms=117
+2026-10-07T06:14:00 INFO req_id=852343 path=/api/v1/items/8441 latency_ms=329
+2026-10-01T15:49:00 INFO req_id=494417 path=/api/v1/items/5686 latency_ms=265
+2026-10-14T15:05:00 ERROR code=E202
+2026-10-04T07:06:00 ERROR code=E303
+2026-10-15T16:42:00 WARN req_id=524734 path=/api/v1/items/2330 latency_ms=120
+2026-10-12T22:20:00 INFO req_id=269102 path=/api/v1/items/3530 latency_ms=282
+2026-10-05T00:14:00 INFO req_id=883223 path=/api/v1/items/4126 latency_ms=583
+2026-10-01T10:01:00 INFO req_id=605573 path=/api/v1/items/9765 latency_ms=551
+2026-10-08T02:27:00 INFO req_id=831769 path=/api/v1/items/3292 latency_ms=268
+2026-10-07T03:00:00 INFO req_id=821622 path=/api/v1/items/6068 latency_ms=773
+2026-10-14T10:37:00 WARN req_id=455525 path=/api/v1/items/9391 latency_ms=340
+2026-10-12T19:04:00 INFO req_id=522088 path=/api/v1/items/4520 latency_ms=794
+2026-10-10T22:01:00 WARN req_id=333870 path=/api/v1/items/7734 latency_ms=357
+2026-10-06T19:48:00 INFO req_id=723603 path=/api/v1/items/8702 latency_ms=58
+2026-10-10T13:25:00 INFO req_id=910569 path=/api/v1/items/8774 latency_ms=452
+2026-10-07T15:42:00 INFO req_id=171322 path=/api/v1/items/6503 latency_ms=159
+2026-10-06T22:42:00 WARN req_id=617737 path=/api/v1/items/1620 latency_ms=422
+2026-10-02T09:18:00 WARN req_id=325390 path=/api/v1/items/5060 latency_ms=573
+2026-10-16T04:27:00 INFO req_id=363295 path=/api/v1/items/8427 latency_ms=314
+2026-10-09T01:19:00 INFO req_id=646712 path=/api/v1/items/5263 latency_ms=218
+2026-10-10T15:19:00 ERROR code=E505
+2026-10-11T04:16:00 INFO req_id=267438 path=/api/v1/items/4748 latency_ms=272
+2026-10-16T23:10:00 WARN req_id=806061 path=/api/v1/items/7241 latency_ms=676
+2026-10-07T10:03:00 WARN req_id=141489 path=/api/v1/items/1520 latency_ms=599
+2026-10-02T13:50:00 ERROR code=E303
+2026-10-01T11:15:00 INFO req_id=747596 path=/api/v1/items/5308 latency_ms=135
+2026-10-08T16:05:00 INFO req_id=644339 path=/api/v1/items/7120 latency_ms=732
+2026-10-15T00:10:00 INFO req_id=451189 path=/api/v1/items/312 latency_ms=671
+2026-10-14T09:40:00 INFO req_id=943217 path=/api/v1/items/3432 latency_ms=875
+2026-10-13T17:43:00 INFO req_id=146078 path=/api/v1/items/638 latency_ms=512
+2026-10-02T07:21:00 INFO req_id=498456 path=/api/v1/items/4717 latency_ms=449
+2026-10-07T18:32:00 WARN req_id=716429 path=/api/v1/items/9434 latency_ms=501
+2026-10-06T07:33:00 INFO req_id=452926 path=/api/v1/items/6630 latency_ms=889
+2026-10-13T06:16:00 WARN req_id=175733 path=/api/v1/items/6866 latency_ms=697
+2026-10-03T05:39:00 INFO req_id=395608 path=/api/v1/items/534 latency_ms=269
+2026-10-14T09:06:00 INFO req_id=892723 path=/api/v1/items/7354 latency_ms=713
+2026-10-06T08:35:00 INFO req_id=927363 path=/api/v1/items/884 latency_ms=491
+2026-10-13T17:00:00 INFO req_id=232220 path=/api/v1/items/691 latency_ms=692
+2026-10-01T23:24:00 ERROR code=E303
+2026-10-07T02:11:00 INFO req_id=201511 path=/api/v1/items/4208 latency_ms=168
+2026-10-01T07:58:00 WARN req_id=656559 path=/api/v1/items/9286 latency_ms=742
+2026-10-01T16:26:00 WARN req_id=815214 path=/api/v1/items/293 latency_ms=690
+2026-10-14T06:10:00 INFO req_id=155974 path=/api/v1/items/6485 latency_ms=671
+2026-10-11T21:42:00 INFO req_id=196024 path=/api/v1/items/7405 latency_ms=555
+2026-10-09T12:15:00 INFO req_id=301125 path=/api/v1/items/8307 latency_ms=613
+2026-10-05T22:40:00 INFO req_id=749560 path=/api/v1/items/4224 latency_ms=732
+2026-10-09T16:41:00 INFO req_id=479242 path=/api/v1/items/9477 latency_ms=745
+2026-10-01T03:13:00 INFO req_id=910337 path=/api/v1/items/3102 latency_ms=552
+2026-10-06T20:41:00 INFO req_id=276921 path=/api/v1/items/5277 latency_ms=227
+2026-10-09T08:13:00 INFO req_id=738050 path=/api/v1/items/3591 latency_ms=400
+2026-10-02T04:46:00 INFO req_id=493757 path=/api/v1/items/685 latency_ms=789
+2026-10-12T12:49:00 WARN req_id=557751 path=/api/v1/items/4938 latency_ms=874
+2026-10-09T08:30:00 INFO req_id=747408 path=/api/v1/items/3244 latency_ms=296
+2026-10-05T12:03:00 INFO req_id=923289 path=/api/v1/items/9505 latency_ms=368
+2026-10-16T06:29:00 INFO req_id=372853 path=/api/v1/items/1235 latency_ms=796
+2026-10-01T22:43:00 INFO req_id=142216 path=/api/v1/items/4406 latency_ms=348
+2026-10-14T13:48:00 WARN req_id=922507 path=/api/v1/items/7069 latency_ms=838
+2026-10-07T23:27:00 INFO req_id=738124 path=/api/v1/items/7962 latency_ms=781
+2026-10-06T22:21:00 WARN req_id=403284 path=/api/v1/items/1575 latency_ms=85
+2026-10-13T03:53:00 INFO req_id=696046 path=/api/v1/items/7036 latency_ms=725
+2026-10-07T03:14:00 WARN req_id=154459 path=/api/v1/items/7107 latency_ms=625
+2026-10-05T07:39:00 WARN req_id=502294 path=/api/v1/items/2833 latency_ms=705
+2026-10-17T14:51:00 INFO req_id=826262 path=/api/v1/items/5684 latency_ms=333
+2026-10-06T01:32:00 INFO req_id=496789 path=/api/v1/items/7934 latency_ms=579
+2026-10-05T03:17:00 INFO req_id=812895 path=/api/v1/items/4096 latency_ms=784
+2026-10-01T11:18:00 ERROR code=E101
+2026-10-05T04:04:00 INFO req_id=157061 path=/api/v1/items/5109 latency_ms=675
+2026-10-05T02:57:00 INFO req_id=718059 path=/api/v1/items/6850 latency_ms=277
+2026-10-14T06:50:00 INFO req_id=901530 path=/api/v1/items/2633 latency_ms=619
+2026-10-03T15:15:00 WARN req_id=667353 path=/api/v1/items/8032 latency_ms=180
+2026-10-07T19:39:00 INFO req_id=176292 path=/api/v1/items/2485 latency_ms=253
+2026-10-12T02:22:00 INFO req_id=674957 path=/api/v1/items/4253 latency_ms=69
+2026-10-06T21:36:00 ERROR code=E303
+2026-10-08T04:35:00 WARN req_id=554605 path=/api/v1/items/9123 latency_ms=592
+2026-10-14T11:14:00 INFO req_id=933700 path=/api/v1/items/7136 latency_ms=762
+2026-10-11T21:36:00 WARN req_id=808079 path=/api/v1/items/9212 latency_ms=404
+2026-10-15T05:42:00 INFO req_id=154870 path=/api/v1/items/799 latency_ms=379
+2026-10-05T14:12:00 WARN req_id=700761 path=/api/v1/items/6115 latency_ms=363
+2026-10-10T19:13:00 ERROR code=E404
+2026-10-04T21:05:00 INFO req_id=738615 path=/api/v1/items/3611 latency_ms=292
+2026-10-07T21:53:00 INFO req_id=987548 path=/api/v1/items/6954 latency_ms=527
+2026-10-07T20:44:00 INFO req_id=616106 path=/api/v1/items/1011 latency_ms=387
+2026-10-07T13:00:00 INFO req_id=423993 path=/api/v1/items/4906 latency_ms=639
+2026-10-04T05:32:00 WARN req_id=441400 path=/api/v1/items/6877 latency_ms=252
+2026-10-01T16:31:00 INFO req_id=874658 path=/api/v1/items/6262 latency_ms=169
+2026-10-14T00:59:00 WARN req_id=486740 path=/api/v1/items/8999 latency_ms=881
+2026-10-01T17:40:00 WARN req_id=508096 path=/api/v1/items/3892 latency_ms=533
+2026-10-11T01:54:00 INFO req_id=983984 path=/api/v1/items/3273 latency_ms=665
+2026-10-05T04:16:00 INFO req_id=559984 path=/api/v1/items/2925 latency_ms=465
+2026-10-03T16:07:00 ERROR code=E404
+2026-10-16T11:13:00 INFO req_id=830246 path=/api/v1/items/6284 latency_ms=861
+2026-10-16T06:10:00 INFO req_id=655550 path=/api/v1/items/6707 latency_ms=228
+2026-10-11T20:44:00 INFO req_id=306669 path=/api/v1/items/8686 latency_ms=686
+2026-10-17T07:48:00 INFO req_id=600633 path=/api/v1/items/9412 latency_ms=830
+2026-10-01T01:39:00 INFO req_id=395267 path=/api/v1/items/2020 latency_ms=791
+2026-10-06T14:34:00 INFO req_id=193303 path=/api/v1/items/8656 latency_ms=669
+2026-10-02T22:58:00 INFO req_id=529664 path=/api/v1/items/2299 latency_ms=841
+2026-10-07T12:29:00 INFO req_id=435186 path=/api/v1/items/5877 latency_ms=465
+2026-10-10T06:37:00 INFO req_id=513482 path=/api/v1/items/5995 latency_ms=13
+2026-10-15T12:19:00 INFO req_id=492647 path=/api/v1/items/123 latency_ms=100
+2026-10-11T10:13:00 INFO req_id=413712 path=/api/v1/items/3593 latency_ms=765
+2026-10-06T19:29:00 INFO req_id=153434 path=/api/v1/items/305 latency_ms=727
+2026-10-17T08:04:00 INFO req_id=848175 path=/api/v1/items/602 latency_ms=275
+2026-10-14T11:17:00 INFO req_id=112439 path=/api/v1/items/2131 latency_ms=772
+2026-10-10T22:26:00 WARN req_id=140932 path=/api/v1/items/6321 latency_ms=116
+2026-10-14T18:16:00 INFO req_id=340558 path=/api/v1/items/8486 latency_ms=600
+2026-10-16T22:48:00 INFO req_id=106110 path=/api/v1/items/2483 latency_ms=802
+2026-10-08T17:41:00 INFO req_id=467087 path=/api/v1/items/1272 latency_ms=615
+2026-10-05T12:08:00 ERROR code=E202
+2026-10-04T04:49:00 INFO req_id=303753 path=/api/v1/items/2122 latency_ms=143
+2026-10-12T00:57:00 INFO req_id=724888 path=/api/v1/items/4559 latency_ms=282
+2026-10-15T22:27:00 INFO req_id=834574 path=/api/v1/items/143 latency_ms=68
+2026-10-14T11:50:00 WARN req_id=424445 path=/api/v1/items/2191 latency_ms=404
+2026-10-06T08:00:00 WARN req_id=466809 path=/api/v1/items/4791 latency_ms=489
+2026-10-02T00:05:00 INFO req_id=341105 path=/api/v1/items/871 latency_ms=514
+2026-10-13T23:39:00 WARN req_id=102630 path=/api/v1/items/4022 latency_ms=138
+2026-10-09T05:46:00 WARN req_id=333296 path=/api/v1/items/9725 latency_ms=875
+2026-10-12T02:07:00 INFO req_id=269366 path=/api/v1/items/1485 latency_ms=341
+2026-10-07T10:50:00 ERROR code=E202
+2026-10-15T22:05:00 ERROR code=E505
+2026-10-06T19:06:00 WARN req_id=699394 path=/api/v1/items/5839 latency_ms=172
+2026-10-03T14:27:00 INFO req_id=293705 path=/api/v1/items/8082 latency_ms=628
+2026-10-09T10:25:00 INFO req_id=166491 path=/api/v1/items/1110 latency_ms=684
+2026-10-17T19:38:00 INFO req_id=709824 path=/api/v1/items/5348 latency_ms=443
+2026-10-17T23:31:00 INFO req_id=299448 path=/api/v1/items/6745 latency_ms=358
+2026-10-11T00:14:00 INFO req_id=826960 path=/api/v1/items/1956 latency_ms=461
+2026-10-09T22:32:00 INFO req_id=530830 path=/api/v1/items/2293 latency_ms=199
+2026-10-02T21:07:00 INFO req_id=270190 path=/api/v1/items/9504 latency_ms=320
+2026-10-06T22:40:00 INFO req_id=769071 path=/api/v1/items/9657 latency_ms=117
+2026-10-08T14:27:00 ERROR code=E404
+2026-10-12T16:18:00 INFO req_id=247735 path=/api/v1/items/8075 latency_ms=827
+2026-10-05T21:44:00 WARN req_id=193340 path=/api/v1/items/9273 latency_ms=450
+2026-10-14T15:04:00 ERROR code=E202
+2026-10-02T22:13:00 INFO req_id=657933 path=/api/v1/items/8531 latency_ms=192
+2026-10-08T22:33:00 INFO req_id=119460 path=/api/v1/items/5687 latency_ms=246
+2026-10-14T05:50:00 ERROR code=E404
+2026-10-02T20:09:00 INFO req_id=100825 path=/api/v1/items/3599 latency_ms=525
+2026-10-01T04:34:00 ERROR code=E101
+2026-10-05T03:16:00 INFO req_id=340750 path=/api/v1/items/5912 latency_ms=343
+2026-10-02T17:03:00 WARN req_id=472873 path=/api/v1/items/9730 latency_ms=893
+2026-10-10T21:47:00 WARN req_id=139659 path=/api/v1/items/5153 latency_ms=321
+2026-10-10T21:07:00 WARN req_id=421711 path=/api/v1/items/6307 latency_ms=497
+2026-10-03T06:07:00 INFO req_id=849187 path=/api/v1/items/1733 latency_ms=437
+2026-10-07T10:13:00 INFO req_id=357560 path=/api/v1/items/7688 latency_ms=75
+2026-10-17T06:44:00 INFO req_id=399594 path=/api/v1/items/7621 latency_ms=479
+2026-10-01T02:19:00 WARN req_id=494765 path=/api/v1/items/1369 latency_ms=754
+2026-10-14T05:41:00 WARN req_id=314799 path=/api/v1/items/4838 latency_ms=837
+2026-10-08T15:00:00 WARN req_id=493227 path=/api/v1/items/7587 latency_ms=229
+2026-10-12T03:37:00 INFO req_id=381403 path=/api/v1/items/7769 latency_ms=508
+2026-10-07T13:03:00 INFO req_id=324461 path=/api/v1/items/7316 latency_ms=400
+2026-10-12T16:09:00 INFO req_id=898146 path=/api/v1/items/6333 latency_ms=438
+2026-10-07T16:34:00 INFO req_id=636607 path=/api/v1/items/2618 latency_ms=49
+2026-10-16T04:01:00 WARN req_id=786865 path=/api/v1/items/5080 latency_ms=311
+2026-10-14T22:23:00 WARN req_id=554773 path=/api/v1/items/9482 latency_ms=356
+2026-10-15T18:57:00 INFO req_id=904928 path=/api/v1/items/4428 latency_ms=211
+2026-10-14T09:17:00 WARN req_id=955946 path=/api/v1/items/4447 latency_ms=706
+2026-10-15T21:43:00 WARN req_id=169022 path=/api/v1/items/1822 latency_ms=336
+2026-10-11T07:09:00 INFO req_id=644090 path=/api/v1/items/3718 latency_ms=524
+2026-10-01T21:27:00 INFO req_id=366684 path=/api/v1/items/4066 latency_ms=424
+2026-10-03T05:29:00 WARN req_id=336303 path=/api/v1/items/2229 latency_ms=76
+2026-10-13T08:00:00 WARN req_id=934001 path=/api/v1/items/3603 latency_ms=302
+2026-10-14T09:47:00 INFO req_id=257085 path=/api/v1/items/1969 latency_ms=762
+2026-10-02T21:47:00 INFO req_id=821941 path=/api/v1/items/6860 latency_ms=570
+2026-10-16T13:07:00 INFO req_id=202094 path=/api/v1/items/2713 latency_ms=533
+2026-10-02T09:51:00 INFO req_id=476104 path=/api/v1/items/5214 latency_ms=317
+2026-10-07T08:47:00 WARN req_id=133012 path=/api/v1/items/5639 latency_ms=294
+2026-10-11T17:52:00 INFO req_id=276940 path=/api/v1/items/4702 latency_ms=526
+2026-10-05T12:20:00 INFO req_id=829216 path=/api/v1/items/584 latency_ms=134
+2026-10-10T00:48:00 INFO req_id=973031 path=/api/v1/items/7718 latency_ms=174
+2026-10-01T13:34:00 INFO req_id=118489 path=/api/v1/items/8904 latency_ms=656
+2026-10-17T12:06:00 WARN req_id=955931 path=/api/v1/items/399 latency_ms=829
+2026-10-13T02:31:00 INFO req_id=702113 path=/api/v1/items/9331 latency_ms=19
+2026-10-14T15:55:00 INFO req_id=471024 path=/api/v1/items/9593 latency_ms=36
+2026-10-07T00:08:00 ERROR code=E303
+2026-10-17T03:26:00 WARN req_id=593674 path=/api/v1/items/4106 latency_ms=445
+2026-10-03T01:57:00 WARN req_id=678153 path=/api/v1/items/8460 latency_ms=305
+2026-10-07T02:29:00 WARN req_id=261375 path=/api/v1/items/5750 latency_ms=834
+2026-10-11T21:06:00 INFO req_id=216182 path=/api/v1/items/9707 latency_ms=623
+2026-10-06T10:49:00 INFO req_id=731584 path=/api/v1/items/5205 latency_ms=165
+2026-10-03T15:36:00 INFO req_id=318756 path=/api/v1/items/4805 latency_ms=573
+2026-10-13T11:33:00 WARN req_id=953479 path=/api/v1/items/8196 latency_ms=458
+2026-10-06T21:59:00 ERROR code=E404
+2026-10-06T20:40:00 INFO req_id=100352 path=/api/v1/items/2870 latency_ms=318
+2026-10-08T14:50:00 INFO req_id=317502 path=/api/v1/items/2202 latency_ms=713
+2026-10-13T12:39:00 INFO req_id=188910 path=/api/v1/items/7937 latency_ms=521
+2026-10-14T15:17:00 WARN req_id=670674 path=/api/v1/items/8258 latency_ms=700
+2026-10-02T08:39:00 WARN req_id=231473 path=/api/v1/items/3241 latency_ms=390
+2026-10-13T14:40:00 INFO req_id=561530 path=/api/v1/items/3565 latency_ms=161
+2026-10-05T09:37:00 INFO req_id=464394 path=/api/v1/items/3702 latency_ms=685
+2026-10-03T21:52:00 WARN req_id=446859 path=/api/v1/items/2509 latency_ms=820
+2026-10-01T00:42:00 WARN req_id=803252 path=/api/v1/items/1199 latency_ms=78
+2026-10-05T17:16:00 INFO req_id=956929 path=/api/v1/items/1431 latency_ms=884
+2026-10-09T21:57:00 INFO req_id=318512 path=/api/v1/items/7058 latency_ms=348
+2026-10-03T11:07:00 INFO req_id=309941 path=/api/v1/items/2597 latency_ms=422
+2026-10-04T00:57:00 WARN req_id=572619 path=/api/v1/items/5465 latency_ms=517
+2026-10-07T06:04:00 INFO req_id=255408 path=/api/v1/items/6681 latency_ms=788
+2026-10-11T22:51:00 INFO req_id=577548 path=/api/v1/items/8418 latency_ms=27
+2026-10-05T14:03:00 INFO req_id=790646 path=/api/v1/items/5085 latency_ms=810
+2026-10-01T19:20:00 INFO req_id=402084 path=/api/v1/items/2612 latency_ms=785
+2026-10-04T07:16:00 INFO req_id=985632 path=/api/v1/items/2424 latency_ms=261
+2026-10-05T09:57:00 WARN req_id=623308 path=/api/v1/items/3144 latency_ms=82
+2026-10-06T07:37:00 INFO req_id=774046 path=/api/v1/items/3867 latency_ms=164
+2026-10-07T18:23:00 WARN req_id=212641 path=/api/v1/items/57 latency_ms=838
+2026-10-10T07:24:00 INFO req_id=383239 path=/api/v1/items/1553 latency_ms=85
+2026-10-05T09:52:00 INFO req_id=671514 path=/api/v1/items/2224 latency_ms=311
+2026-10-10T16:06:00 ERROR code=E101
+2026-10-04T00:51:00 INFO req_id=561419 path=/api/v1/items/6548 latency_ms=658
+2026-10-10T22:30:00 WARN req_id=599914 path=/api/v1/items/127 latency_ms=900
+2026-10-16T17:54:00 WARN req_id=486972 path=/api/v1/items/2952 latency_ms=217
+2026-10-08T04:27:00 INFO req_id=644187 path=/api/v1/items/8756 latency_ms=660
+2026-10-08T01:15:00 INFO req_id=851671 path=/api/v1/items/5975 latency_ms=506
+2026-10-02T06:27:00 INFO req_id=480803 path=/api/v1/items/1094 latency_ms=715
+2026-10-15T14:56:00 INFO req_id=872762 path=/api/v1/items/6669 latency_ms=463
+2026-10-09T04:52:00 WARN req_id=489127 path=/api/v1/items/643 latency_ms=211
+2026-10-14T06:20:00 ERROR code=E101
+2026-10-08T06:45:00 INFO req_id=974864 path=/api/v1/items/86 latency_ms=893
+2026-10-10T21:49:00 WARN req_id=304412 path=/api/v1/items/4965 latency_ms=837
+2026-10-08T19:17:00 INFO req_id=343977 path=/api/v1/items/464 latency_ms=697
+2026-10-12T23:09:00 INFO req_id=290156 path=/api/v1/items/1874 latency_ms=18
+2026-10-04T07:38:00 WARN req_id=983408 path=/api/v1/items/8047 latency_ms=469
+2026-10-06T06:27:00 INFO req_id=164724 path=/api/v1/items/1346 latency_ms=250
+2026-10-12T02:02:00 INFO req_id=883040 path=/api/v1/items/6204 latency_ms=413
+2026-10-12T09:44:00 ERROR code=E404
+2026-10-01T03:24:00 INFO req_id=880112 path=/api/v1/items/5391 latency_ms=386
+2026-10-17T15:17:00 INFO req_id=386648 path=/api/v1/items/958 latency_ms=688
+2026-10-14T23:29:00 INFO req_id=615536 path=/api/v1/items/5206 latency_ms=857
+2026-10-08T05:32:00 ERROR code=E505
+2026-10-11T06:47:00 INFO req_id=520430 path=/api/v1/items/4203 latency_ms=199
+2026-10-14T18:16:00 INFO req_id=742711 path=/api/v1/items/2741 latency_ms=433
+2026-10-09T18:55:00 INFO req_id=197307 path=/api/v1/items/4228 latency_ms=248
+2026-10-05T09:32:00 INFO req_id=575186 path=/api/v1/items/6974 latency_ms=20
+2026-10-15T16:58:00 INFO req_id=248935 path=/api/v1/items/6743 latency_ms=40
+2026-10-02T12:06:00 WARN req_id=995670 path=/api/v1/items/8482 latency_ms=746
+2026-10-14T13:01:00 INFO req_id=533478 path=/api/v1/items/7592 latency_ms=113
+2026-10-09T10:32:00 INFO req_id=729969 path=/api/v1/items/1014 latency_ms=301
+2026-10-07T10:47:00 INFO req_id=246909 path=/api/v1/items/8911 latency_ms=59
+2026-10-14T16:49:00 INFO req_id=271865 path=/api/v1/items/4946 latency_ms=764
+2026-10-17T02:27:00 INFO req_id=183168 path=/api/v1/items/8578 latency_ms=510
+2026-10-15T12:39:00 INFO req_id=759353 path=/api/v1/items/2451 latency_ms=803
+2026-10-03T16:08:00 INFO req_id=813780 path=/api/v1/items/4621 latency_ms=513
+2026-10-12T15:32:00 INFO req_id=763221 path=/api/v1/items/1441 latency_ms=213
+2026-10-05T13:48:00 INFO req_id=906158 path=/api/v1/items/2864 latency_ms=722
+2026-10-10T21:16:00 INFO req_id=178208 path=/api/v1/items/5834 latency_ms=656
+2026-10-13T15:28:00 INFO req_id=487979 path=/api/v1/items/5081 latency_ms=419
+2026-10-05T22:30:00 INFO req_id=442010 path=/api/v1/items/6762 latency_ms=158
+2026-10-16T19:03:00 INFO req_id=767939 path=/api/v1/items/4143 latency_ms=440
+2026-10-16T04:28:00 INFO req_id=656195 path=/api/v1/items/8083 latency_ms=355
+2026-10-05T07:21:00 INFO req_id=779783 path=/api/v1/items/7772 latency_ms=868
+2026-10-12T05:50:00 INFO req_id=815792 path=/api/v1/items/9067 latency_ms=579
+2026-10-09T07:39:00 WARN req_id=755968 path=/api/v1/items/6716 latency_ms=314
+2026-10-03T08:31:00 INFO req_id=997204 path=/api/v1/items/7862 latency_ms=369
+2026-10-09T15:33:00 WARN req_id=581694 path=/api/v1/items/748 latency_ms=440
+2026-10-13T03:07:00 INFO req_id=437653 path=/api/v1/items/2430 latency_ms=213
+2026-10-17T14:55:00 INFO req_id=250680 path=/api/v1/items/7685 latency_ms=646
+2026-10-16T04:54:00 ERROR code=E202
+2026-10-09T15:18:00 INFO req_id=298628 path=/api/v1/items/6531 latency_ms=345
+2026-10-01T18:20:00 INFO req_id=557090 path=/api/v1/items/1319 latency_ms=222
+2026-10-10T13:22:00 WARN req_id=951242 path=/api/v1/items/4779 latency_ms=255
+2026-10-12T01:52:00 WARN req_id=440143 path=/api/v1/items/4550 latency_ms=126
+2026-10-09T00:16:00 INFO req_id=313122 path=/api/v1/items/9630 latency_ms=114
+2026-10-10T17:17:00 INFO req_id=215770 path=/api/v1/items/6531 latency_ms=474
+2026-10-04T12:56:00 INFO req_id=251447 path=/api/v1/items/8065 latency_ms=62
+2026-10-15T20:15:00 WARN req_id=428249 path=/api/v1/items/114 latency_ms=865
+2026-10-16T05:57:00 INFO req_id=428819 path=/api/v1/items/2458 latency_ms=211
+2026-10-07T19:03:00 INFO req_id=461221 path=/api/v1/items/3593 latency_ms=666
+2026-10-15T14:30:00 WARN req_id=931699 path=/api/v1/items/4520 latency_ms=690
+2026-10-08T11:03:00 INFO req_id=547961 path=/api/v1/items/6930 latency_ms=72
+2026-10-16T10:09:00 INFO req_id=209021 path=/api/v1/items/6285 latency_ms=561
+2026-10-16T14:20:00 INFO req_id=171802 path=/api/v1/items/4396 latency_ms=511
+2026-10-09T23:34:00 WARN req_id=669991 path=/api/v1/items/1313 latency_ms=507
+2026-10-05T13:05:00 INFO req_id=841962 path=/api/v1/items/9361 latency_ms=830
+2026-10-14T23:35:00 INFO req_id=954428 path=/api/v1/items/6264 latency_ms=101
+2026-10-04T03:05:00 INFO req_id=253738 path=/api/v1/items/63 latency_ms=576
+2026-10-12T13:43:00 INFO req_id=230396 path=/api/v1/items/9552 latency_ms=575
+2026-10-15T09:47:00 WARN req_id=178247 path=/api/v1/items/6781 latency_ms=882
+2026-10-05T14:38:00 WARN req_id=562026 path=/api/v1/items/6520 latency_ms=640
+2026-10-09T20:53:00 WARN req_id=505908 path=/api/v1/items/1737 latency_ms=343
+2026-10-06T23:42:00 INFO req_id=377602 path=/api/v1/items/714 latency_ms=99
+2026-10-02T05:26:00 INFO req_id=104733 path=/api/v1/items/5357 latency_ms=349
+2026-10-13T03:55:00 WARN req_id=749143 path=/api/v1/items/284 latency_ms=444
+2026-10-08T16:31:00 WARN req_id=159629 path=/api/v1/items/451 latency_ms=142
+2026-10-05T18:36:00 WARN req_id=429141 path=/api/v1/items/2103 latency_ms=298
+2026-10-05T18:15:00 INFO req_id=680928 path=/api/v1/items/2316 latency_ms=780
+2026-10-15T11:30:00 INFO req_id=132155 path=/api/v1/items/3483 latency_ms=504
+2026-10-08T22:24:00 WARN req_id=656855 path=/api/v1/items/9 latency_ms=433
+2026-10-17T10:06:00 INFO req_id=749043 path=/api/v1/items/440 latency_ms=790
+2026-10-14T08:08:00 ERROR code=E202
+2026-10-12T08:57:00 ERROR code=E404
+2026-10-12T12:28:00 INFO req_id=872913 path=/api/v1/items/1494 latency_ms=731
+2026-10-16T12:34:00 INFO req_id=542365 path=/api/v1/items/8299 latency_ms=452
+2026-10-16T10:48:00 INFO req_id=983648 path=/api/v1/items/785 latency_ms=850
+2026-10-03T22:11:00 INFO req_id=208123 path=/api/v1/items/321 latency_ms=361
+2026-10-15T23:04:00 WARN req_id=228671 path=/api/v1/items/3787 latency_ms=151
+2026-10-16T22:23:00 INFO req_id=758872 path=/api/v1/items/4574 latency_ms=777
+2026-10-15T17:35:00 INFO req_id=344367 path=/api/v1/items/713 latency_ms=302
+2026-10-08T00:19:00 WARN req_id=724220 path=/api/v1/items/4619 latency_ms=844
+2026-10-06T09:04:00 WARN req_id=256014 path=/api/v1/items/3252 latency_ms=204
+2026-10-10T23:49:00 INFO req_id=276740 path=/api/v1/items/6417 latency_ms=645
+2026-10-03T11:38:00 INFO req_id=576656 path=/api/v1/items/6523 latency_ms=699
+2026-10-06T14:39:00 INFO req_id=341901 path=/api/v1/items/47 latency_ms=812
+2026-10-11T10:16:00 INFO req_id=395954 path=/api/v1/items/6336 latency_ms=155
+2026-10-07T20:00:00 INFO req_id=250387 path=/api/v1/items/3083 latency_ms=266
+2026-10-15T09:14:00 INFO req_id=779677 path=/api/v1/items/596 latency_ms=881
+2026-10-03T19:09:00 ERROR code=E101
+2026-10-06T05:28:00 INFO req_id=286841 path=/api/v1/items/512 latency_ms=449
+2026-10-17T11:45:00 INFO req_id=154272 path=/api/v1/items/7319 latency_ms=636
+2026-10-17T01:15:00 INFO req_id=706743 path=/api/v1/items/2092 latency_ms=559
+2026-10-17T10:07:00 INFO req_id=574168 path=/api/v1/items/8055 latency_ms=238
+2026-10-14T08:07:00 INFO req_id=967894 path=/api/v1/items/2473 latency_ms=275
+2026-10-06T01:20:00 INFO req_id=104473 path=/api/v1/items/6075 latency_ms=516
+2026-10-09T07:01:00 INFO req_id=144387 path=/api/v1/items/567 latency_ms=33
+2026-10-16T10:37:00 INFO req_id=605652 path=/api/v1/items/9802 latency_ms=663
+2026-10-03T11:09:00 INFO req_id=309253 path=/api/v1/items/2870 latency_ms=362
+2026-10-15T11:39:00 INFO req_id=303293 path=/api/v1/items/7565 latency_ms=390
+2026-10-08T02:46:00 INFO req_id=358752 path=/api/v1/items/3824 latency_ms=100
+2026-10-04T18:53:00 INFO req_id=648036 path=/api/v1/items/6059 latency_ms=86
+2026-10-10T03:57:00 INFO req_id=361476 path=/api/v1/items/9115 latency_ms=293
+2026-10-15T04:49:00 INFO req_id=850265 path=/api/v1/items/6662 latency_ms=219
+2026-10-03T12:09:00 INFO req_id=976006 path=/api/v1/items/1301 latency_ms=447
+2026-10-17T23:36:00 INFO req_id=416102 path=/api/v1/items/4199 latency_ms=619
+2026-10-12T14:30:00 WARN req_id=505105 path=/api/v1/items/1923 latency_ms=114
+2026-10-05T20:17:00 WARN req_id=322641 path=/api/v1/items/9609 latency_ms=344
+2026-10-02T21:25:00 INFO req_id=768296 path=/api/v1/items/3210 latency_ms=615
+2026-10-05T06:59:00 INFO req_id=437578 path=/api/v1/items/1761 latency_ms=649
+2026-10-02T01:45:00 INFO req_id=593235 path=/api/v1/items/5318 latency_ms=580
+2026-10-17T06:51:00 WARN req_id=240654 path=/api/v1/items/7443 latency_ms=513
+2026-10-04T10:14:00 INFO req_id=369952 path=/api/v1/items/2557 latency_ms=293
+2026-10-04T13:13:00 INFO req_id=427868 path=/api/v1/items/3219 latency_ms=780
+2026-10-03T12:01:00 WARN req_id=917880 path=/api/v1/items/2180 latency_ms=527
+2026-10-17T12:38:00 WARN req_id=245997 path=/api/v1/items/6454 latency_ms=357
+2026-10-17T07:48:00 INFO req_id=867745 path=/api/v1/items/1528 latency_ms=785
+2026-10-11T08:35:00 INFO req_id=610048 path=/api/v1/items/7750 latency_ms=390
+2026-10-09T00:24:00 INFO req_id=654099 path=/api/v1/items/8586 latency_ms=863
+2026-10-05T05:39:00 ERROR code=E404
+2026-10-16T12:58:00 INFO req_id=204156 path=/api/v1/items/6665 latency_ms=119
+2026-10-03T07:57:00 INFO req_id=611502 path=/api/v1/items/1338 latency_ms=580
+2026-10-12T22:42:00 INFO req_id=504597 path=/api/v1/items/5628 latency_ms=858
+2026-10-08T21:58:00 INFO req_id=353308 path=/api/v1/items/6716 latency_ms=143
+2026-10-07T18:09:00 WARN req_id=755351 path=/api/v1/items/761 latency_ms=255
+2026-10-07T13:03:00 INFO req_id=296482 path=/api/v1/items/1781 latency_ms=792
+2026-10-12T11:42:00 ERROR code=E303
+2026-10-13T02:14:00 WARN req_id=338952 path=/api/v1/items/5742 latency_ms=795
+2026-10-12T02:29:00 WARN req_id=234539 path=/api/v1/items/5847 latency_ms=644
+2026-10-13T08:04:00 ERROR code=E404
+2026-10-01T16:23:00 WARN req_id=589578 path=/api/v1/items/2444 latency_ms=272
+2026-10-15T10:28:00 WARN req_id=347899 path=/api/v1/items/5754 latency_ms=723
+2026-10-05T22:48:00 ERROR code=E101
+2026-10-09T11:14:00 INFO req_id=924981 path=/api/v1/items/1622 latency_ms=233
+2026-10-02T22:42:00 INFO req_id=566420 path=/api/v1/items/5863 latency_ms=379
+2026-10-12T21:52:00 INFO req_id=507610 path=/api/v1/items/8714 latency_ms=364
+2026-10-14T09:32:00 ERROR code=E505
+2026-10-04T17:17:00 INFO req_id=580540 path=/api/v1/items/1346 latency_ms=57
+2026-10-07T07:17:00 INFO req_id=950150 path=/api/v1/items/3482 latency_ms=440
+2026-10-17T09:18:00 INFO req_id=537394 path=/api/v1/items/6427 latency_ms=699
+2026-10-08T22:12:00 WARN req_id=952190 path=/api/v1/items/1513 latency_ms=425
+2026-10-03T01:05:00 WARN req_id=227246 path=/api/v1/items/8433 latency_ms=370
+2026-10-07T01:28:00 INFO req_id=356243 path=/api/v1/items/7252 latency_ms=95
+2026-10-02T04:31:00 INFO req_id=189735 path=/api/v1/items/7716 latency_ms=69
+2026-10-16T09:00:00 INFO req_id=822957 path=/api/v1/items/8098 latency_ms=449
+2026-10-03T20:34:00 INFO req_id=670639 path=/api/v1/items/1950 latency_ms=614
+2026-10-12T01:14:00 ERROR code=E505
+2026-10-05T00:48:00 ERROR code=E505
+2026-10-13T17:51:00 WARN req_id=143957 path=/api/v1/items/2171 latency_ms=344
+2026-10-11T06:27:00 INFO req_id=731434 path=/api/v1/items/7380 latency_ms=318
+2026-10-09T00:41:00 WARN req_id=167170 path=/api/v1/items/6238 latency_ms=781
+2026-10-13T00:25:00 INFO req_id=416738 path=/api/v1/items/3606 latency_ms=583
+2026-10-08T02:26:00 INFO req_id=787801 path=/api/v1/items/9629 latency_ms=95
+2026-10-10T16:49:00 ERROR code=E404
+2026-10-12T04:35:00 INFO req_id=250713 path=/api/v1/items/8093 latency_ms=499
+2026-10-01T15:40:00 INFO req_id=316388 path=/api/v1/items/4388 latency_ms=558
+2026-10-13T14:17:00 WARN req_id=251013 path=/api/v1/items/2418 latency_ms=326
+2026-10-13T21:39:00 WARN req_id=720567 path=/api/v1/items/6068 latency_ms=725
+2026-10-08T07:39:00 INFO req_id=122918 path=/api/v1/items/3535 latency_ms=565
+2026-10-04T02:01:00 INFO req_id=554342 path=/api/v1/items/9121 latency_ms=786
+2026-10-07T16:10:00 INFO req_id=998536 path=/api/v1/items/5432 latency_ms=248
+2026-10-17T05:03:00 ERROR code=E101
+2026-10-11T11:27:00 INFO req_id=768158 path=/api/v1/items/4106 latency_ms=603
+2026-10-16T04:11:00 INFO req_id=906630 path=/api/v1/items/3373 latency_ms=4
+2026-10-09T11:58:00 WARN req_id=102083 path=/api/v1/items/2987 latency_ms=20
+2026-10-08T13:57:00 INFO req_id=526677 path=/api/v1/items/3101 latency_ms=823
+2026-10-02T05:37:00 INFO req_id=535519 path=/api/v1/items/9347 latency_ms=391
+2026-10-02T09:09:00 INFO req_id=956948 path=/api/v1/items/3405 latency_ms=105
+2026-10-12T05:59:00 ERROR code=E404
+2026-10-05T15:54:00 INFO req_id=271337 path=/api/v1/items/8399 latency_ms=842
+2026-10-10T08:22:00 INFO req_id=569214 path=/api/v1/items/2995 latency_ms=811
+2026-10-02T23:14:00 WARN req_id=354123 path=/api/v1/items/9380 latency_ms=724
+2026-10-14T23:45:00 INFO req_id=996410 path=/api/v1/items/4405 latency_ms=248
+2026-10-16T13:51:00 INFO req_id=851074 path=/api/v1/items/3853 latency_ms=371
+2026-10-17T10:02:00 INFO req_id=580795 path=/api/v1/items/8414 latency_ms=695
+2026-10-14T03:34:00 INFO req_id=333450 path=/api/v1/items/8844 latency_ms=161
+2026-10-17T12:38:00 INFO req_id=898444 path=/api/v1/items/6827 latency_ms=439
+2026-10-13T06:34:00 WARN req_id=199210 path=/api/v1/items/3320 latency_ms=63
+2026-10-17T22:39:00 INFO req_id=553216 path=/api/v1/items/8611 latency_ms=862
+2026-10-16T11:40:00 ERROR code=E505
+2026-10-12T10:54:00 INFO req_id=494676 path=/api/v1/items/4817 latency_ms=523
+2026-10-08T06:04:00 INFO req_id=989872 path=/api/v1/items/6910 latency_ms=682
+2026-10-14T23:14:00 INFO req_id=189617 path=/api/v1/items/4171 latency_ms=701
+2026-10-02T12:22:00 WARN req_id=772668 path=/api/v1/items/4194 latency_ms=884
+2026-10-02T09:58:00 WARN req_id=586826 path=/api/v1/items/6830 latency_ms=212
+2026-10-10T19:37:00 INFO req_id=258331 path=/api/v1/items/2343 latency_ms=347
+2026-10-11T08:14:00 WARN req_id=546334 path=/api/v1/items/4938 latency_ms=386
+2026-10-07T21:06:00 WARN req_id=513502 path=/api/v1/items/5402 latency_ms=42
+2026-10-17T14:48:00 INFO req_id=359123 path=/api/v1/items/5761 latency_ms=150
+2026-10-11T04:20:00 WARN req_id=362881 path=/api/v1/items/207 latency_ms=429
+2026-10-13T19:32:00 INFO req_id=316897 path=/api/v1/items/6330 latency_ms=218
+2026-10-15T06:07:00 ERROR code=E101
+2026-10-13T16:37:00 INFO req_id=951671 path=/api/v1/items/6227 latency_ms=117
+2026-10-03T05:48:00 INFO req_id=589476 path=/api/v1/items/7913 latency_ms=559
+2026-10-15T04:48:00 INFO req_id=470022 path=/api/v1/items/921 latency_ms=581
+2026-10-07T19:03:00 WARN req_id=502367 path=/api/v1/items/3307 latency_ms=873
+2026-10-06T17:31:00 INFO req_id=306248 path=/api/v1/items/7844 latency_ms=290
+2026-10-14T01:09:00 ERROR code=E505
+2026-10-03T05:41:00 INFO req_id=110642 path=/api/v1/items/5040 latency_ms=431
+2026-10-05T09:08:00 INFO req_id=494984 path=/api/v1/items/4742 latency_ms=525
+2026-10-10T14:39:00 INFO req_id=412852 path=/api/v1/items/8334 latency_ms=242
+2026-10-02T06:38:00 INFO req_id=633148 path=/api/v1/items/3185 latency_ms=721
+2026-10-13T01:43:00 WARN req_id=443656 path=/api/v1/items/5840 latency_ms=678
+2026-10-05T11:57:00 WARN req_id=192663 path=/api/v1/items/2577 latency_ms=508
+2026-10-16T14:22:00 INFO req_id=289568 path=/api/v1/items/659 latency_ms=712
+2026-10-07T17:08:00 INFO req_id=464142 path=/api/v1/items/8445 latency_ms=765
+2026-10-09T09:34:00 INFO req_id=534660 path=/api/v1/items/1036 latency_ms=248
+2026-10-16T22:31:00 WARN req_id=450700 path=/api/v1/items/7256 latency_ms=19
+2026-10-06T09:35:00 INFO req_id=127891 path=/api/v1/items/6965 latency_ms=399
+2026-10-13T23:44:00 WARN req_id=299825 path=/api/v1/items/9692 latency_ms=691
+2026-10-12T14:19:00 INFO req_id=355231 path=/api/v1/items/7933 latency_ms=351
+2026-10-06T04:03:00 INFO req_id=160811 path=/api/v1/items/8500 latency_ms=325
+2026-10-02T01:00:00 INFO req_id=595450 path=/api/v1/items/3961 latency_ms=877
+2026-10-14T07:25:00 WARN req_id=580939 path=/api/v1/items/7652 latency_ms=790
+2026-10-10T07:01:00 INFO req_id=208776 path=/api/v1/items/3978 latency_ms=294
+2026-10-10T15:48:00 INFO req_id=315492 path=/api/v1/items/7037 latency_ms=683
+2026-10-15T04:17:00 INFO req_id=935198 path=/api/v1/items/5024 latency_ms=115
+2026-10-11T01:19:00 INFO req_id=925555 path=/api/v1/items/5102 latency_ms=854
+2026-10-17T07:48:00 INFO req_id=367557 path=/api/v1/items/7612 latency_ms=517
+2026-10-03T13:22:00 INFO req_id=428422 path=/api/v1/items/7482 latency_ms=116
+2026-10-17T09:23:00 INFO req_id=144166 path=/api/v1/items/2294 latency_ms=712
+2026-10-02T14:53:00 INFO req_id=518620 path=/api/v1/items/2933 latency_ms=888
+2026-10-16T05:39:00 INFO req_id=271377 path=/api/v1/items/9852 latency_ms=237
+2026-10-10T02:39:00 WARN req_id=672439 path=/api/v1/items/6524 latency_ms=115
+2026-10-16T20:08:00 WARN req_id=270472 path=/api/v1/items/9654 latency_ms=448
+2026-10-16T18:38:00 INFO req_id=132538 path=/api/v1/items/9146 latency_ms=719
+2026-10-08T01:57:00 ERROR code=E202
+2026-10-14T21:36:00 ERROR code=E303
+2026-10-11T16:23:00 WARN req_id=369645 path=/api/v1/items/9335 latency_ms=360
+2026-10-16T20:23:00 INFO req_id=288852 path=/api/v1/items/7000 latency_ms=230
+2026-10-09T09:32:00 INFO req_id=861112 path=/api/v1/items/3984 latency_ms=70
+2026-10-06T02:43:00 INFO req_id=407841 path=/api/v1/items/7835 latency_ms=496
+2026-10-07T01:36:00 ERROR code=E505
+2026-10-10T02:35:00 ERROR code=E303
+2026-10-14T20:39:00 INFO req_id=720797 path=/api/v1/items/2779 latency_ms=151
+2026-10-15T21:58:00 INFO req_id=763995 path=/api/v1/items/3273 latency_ms=623
+2026-10-01T02:24:00 INFO req_id=100923 path=/api/v1/items/3314 latency_ms=54
+2026-10-06T00:52:00 INFO req_id=558306 path=/api/v1/items/3076 latency_ms=862
+2026-10-13T03:23:00 WARN req_id=133175 path=/api/v1/items/4029 latency_ms=66
+2026-10-13T16:40:00 INFO req_id=679454 path=/api/v1/items/9845 latency_ms=139
+2026-10-01T14:15:00 INFO req_id=880852 path=/api/v1/items/5216 latency_ms=504
+2026-10-13T00:22:00 WARN req_id=688969 path=/api/v1/items/1311 latency_ms=446
+2026-10-08T12:31:00 ERROR code=E303
+2026-10-02T13:38:00 WARN req_id=487156 path=/api/v1/items/817 latency_ms=865
+2026-10-05T10:12:00 WARN req_id=715860 path=/api/v1/items/2576 latency_ms=710
+2026-10-01T11:23:00 INFO req_id=615702 path=/api/v1/items/6772 latency_ms=324
+2026-10-13T04:45:00 INFO req_id=865076 path=/api/v1/items/1313 latency_ms=805
+2026-10-10T08:21:00 INFO req_id=248375 path=/api/v1/items/810 latency_ms=753
+2026-10-08T10:13:00 INFO req_id=183020 path=/api/v1/items/2092 latency_ms=143
+2026-10-12T04:19:00 INFO req_id=565481 path=/api/v1/items/3263 latency_ms=421
+2026-10-06T23:40:00 INFO req_id=582489 path=/api/v1/items/405 latency_ms=590
+2026-10-10T16:48:00 INFO req_id=133171 path=/api/v1/items/2309 latency_ms=427
+2026-10-17T16:34:00 INFO req_id=159706 path=/api/v1/items/1161 latency_ms=620
+2026-10-16T17:28:00 WARN req_id=867988 path=/api/v1/items/4400 latency_ms=712
+2026-10-03T18:21:00 WARN req_id=778149 path=/api/v1/items/9497 latency_ms=637
+2026-10-02T07:07:00 INFO req_id=414614 path=/api/v1/items/3756 latency_ms=801
+2026-10-13T20:08:00 INFO req_id=287822 path=/api/v1/items/6438 latency_ms=774
+2026-10-05T21:47:00 INFO req_id=689445 path=/api/v1/items/3386 latency_ms=502
+2026-10-01T19:51:00 INFO req_id=501769 path=/api/v1/items/7290 latency_ms=370
+2026-10-02T07:39:00 WARN req_id=768450 path=/api/v1/items/7995 latency_ms=792
+2026-10-16T02:47:00 INFO req_id=281853 path=/api/v1/items/8299 latency_ms=626
+2026-10-17T09:54:00 INFO req_id=190713 path=/api/v1/items/4277 latency_ms=716
+2026-10-03T04:32:00 INFO req_id=671083 path=/api/v1/items/973 latency_ms=325
+2026-10-01T01:04:00 INFO req_id=281041 path=/api/v1/items/402 latency_ms=633
+2026-10-16T01:43:00 ERROR code=E303
+2026-10-03T14:29:00 ERROR code=E505
+2026-10-03T11:04:00 INFO req_id=388972 path=/api/v1/items/5831 latency_ms=462
+2026-10-13T06:36:00 INFO req_id=285711 path=/api/v1/items/9397 latency_ms=7
+2026-10-12T16:54:00 INFO req_id=262060 path=/api/v1/items/7972 latency_ms=128
+2026-10-06T16:58:00 WARN req_id=725653 path=/api/v1/items/1688 latency_ms=739
+2026-10-04T18:20:00 INFO req_id=202035 path=/api/v1/items/4915 latency_ms=93
+2026-10-10T14:18:00 ERROR code=E404
+2026-10-15T18:09:00 ERROR code=E404
+2026-10-03T21:18:00 INFO req_id=710663 path=/api/v1/items/4417 latency_ms=861
+2026-10-05T15:37:00 INFO req_id=695760 path=/api/v1/items/6493 latency_ms=736
+2026-10-10T13:14:00 INFO req_id=798804 path=/api/v1/items/4299 latency_ms=127
+2026-10-03T12:43:00 INFO req_id=509529 path=/api/v1/items/8856 latency_ms=601
+2026-10-09T07:21:00 INFO req_id=366120 path=/api/v1/items/691 latency_ms=701
+2026-10-05T07:31:00 INFO req_id=371008 path=/api/v1/items/6250 latency_ms=109
+2026-10-03T16:37:00 INFO req_id=584752 path=/api/v1/items/6666 latency_ms=797
+2026-10-13T18:36:00 WARN req_id=137701 path=/api/v1/items/7119 latency_ms=206
+2026-10-13T01:01:00 INFO req_id=746617 path=/api/v1/items/2098 latency_ms=139
+2026-10-17T14:20:00 INFO req_id=562183 path=/api/v1/items/64 latency_ms=357
+2026-10-15T19:13:00 INFO req_id=832422 path=/api/v1/items/3426 latency_ms=746
+2026-10-15T08:17:00 INFO req_id=508150 path=/api/v1/items/5440 latency_ms=795
+2026-10-03T16:39:00 INFO req_id=414804 path=/api/v1/items/1432 latency_ms=787
+2026-10-08T03:31:00 WARN req_id=698542 path=/api/v1/items/9723 latency_ms=560
+2026-10-06T03:44:00 INFO req_id=571787 path=/api/v1/items/8285 latency_ms=561
+2026-10-08T16:06:00 INFO req_id=647125 path=/api/v1/items/6183 latency_ms=598
+2026-10-03T15:16:00 WARN req_id=339717 path=/api/v1/items/1835 latency_ms=866
+2026-10-01T10:38:00 ERROR code=E303
+2026-10-17T18:28:00 WARN req_id=355914 path=/api/v1/items/7066 latency_ms=159
+2026-10-03T22:07:00 INFO req_id=598891 path=/api/v1/items/4203 latency_ms=422
+2026-10-02T02:34:00 WARN req_id=224227 path=/api/v1/items/4382 latency_ms=390
+2026-10-16T15:47:00 INFO req_id=178334 path=/api/v1/items/6424 latency_ms=694
+2026-10-13T21:25:00 INFO req_id=519575 path=/api/v1/items/696 latency_ms=270
+2026-10-08T17:08:00 WARN req_id=574505 path=/api/v1/items/256 latency_ms=733
+2026-10-04T22:58:00 INFO req_id=623129 path=/api/v1/items/6622 latency_ms=217
+2026-10-13T13:01:00 WARN req_id=305945 path=/api/v1/items/6624 latency_ms=653
+2026-10-14T04:49:00 INFO req_id=122961 path=/api/v1/items/715 latency_ms=501
+2026-10-13T09:56:00 INFO req_id=879822 path=/api/v1/items/3098 latency_ms=519
+2026-10-05T14:10:00 INFO req_id=674399 path=/api/v1/items/693 latency_ms=426
+2026-10-10T01:39:00 INFO req_id=141642 path=/api/v1/items/4927 latency_ms=602
+2026-10-10T01:31:00 ERROR code=E303
+2026-10-16T08:52:00 INFO req_id=271387 path=/api/v1/items/9757 latency_ms=395
+2026-10-02T09:49:00 WARN req_id=919865 path=/api/v1/items/369 latency_ms=433
+2026-10-06T07:08:00 INFO req_id=463878 path=/api/v1/items/3269 latency_ms=353
+2026-10-05T09:20:00 INFO req_id=977108 path=/api/v1/items/667 latency_ms=99
+2026-10-16T00:24:00 WARN req_id=721212 path=/api/v1/items/9399 latency_ms=616
+2026-10-08T23:33:00 ERROR code=E404
+2026-10-13T07:35:00 INFO req_id=676799 path=/api/v1/items/1714 latency_ms=430
+2026-10-11T13:50:00 INFO req_id=725135 path=/api/v1/items/9364 latency_ms=578
+2026-10-14T05:07:00 WARN req_id=685143 path=/api/v1/items/3580 latency_ms=138
+2026-10-12T15:31:00 INFO req_id=856646 path=/api/v1/items/4881 latency_ms=182
+2026-10-09T20:44:00 ERROR code=E202
+2026-10-17T10:15:00 INFO req_id=376844 path=/api/v1/items/1156 latency_ms=736
+2026-10-09T05:40:00 ERROR code=E202
+2026-10-05T19:15:00 INFO req_id=159559 path=/api/v1/items/7583 latency_ms=368
+2026-10-15T15:55:00 INFO req_id=871911 path=/api/v1/items/680 latency_ms=437
+2026-10-16T20:46:00 INFO req_id=282003 path=/api/v1/items/9180 latency_ms=390
+2026-10-12T21:54:00 INFO req_id=421767 path=/api/v1/items/4559 latency_ms=165
+2026-10-03T13:52:00 ERROR code=E303
+2026-10-12T07:45:00 INFO req_id=834898 path=/api/v1/items/5953 latency_ms=99
+2026-10-10T01:57:00 INFO req_id=484334 path=/api/v1/items/8754 latency_ms=681
+2026-10-04T00:52:00 INFO req_id=643562 path=/api/v1/items/205 latency_ms=397
+2026-10-04T06:23:00 INFO req_id=701690 path=/api/v1/items/2934 latency_ms=476
+2026-10-06T14:54:00 INFO req_id=636898 path=/api/v1/items/2261 latency_ms=413
+2026-10-16T05:23:00 INFO req_id=640529 path=/api/v1/items/4463 latency_ms=723
+2026-10-13T05:11:00 INFO req_id=226809 path=/api/v1/items/2187 latency_ms=82
+2026-10-04T01:59:00 INFO req_id=936619 path=/api/v1/items/4705 latency_ms=837
+2026-10-07T00:51:00 INFO req_id=106625 path=/api/v1/items/9751 latency_ms=715
+2026-10-13T09:09:00 WARN req_id=827532 path=/api/v1/items/3141 latency_ms=632
+2026-10-07T10:00:00 INFO req_id=489891 path=/api/v1/items/6205 latency_ms=113
+2026-10-01T16:16:00 WARN req_id=568021 path=/api/v1/items/3165 latency_ms=172
+2026-10-07T19:46:00 WARN req_id=343970 path=/api/v1/items/1352 latency_ms=69
+2026-10-12T16:33:00 INFO req_id=360706 path=/api/v1/items/3925 latency_ms=735
+2026-10-15T01:55:00 INFO req_id=699601 path=/api/v1/items/8411 latency_ms=205
+2026-10-16T16:58:00 INFO req_id=282748 path=/api/v1/items/6735 latency_ms=134
+2026-10-06T17:42:00 INFO req_id=351423 path=/api/v1/items/922 latency_ms=383
+2026-10-09T11:48:00 INFO req_id=552377 path=/api/v1/items/8829 latency_ms=254
+2026-10-10T18:15:00 ERROR code=E202
+2026-10-10T17:11:00 INFO req_id=671981 path=/api/v1/items/675 latency_ms=340
+2026-10-10T19:52:00 INFO req_id=533314 path=/api/v1/items/5206 latency_ms=561
+2026-10-01T10:30:00 INFO req_id=915394 path=/api/v1/items/8747 latency_ms=256
+2026-10-15T22:40:00 INFO req_id=314594 path=/api/v1/items/6543 latency_ms=104
+2026-10-07T14:06:00 WARN req_id=618038 path=/api/v1/items/8828 latency_ms=567
+2026-10-09T19:45:00 INFO req_id=898962 path=/api/v1/items/2874 latency_ms=653
+2026-10-13T00:51:00 INFO req_id=107888 path=/api/v1/items/1103 latency_ms=834
+2026-10-07T15:35:00 INFO req_id=629710 path=/api/v1/items/5453 latency_ms=283
+2026-10-17T12:25:00 INFO req_id=574201 path=/api/v1/items/680 latency_ms=392
+2026-10-12T07:46:00 INFO req_id=771723 path=/api/v1/items/991 latency_ms=299
+2026-10-16T01:49:00 INFO req_id=582009 path=/api/v1/items/9152 latency_ms=484
+2026-10-04T10:52:00 ERROR code=E202
+2026-10-06T08:37:00 INFO req_id=548770 path=/api/v1/items/4077 latency_ms=864
+2026-10-12T03:42:00 INFO req_id=817429 path=/api/v1/items/9007 latency_ms=897
+2026-10-15T15:14:00 INFO req_id=545482 path=/api/v1/items/8298 latency_ms=437
+2026-10-15T19:58:00 INFO req_id=285371 path=/api/v1/items/8471 latency_ms=612
+2026-10-13T12:48:00 WARN req_id=159669 path=/api/v1/items/1680 latency_ms=89
+2026-10-12T19:24:00 INFO req_id=300701 path=/api/v1/items/8064 latency_ms=590
+2026-10-04T18:00:00 ERROR code=E505
+2026-10-09T02:10:00 INFO req_id=612362 path=/api/v1/items/6314 latency_ms=272
+2026-10-12T05:11:00 WARN req_id=202810 path=/api/v1/items/842 latency_ms=220
+2026-10-01T13:18:00 INFO req_id=691658 path=/api/v1/items/1890 latency_ms=242
+2026-10-11T17:12:00 INFO req_id=252909 path=/api/v1/items/9497 latency_ms=139
+2026-10-10T19:44:00 INFO req_id=450581 path=/api/v1/items/8087 latency_ms=209
+2026-10-06T10:42:00 INFO req_id=852024 path=/api/v1/items/9902 latency_ms=198
+2026-10-07T20:57:00 ERROR code=E202
+2026-10-09T05:00:00 WARN req_id=216153 path=/api/v1/items/5346 latency_ms=599
+2026-10-13T17:24:00 ERROR code=E303
+2026-10-05T08:56:00 WARN req_id=166618 path=/api/v1/items/5195 latency_ms=347
+2026-10-15T06:24:00 INFO req_id=736484 path=/api/v1/items/7232 latency_ms=166
+2026-10-04T17:11:00 WARN req_id=198008 path=/api/v1/items/7247 latency_ms=730
+2026-10-10T23:50:00 INFO req_id=424600 path=/api/v1/items/6723 latency_ms=835
+2026-10-05T21:54:00 INFO req_id=309065 path=/api/v1/items/5851 latency_ms=668
+2026-10-14T06:16:00 INFO req_id=665623 path=/api/v1/items/1707 latency_ms=845
+2026-10-08T04:42:00 ERROR code=E505
+2026-10-15T08:55:00 INFO req_id=926190 path=/api/v1/items/5525 latency_ms=56
+2026-10-08T01:47:00 INFO req_id=796061 path=/api/v1/items/942 latency_ms=621
+2026-10-06T06:12:00 INFO req_id=993869 path=/api/v1/items/1523 latency_ms=176
+2026-10-01T21:26:00 INFO req_id=629783 path=/api/v1/items/8466 latency_ms=899
+2026-10-08T16:59:00 WARN req_id=918025 path=/api/v1/items/982 latency_ms=557
+2026-10-11T13:11:00 INFO req_id=793807 path=/api/v1/items/1769 latency_ms=838
+2026-10-13T09:22:00 INFO req_id=996015 path=/api/v1/items/8444 latency_ms=635
+2026-10-15T15:30:00 INFO req_id=581871 path=/api/v1/items/5596 latency_ms=398
+2026-10-02T21:44:00 INFO req_id=859032 path=/api/v1/items/2682 latency_ms=450
+2026-10-09T18:03:00 ERROR code=E303
+2026-10-07T12:52:00 INFO req_id=502700 path=/api/v1/items/2523 latency_ms=489
+2026-10-15T05:14:00 ERROR code=E505
+2026-10-06T13:29:00 ERROR code=E101
+2026-10-13T02:45:00 INFO req_id=307685 path=/api/v1/items/761 latency_ms=583
+2026-10-01T04:50:00 ERROR code=E404
+2026-10-07T03:41:00 INFO req_id=821919 path=/api/v1/items/6545 latency_ms=350
+2026-10-03T06:22:00 WARN req_id=432129 path=/api/v1/items/538 latency_ms=615
+2026-10-14T18:58:00 INFO req_id=831607 path=/api/v1/items/700 latency_ms=664
+2026-10-17T05:47:00 INFO req_id=556531 path=/api/v1/items/4805 latency_ms=669
+2026-10-05T21:52:00 INFO req_id=930328 path=/api/v1/items/8425 latency_ms=583
+2026-10-07T07:28:00 INFO req_id=697939 path=/api/v1/items/12 latency_ms=449
+2026-10-10T16:47:00 INFO req_id=107907 path=/api/v1/items/7149 latency_ms=166
+2026-10-13T06:51:00 WARN req_id=875069 path=/api/v1/items/3046 latency_ms=828
+2026-10-04T17:07:00 INFO req_id=432219 path=/api/v1/items/1883 latency_ms=663
+2026-10-12T17:57:00 WARN req_id=153852 path=/api/v1/items/9102 latency_ms=396
+2026-10-02T18:20:00 INFO req_id=210825 path=/api/v1/items/7603 latency_ms=276
+2026-10-02T04:18:00 WARN req_id=231225 path=/api/v1/items/5089 latency_ms=472
+2026-10-04T20:05:00 ERROR code=E101
+2026-10-14T11:35:00 WARN req_id=551403 path=/api/v1/items/8328 latency_ms=90
+2026-10-16T22:41:00 INFO req_id=835052 path=/api/v1/items/9435 latency_ms=507
+2026-10-10T14:29:00 ERROR code=E404
+2026-10-07T04:03:00 INFO req_id=319044 path=/api/v1/items/9655 latency_ms=805
+2026-10-15T14:42:00 INFO req_id=870353 path=/api/v1/items/226 latency_ms=786
+2026-10-10T04:05:00 INFO req_id=318548 path=/api/v1/items/4740 latency_ms=561
+2026-10-06T05:26:00 INFO req_id=656434 path=/api/v1/items/1479 latency_ms=678
+2026-10-14T08:21:00 INFO req_id=986219 path=/api/v1/items/3494 latency_ms=781
+2026-10-14T10:47:00 INFO req_id=982066 path=/api/v1/items/9132 latency_ms=240
+2026-10-10T01:07:00 INFO req_id=912003 path=/api/v1/items/3784 latency_ms=177
+2026-10-01T16:02:00 INFO req_id=755324 path=/api/v1/items/498 latency_ms=439
+2026-10-15T23:47:00 INFO req_id=819018 path=/api/v1/items/9855 latency_ms=22
+2026-10-13T07:48:00 WARN req_id=759511 path=/api/v1/items/2402 latency_ms=375
+2026-10-09T03:32:00 WARN req_id=975514 path=/api/v1/items/9150 latency_ms=653
+2026-10-17T01:18:00 INFO req_id=124732 path=/api/v1/items/4807 latency_ms=651
+2026-10-04T21:32:00 INFO req_id=196752 path=/api/v1/items/6068 latency_ms=367
+2026-10-09T10:22:00 WARN req_id=387978 path=/api/v1/items/564 latency_ms=59
+2026-10-16T08:48:00 INFO req_id=905202 path=/api/v1/items/4598 latency_ms=806
+2026-10-16T05:52:00 INFO req_id=340498 path=/api/v1/items/6690 latency_ms=392
+2026-10-15T16:40:00 WARN req_id=580512 path=/api/v1/items/7119 latency_ms=229
+2026-10-13T06:12:00 INFO req_id=871160 path=/api/v1/items/8319 latency_ms=407
+2026-10-12T11:54:00 INFO req_id=139365 path=/api/v1/items/2344 latency_ms=470
+2026-10-10T00:56:00 INFO req_id=365774 path=/api/v1/items/3949 latency_ms=330
+2026-10-11T22:45:00 INFO req_id=555686 path=/api/v1/items/7456 latency_ms=274
+2026-10-14T22:09:00 INFO req_id=838602 path=/api/v1/items/204 latency_ms=278
+2026-10-12T19:24:00 INFO req_id=968096 path=/api/v1/items/9788 latency_ms=855
+2026-10-06T07:42:00 INFO req_id=347763 path=/api/v1/items/8931 latency_ms=730
+2026-10-08T01:26:00 INFO req_id=301262 path=/api/v1/items/1544 latency_ms=200
+2026-10-07T01:39:00 INFO req_id=251110 path=/api/v1/items/207 latency_ms=480
+2026-10-07T11:04:00 INFO req_id=846123 path=/api/v1/items/1640 latency_ms=39
+2026-10-11T12:18:00 WARN req_id=699269 path=/api/v1/items/9785 latency_ms=225
+2026-10-09T18:56:00 INFO req_id=722903 path=/api/v1/items/4787 latency_ms=319
+2026-10-13T04:23:00 INFO req_id=339415 path=/api/v1/items/3608 latency_ms=125
+2026-10-12T01:33:00 INFO req_id=468690 path=/api/v1/items/9782 latency_ms=542
+2026-10-17T11:34:00 INFO req_id=194725 path=/api/v1/items/7113 latency_ms=350
+2026-10-10T12:33:00 INFO req_id=419938 path=/api/v1/items/8512 latency_ms=884
+2026-10-06T04:34:00 ERROR code=E303
+2026-10-08T22:19:00 INFO req_id=792618 path=/api/v1/items/2487 latency_ms=676
+2026-10-12T09:28:00 WARN req_id=542402 path=/api/v1/items/4319 latency_ms=518
+2026-10-14T00:36:00 WARN req_id=159187 path=/api/v1/items/7454 latency_ms=576
+2026-10-03T03:15:00 INFO req_id=412367 path=/api/v1/items/8211 latency_ms=188
+2026-10-10T04:17:00 INFO req_id=569782 path=/api/v1/items/6005 latency_ms=681
+2026-10-16T10:35:00 INFO req_id=863638 path=/api/v1/items/2113 latency_ms=830
+2026-10-04T05:31:00 INFO req_id=469443 path=/api/v1/items/619 latency_ms=60
+2026-10-13T01:36:00 WARN req_id=819848 path=/api/v1/items/8331 latency_ms=98
+2026-10-15T07:39:00 INFO req_id=175830 path=/api/v1/items/4980 latency_ms=14
+2026-10-13T04:37:00 INFO req_id=326428 path=/api/v1/items/2139 latency_ms=570
+2026-10-02T11:01:00 INFO req_id=264105 path=/api/v1/items/5797 latency_ms=692
+2026-10-15T04:24:00 WARN req_id=573921 path=/api/v1/items/1509 latency_ms=38
+2026-10-17T01:11:00 INFO req_id=903889 path=/api/v1/items/991 latency_ms=41
+2026-10-04T18:19:00 INFO req_id=743315 path=/api/v1/items/4622 latency_ms=542
+2026-10-16T04:48:00 INFO req_id=137446 path=/api/v1/items/9719 latency_ms=112
+2026-10-03T21:21:00 INFO req_id=220875 path=/api/v1/items/9094 latency_ms=803
+2026-10-11T18:28:00 INFO req_id=944546 path=/api/v1/items/3777 latency_ms=235
+2026-10-03T23:17:00 INFO req_id=693863 path=/api/v1/items/185 latency_ms=584
+2026-10-01T23:34:00 ERROR code=E202
+2026-10-06T20:00:00 INFO req_id=724134 path=/api/v1/items/4823 latency_ms=575
+2026-10-17T11:44:00 WARN req_id=678048 path=/api/v1/items/2746 latency_ms=374
+2026-10-16T15:58:00 ERROR code=E404
+2026-10-03T03:50:00 INFO req_id=990306 path=/api/v1/items/6690 latency_ms=103
+2026-10-02T22:50:00 INFO req_id=946505 path=/api/v1/items/5323 latency_ms=214
+2026-10-14T12:57:00 INFO req_id=721871 path=/api/v1/items/5769 latency_ms=229
+2026-10-09T21:56:00 INFO req_id=804165 path=/api/v1/items/838 latency_ms=445
+2026-10-11T05:22:00 INFO req_id=832083 path=/api/v1/items/1200 latency_ms=108
+2026-10-06T13:45:00 WARN req_id=589492 path=/api/v1/items/2603 latency_ms=749
+2026-10-17T23:10:00 WARN req_id=966233 path=/api/v1/items/3100 latency_ms=30
+2026-10-03T19:47:00 INFO req_id=799147 path=/api/v1/items/3007 latency_ms=686
+2026-10-09T01:50:00 INFO req_id=193765 path=/api/v1/items/3126 latency_ms=466
+2026-10-08T14:07:00 WARN req_id=382676 path=/api/v1/items/6910 latency_ms=766
+2026-10-01T05:26:00 INFO req_id=322230 path=/api/v1/items/3406 latency_ms=225
+2026-10-07T13:05:00 WARN req_id=561029 path=/api/v1/items/5427 latency_ms=185
+2026-10-03T16:43:00 WARN req_id=828519 path=/api/v1/items/5962 latency_ms=373
+2026-10-01T06:17:00 WARN req_id=655351 path=/api/v1/items/9137 latency_ms=710
+2026-10-08T13:20:00 INFO req_id=476802 path=/api/v1/items/459 latency_ms=195
+2026-10-15T14:57:00 INFO req_id=805259 path=/api/v1/items/9937 latency_ms=842
+2026-10-02T20:13:00 INFO req_id=869271 path=/api/v1/items/9044 latency_ms=783
+2026-10-08T01:19:00 INFO req_id=181098 path=/api/v1/items/7066 latency_ms=261
+2026-10-05T13:23:00 INFO req_id=994628 path=/api/v1/items/5098 latency_ms=580
+2026-10-10T02:28:00 ERROR code=E101
+2026-10-01T17:01:00 WARN req_id=271954 path=/api/v1/items/3924 latency_ms=589
+2026-10-03T18:24:00 INFO req_id=945202 path=/api/v1/items/3456 latency_ms=338
+2026-10-11T12:28:00 WARN req_id=634388 path=/api/v1/items/6197 latency_ms=686
+2026-10-07T04:34:00 INFO req_id=639563 path=/api/v1/items/5842 latency_ms=857
+2026-10-16T11:25:00 INFO req_id=668673 path=/api/v1/items/1553 latency_ms=750
+2026-10-16T21:03:00 INFO req_id=792304 path=/api/v1/items/542 latency_ms=89
+2026-10-05T05:32:00 WARN req_id=262253 path=/api/v1/items/9505 latency_ms=757
+2026-10-07T16:25:00 INFO req_id=877282 path=/api/v1/items/6448 latency_ms=575
+2026-10-06T13:37:00 INFO req_id=829403 path=/api/v1/items/9627 latency_ms=427
+2026-10-17T00:50:00 INFO req_id=344817 path=/api/v1/items/9681 latency_ms=386
+2026-10-09T04:13:00 INFO req_id=401635 path=/api/v1/items/8211 latency_ms=785
+2026-10-03T01:40:00 WARN req_id=140769 path=/api/v1/items/4440 latency_ms=120
+2026-10-15T19:24:00 INFO req_id=621990 path=/api/v1/items/2217 latency_ms=501
+2026-10-06T01:58:00 INFO req_id=814003 path=/api/v1/items/870 latency_ms=428
+2026-10-17T20:41:00 INFO req_id=576343 path=/api/v1/items/736 latency_ms=162
+2026-10-05T00:24:00 INFO req_id=318202 path=/api/v1/items/2643 latency_ms=221
+2026-10-12T11:21:00 INFO req_id=886470 path=/api/v1/items/6639 latency_ms=630
+2026-10-11T20:03:00 INFO req_id=437809 path=/api/v1/items/5288 latency_ms=547
+2026-10-01T23:01:00 INFO req_id=575282 path=/api/v1/items/2660 latency_ms=98
+2026-10-13T19:33:00 WARN req_id=820774 path=/api/v1/items/1699 latency_ms=195
+2026-10-09T16:27:00 WARN req_id=963829 path=/api/v1/items/9966 latency_ms=115
+2026-10-02T17:00:00 INFO req_id=927654 path=/api/v1/items/7522 latency_ms=224
+2026-10-12T18:25:00 INFO req_id=540867 path=/api/v1/items/1041 latency_ms=345
+2026-10-07T00:10:00 INFO req_id=735980 path=/api/v1/items/4411 latency_ms=137
+2026-10-14T22:06:00 WARN req_id=155797 path=/api/v1/items/9287 latency_ms=840
+2026-10-17T05:45:00 ERROR code=E101
+2026-10-01T04:14:00 WARN req_id=168174 path=/api/v1/items/189 latency_ms=875
+2026-10-08T19:45:00 INFO req_id=657608 path=/api/v1/items/514 latency_ms=525
+2026-10-12T10:10:00 WARN req_id=845582 path=/api/v1/items/1768 latency_ms=501
+2026-10-07T05:44:00 INFO req_id=356094 path=/api/v1/items/1376 latency_ms=674
+2026-10-07T04:59:00 INFO req_id=197068 path=/api/v1/items/1290 latency_ms=714
+2026-10-08T04:11:00 INFO req_id=571668 path=/api/v1/items/4227 latency_ms=372
+2026-10-17T17:11:00 INFO req_id=545184 path=/api/v1/items/1224 latency_ms=383
+2026-10-02T08:00:00 INFO req_id=911957 path=/api/v1/items/8855 latency_ms=697
+2026-10-16T13:12:00 ERROR code=E505
+2026-10-17T16:37:00 INFO req_id=469892 path=/api/v1/items/5490 latency_ms=882
+2026-10-10T15:32:00 INFO req_id=272662 path=/api/v1/items/9475 latency_ms=294
+2026-10-02T02:55:00 INFO req_id=628637 path=/api/v1/items/7010 latency_ms=116
+2026-10-13T11:21:00 INFO req_id=427025 path=/api/v1/items/6898 latency_ms=660
+2026-10-15T16:26:00 INFO req_id=839249 path=/api/v1/items/2406 latency_ms=854
+2026-10-14T10:41:00 INFO req_id=681121 path=/api/v1/items/4147 latency_ms=763
+2026-10-04T14:07:00 INFO req_id=281324 path=/api/v1/items/686 latency_ms=118
+2026-10-04T10:24:00 WARN req_id=895638 path=/api/v1/items/5717 latency_ms=285
+2026-10-15T23:51:00 INFO req_id=272313 path=/api/v1/items/8514 latency_ms=758
+2026-10-16T10:36:00 ERROR code=E101
+2026-10-04T17:15:00 INFO req_id=437351 path=/api/v1/items/1604 latency_ms=793
+2026-10-02T05:53:00 WARN req_id=354304 path=/api/v1/items/7962 latency_ms=348
+2026-10-11T09:35:00 INFO req_id=116334 path=/api/v1/items/7021 latency_ms=704
+2026-10-03T20:59:00 INFO req_id=970446 path=/api/v1/items/5821 latency_ms=152
+2026-10-12T13:43:00 INFO req_id=917203 path=/api/v1/items/572 latency_ms=183
+2026-10-13T16:11:00 INFO req_id=320261 path=/api/v1/items/2639 latency_ms=217
+2026-10-10T18:20:00 INFO req_id=350671 path=/api/v1/items/7614 latency_ms=149
+2026-10-10T07:54:00 INFO req_id=809765 path=/api/v1/items/5235 latency_ms=558
+2026-10-05T04:01:00 INFO req_id=274896 path=/api/v1/items/4620 latency_ms=35
+2026-10-15T04:27:00 WARN req_id=154640 path=/api/v1/items/5737 latency_ms=873
+2026-10-06T23:04:00 INFO req_id=264465 path=/api/v1/items/8928 latency_ms=369
+2026-10-17T09:43:00 INFO req_id=489531 path=/api/v1/items/5500 latency_ms=52
+2026-10-02T14:40:00 INFO req_id=856966 path=/api/v1/items/9845 latency_ms=495
+2026-10-01T01:01:00 WARN req_id=742970 path=/api/v1/items/1437 latency_ms=21
+2026-10-07T14:02:00 INFO req_id=910992 path=/api/v1/items/3525 latency_ms=381
+2026-10-06T06:52:00 INFO req_id=332363 path=/api/v1/items/4887 latency_ms=208
+2026-10-05T18:45:00 INFO req_id=489418 path=/api/v1/items/8708 latency_ms=223
+2026-10-15T21:31:00 INFO req_id=429451 path=/api/v1/items/2627 latency_ms=561
+2026-10-01T14:20:00 INFO req_id=668725 path=/api/v1/items/7839 latency_ms=72
+2026-10-04T03:29:00 INFO req_id=462566 path=/api/v1/items/6742 latency_ms=149
+2026-10-03T12:01:00 INFO req_id=965773 path=/api/v1/items/2727 latency_ms=665
+2026-10-01T21:48:00 ERROR code=E404
+2026-10-02T15:30:00 INFO req_id=410791 path=/api/v1/items/4607 latency_ms=314
+2026-10-01T15:38:00 INFO req_id=695872 path=/api/v1/items/2448 latency_ms=823
+2026-10-13T21:34:00 WARN req_id=138848 path=/api/v1/items/3989 latency_ms=122
+2026-10-10T00:52:00 ERROR code=E101
+2026-10-13T08:40:00 INFO req_id=352824 path=/api/v1/items/8697 latency_ms=896
+2026-10-14T06:46:00 INFO req_id=859989 path=/api/v1/items/90 latency_ms=221
+2026-10-09T20:02:00 WARN req_id=626765 path=/api/v1/items/809 latency_ms=135
+2026-10-16T19:31:00 INFO req_id=515500 path=/api/v1/items/1565 latency_ms=52
+2026-10-06T01:06:00 INFO req_id=216782 path=/api/v1/items/8005 latency_ms=259
+2026-10-03T05:59:00 ERROR code=E404
+2026-10-16T23:23:00 INFO req_id=588536 path=/api/v1/items/8763 latency_ms=163
+2026-10-16T05:42:00 INFO req_id=821925 path=/api/v1/items/4875 latency_ms=881
+2026-10-08T03:47:00 INFO req_id=647974 path=/api/v1/items/477 latency_ms=183
+2026-10-04T08:59:00 WARN req_id=180894 path=/api/v1/items/1986 latency_ms=305
+2026-10-15T03:20:00 INFO req_id=281945 path=/api/v1/items/5923 latency_ms=112
+2026-10-03T14:37:00 ERROR code=E505
+2026-10-04T14:38:00 WARN req_id=191440 path=/api/v1/items/8614 latency_ms=618
+2026-10-16T12:24:00 WARN req_id=368828 path=/api/v1/items/6248 latency_ms=479
+2026-10-01T02:11:00 INFO req_id=494321 path=/api/v1/items/5469 latency_ms=805
+2026-10-13T21:32:00 WARN req_id=551514 path=/api/v1/items/489 latency_ms=90
+2026-10-01T14:47:00 INFO req_id=141599 path=/api/v1/items/441 latency_ms=519
+2026-10-15T09:45:00 ERROR code=E202
+2026-10-07T13:20:00 WARN req_id=181147 path=/api/v1/items/8302 latency_ms=746
+2026-10-13T21:40:00 WARN req_id=914072 path=/api/v1/items/7039 latency_ms=664
+2026-10-04T05:49:00 INFO req_id=697763 path=/api/v1/items/8669 latency_ms=659
+2026-10-07T15:47:00 WARN req_id=672289 path=/api/v1/items/2538 latency_ms=263
+2026-10-04T05:38:00 INFO req_id=460226 path=/api/v1/items/8985 latency_ms=656
+2026-10-04T08:31:00 WARN req_id=120276 path=/api/v1/items/5099 latency_ms=41
+2026-10-10T10:16:00 INFO req_id=531002 path=/api/v1/items/4120 latency_ms=363
+2026-10-04T19:10:00 INFO req_id=649466 path=/api/v1/items/9678 latency_ms=222
+2026-10-05T16:48:00 INFO req_id=226953 path=/api/v1/items/3316 latency_ms=48
+2026-10-08T05:26:00 WARN req_id=872574 path=/api/v1/items/9119 latency_ms=120
+2026-10-11T22:51:00 WARN req_id=729187 path=/api/v1/items/2718 latency_ms=43
+2026-10-12T07:54:00 INFO req_id=436359 path=/api/v1/items/2791 latency_ms=154
+2026-10-06T10:37:00 INFO req_id=848190 path=/api/v1/items/6861 latency_ms=874
+2026-10-10T08:37:00 INFO req_id=755976 path=/api/v1/items/3992 latency_ms=495
+2026-10-17T15:14:00 ERROR code=E505
+2026-10-08T14:08:00 INFO req_id=843683 path=/api/v1/items/1078 latency_ms=582
+2026-10-04T23:03:00 WARN req_id=276264 path=/api/v1/items/337 latency_ms=716
+2026-10-02T19:31:00 INFO req_id=982884 path=/api/v1/items/9192 latency_ms=848
+2026-10-09T09:17:00 WARN req_id=861022 path=/api/v1/items/397 latency_ms=507
+2026-10-03T09:57:00 WARN req_id=601996 path=/api/v1/items/1952 latency_ms=865
+2026-10-08T16:09:00 WARN req_id=994437 path=/api/v1/items/7133 latency_ms=204
+2026-10-04T11:48:00 INFO req_id=826586 path=/api/v1/items/4739 latency_ms=214
+2026-10-12T05:47:00 INFO req_id=243486 path=/api/v1/items/3624 latency_ms=369
+2026-10-08T20:04:00 INFO req_id=209843 path=/api/v1/items/3223 latency_ms=313
+2026-10-13T06:23:00 INFO req_id=448526 path=/api/v1/items/9864 latency_ms=900
+2026-10-11T21:18:00 INFO req_id=893402 path=/api/v1/items/7521 latency_ms=481
+2026-10-17T02:08:00 INFO req_id=813371 path=/api/v1/items/8552 latency_ms=22
+2026-10-07T22:43:00 INFO req_id=121157 path=/api/v1/items/433 latency_ms=256
+2026-10-13T16:33:00 WARN req_id=424641 path=/api/v1/items/3034 latency_ms=112
+2026-10-07T05:20:00 INFO req_id=741943 path=/api/v1/items/3229 latency_ms=71
+2026-10-08T08:22:00 INFO req_id=912852 path=/api/v1/items/5190 latency_ms=825
+2026-10-15T06:48:00 WARN req_id=852503 path=/api/v1/items/5204 latency_ms=53
+2026-10-13T06:20:00 INFO req_id=583608 path=/api/v1/items/2547 latency_ms=402
+2026-10-13T23:00:00 INFO req_id=349616 path=/api/v1/items/8124 latency_ms=481
+2026-10-02T14:25:00 WARN req_id=468854 path=/api/v1/items/7886 latency_ms=348
+2026-10-17T14:14:00 WARN req_id=611737 path=/api/v1/items/4713 latency_ms=64
+2026-10-06T14:13:00 INFO req_id=774277 path=/api/v1/items/4957 latency_ms=666
+2026-10-13T00:12:00 INFO req_id=270648 path=/api/v1/items/8874 latency_ms=312
+2026-10-09T17:16:00 WARN req_id=114341 path=/api/v1/items/4800 latency_ms=653
+2026-10-02T06:44:00 INFO req_id=890783 path=/api/v1/items/6396 latency_ms=50
+2026-10-11T09:31:00 WARN req_id=899362 path=/api/v1/items/3544 latency_ms=407
+2026-10-09T19:10:00 ERROR code=E303
+2026-10-08T07:26:00 WARN req_id=523773 path=/api/v1/items/8189 latency_ms=894
+2026-10-01T22:12:00 WARN req_id=178660 path=/api/v1/items/6345 latency_ms=60
+2026-10-02T15:52:00 INFO req_id=306660 path=/api/v1/items/1730 latency_ms=717
+2026-10-02T21:53:00 INFO req_id=156990 path=/api/v1/items/2927 latency_ms=326
+2026-10-07T06:51:00 ERROR code=E303
+2026-10-06T08:02:00 WARN req_id=652218 path=/api/v1/items/1064 latency_ms=590
+2026-10-02T18:35:00 INFO req_id=990277 path=/api/v1/items/226 latency_ms=738
+2026-10-05T05:44:00 INFO req_id=885651 path=/api/v1/items/2869 latency_ms=338
+2026-10-11T16:59:00 WARN req_id=707593 path=/api/v1/items/20 latency_ms=5
+2026-10-16T14:04:00 INFO req_id=325675 path=/api/v1/items/1307 latency_ms=792
+2026-10-01T13:54:00 INFO req_id=382905 path=/api/v1/items/8504 latency_ms=850
+2026-10-07T05:20:00 INFO req_id=711430 path=/api/v1/items/9181 latency_ms=601
+2026-10-10T06:36:00 INFO req_id=862771 path=/api/v1/items/9410 latency_ms=301
+2026-10-01T08:52:00 ERROR code=E101
+2026-10-07T15:20:00 INFO req_id=326995 path=/api/v1/items/3856 latency_ms=558
+2026-10-04T11:04:00 WARN req_id=926511 path=/api/v1/items/9900 latency_ms=496
+2026-10-02T00:21:00 WARN req_id=364502 path=/api/v1/items/7793 latency_ms=753
+2026-10-05T01:25:00 WARN req_id=825444 path=/api/v1/items/174 latency_ms=255
+2026-10-12T03:56:00 INFO req_id=342750 path=/api/v1/items/866 latency_ms=310
+2026-10-05T07:34:00 INFO req_id=389029 path=/api/v1/items/4600 latency_ms=740
+2026-10-15T22:01:00 INFO req_id=600686 path=/api/v1/items/915 latency_ms=424
+2026-10-16T01:46:00 INFO req_id=447140 path=/api/v1/items/7119 latency_ms=308
+2026-10-01T05:17:00 WARN req_id=433781 path=/api/v1/items/6964 latency_ms=647
+2026-10-11T12:34:00 INFO req_id=352260 path=/api/v1/items/1112 latency_ms=151
+2026-10-10T16:48:00 ERROR code=E505
+2026-10-07T13:13:00 INFO req_id=484842 path=/api/v1/items/7996 latency_ms=147
+2026-10-01T20:01:00 INFO req_id=888982 path=/api/v1/items/1329 latency_ms=178
+2026-10-03T05:22:00 INFO req_id=576254 path=/api/v1/items/8654 latency_ms=849
+2026-10-06T05:47:00 ERROR code=E505
+2026-10-01T15:49:00 WARN req_id=179452 path=/api/v1/items/7572 latency_ms=114
+2026-10-12T04:38:00 INFO req_id=523355 path=/api/v1/items/2358 latency_ms=600
+2026-10-17T20:34:00 INFO req_id=508517 path=/api/v1/items/5349 latency_ms=196
+2026-10-15T04:16:00 INFO req_id=423638 path=/api/v1/items/7215 latency_ms=214
+2026-10-16T17:12:00 INFO req_id=271494 path=/api/v1/items/3218 latency_ms=715
+2026-10-17T13:14:00 INFO req_id=518833 path=/api/v1/items/5648 latency_ms=492
+2026-10-05T15:38:00 INFO req_id=918664 path=/api/v1/items/1317 latency_ms=18
+2026-10-04T16:04:00 INFO req_id=621015 path=/api/v1/items/4407 latency_ms=406
+2026-10-14T09:26:00 INFO req_id=463750 path=/api/v1/items/2764 latency_ms=206
+2026-10-08T12:26:00 INFO req_id=909357 path=/api/v1/items/8514 latency_ms=651
+2026-10-13T10:48:00 INFO req_id=141870 path=/api/v1/items/3153 latency_ms=384
+2026-10-13T05:08:00 WARN req_id=389799 path=/api/v1/items/7407 latency_ms=728
+2026-10-12T16:27:00 WARN req_id=466190 path=/api/v1/items/5996 latency_ms=879
+2026-10-02T06:47:00 INFO req_id=485804 path=/api/v1/items/2025 latency_ms=345
+2026-10-10T15:35:00 INFO req_id=287452 path=/api/v1/items/9118 latency_ms=782
+2026-10-12T00:10:00 INFO req_id=543596 path=/api/v1/items/6039 latency_ms=897
+2026-10-16T20:28:00 INFO req_id=743022 path=/api/v1/items/5883 latency_ms=814
+2026-10-04T10:41:00 ERROR code=E202
+2026-10-10T13:17:00 INFO req_id=549307 path=/api/v1/items/3645 latency_ms=452
+2026-10-04T20:02:00 INFO req_id=683664 path=/api/v1/items/3253 latency_ms=466
+2026-10-08T01:38:00 INFO req_id=658544 path=/api/v1/items/9387 latency_ms=232
+2026-10-07T03:01:00 WARN req_id=802451 path=/api/v1/items/5436 latency_ms=212
+2026-10-04T04:23:00 INFO req_id=755476 path=/api/v1/items/4599 latency_ms=721
+2026-10-02T16:19:00 WARN req_id=544398 path=/api/v1/items/5396 latency_ms=854
+2026-10-07T16:18:00 INFO req_id=586395 path=/api/v1/items/3648 latency_ms=166
+2026-10-09T05:11:00 WARN req_id=400612 path=/api/v1/items/4596 latency_ms=104
+2026-10-06T13:44:00 ERROR code=E505
+2026-10-06T13:10:00 INFO req_id=516507 path=/api/v1/items/6523 latency_ms=240
+2026-10-11T07:59:00 ERROR code=E505
+2026-10-03T20:52:00 INFO req_id=915943 path=/api/v1/items/2440 latency_ms=297
+2026-10-10T00:08:00 INFO req_id=824586 path=/api/v1/items/3922 latency_ms=121
+2026-10-02T04:29:00 WARN req_id=514823 path=/api/v1/items/923 latency_ms=130
+2026-10-16T07:40:00 WARN req_id=406307 path=/api/v1/items/3907 latency_ms=165
+2026-10-14T14:37:00 INFO req_id=735114 path=/api/v1/items/4117 latency_ms=539
+2026-10-05T01:08:00 INFO req_id=238560 path=/api/v1/items/8405 latency_ms=887
+2026-10-01T16:16:00 ERROR code=E202
+2026-10-06T22:02:00 ERROR code=E505
+2026-10-06T07:20:00 INFO req_id=604265 path=/api/v1/items/8942 latency_ms=831
+2026-10-06T18:31:00 INFO req_id=841098 path=/api/v1/items/3458 latency_ms=694
+2026-10-17T10:51:00 INFO req_id=231461 path=/api/v1/items/3423 latency_ms=50
+2026-10-09T22:11:00 INFO req_id=523988 path=/api/v1/items/7491 latency_ms=738
+2026-10-10T15:03:00 INFO req_id=146212 path=/api/v1/items/1425 latency_ms=40
+2026-10-12T11:15:00 INFO req_id=760662 path=/api/v1/items/5113 latency_ms=832
+2026-10-11T08:55:00 INFO req_id=368969 path=/api/v1/items/3113 latency_ms=169
+2026-10-07T05:25:00 INFO req_id=479962 path=/api/v1/items/607 latency_ms=82
+2026-10-13T12:22:00 WARN req_id=319953 path=/api/v1/items/203 latency_ms=477
+2026-10-01T20:16:00 INFO req_id=616494 path=/api/v1/items/9828 latency_ms=619
+2026-10-14T11:51:00 INFO req_id=950376 path=/api/v1/items/956 latency_ms=417
+2026-10-07T19:05:00 WARN req_id=293832 path=/api/v1/items/4992 latency_ms=656
+2026-10-15T00:25:00 INFO req_id=130978 path=/api/v1/items/6958 latency_ms=42
+2026-10-09T00:38:00 INFO req_id=671685 path=/api/v1/items/7800 latency_ms=809
+2026-10-11T07:40:00 INFO req_id=334200 path=/api/v1/items/2280 latency_ms=785
+2026-10-10T00:40:00 INFO req_id=447352 path=/api/v1/items/585 latency_ms=397
+2026-10-04T05:59:00 WARN req_id=127065 path=/api/v1/items/6966 latency_ms=19
+2026-10-15T04:49:00 INFO req_id=119592 path=/api/v1/items/6632 latency_ms=859
+2026-10-14T18:59:00 INFO req_id=325177 path=/api/v1/items/3129 latency_ms=781
+2026-10-08T06:06:00 INFO req_id=991452 path=/api/v1/items/6020 latency_ms=67
+2026-10-11T13:16:00 INFO req_id=732017 path=/api/v1/items/4536 latency_ms=358
+2026-10-15T07:40:00 WARN req_id=472720 path=/api/v1/items/3735 latency_ms=79
+2026-10-17T19:55:00 INFO req_id=763878 path=/api/v1/items/169 latency_ms=893
+2026-10-10T11:44:00 INFO req_id=298374 path=/api/v1/items/5885 latency_ms=590
+2026-10-09T13:05:00 INFO req_id=793541 path=/api/v1/items/5750 latency_ms=333
+2026-10-07T06:20:00 WARN req_id=299868 path=/api/v1/items/7353 latency_ms=748
+2026-10-02T09:08:00 WARN req_id=560567 path=/api/v1/items/82 latency_ms=851
+2026-10-03T09:35:00 ERROR code=E404
+2026-10-13T15:58:00 INFO req_id=438209 path=/api/v1/items/5278 latency_ms=900
+2026-10-08T12:45:00 INFO req_id=956081 path=/api/v1/items/4212 latency_ms=228
+2026-10-02T09:29:00 INFO req_id=744958 path=/api/v1/items/8777 latency_ms=768
+2026-10-01T04:30:00 ERROR code=E303
+2026-10-13T20:44:00 WARN req_id=896363 path=/api/v1/items/315 latency_ms=36
+2026-10-14T23:53:00 WARN req_id=870319 path=/api/v1/items/1763 latency_ms=212
+2026-10-14T02:31:00 INFO req_id=551653 path=/api/v1/items/7383 latency_ms=396
+2026-10-04T23:27:00 INFO req_id=638418 path=/api/v1/items/3505 latency_ms=193
+2026-10-12T22:38:00 INFO req_id=330528 path=/api/v1/items/2948 latency_ms=397
+2026-10-06T07:16:00 INFO req_id=248084 path=/api/v1/items/8802 latency_ms=684
+2026-10-03T02:12:00 ERROR code=E202
+2026-10-08T02:27:00 WARN req_id=616070 path=/api/v1/items/628 latency_ms=332
+2026-10-16T07:22:00 INFO req_id=434821 path=/api/v1/items/2986 latency_ms=832
+2026-10-15T23:48:00 INFO req_id=950855 path=/api/v1/items/4641 latency_ms=174
+2026-10-09T17:19:00 INFO req_id=814473 path=/api/v1/items/462 latency_ms=107
+2026-10-15T23:14:00 INFO req_id=854025 path=/api/v1/items/4656 latency_ms=210
+2026-10-11T14:28:00 INFO req_id=535585 path=/api/v1/items/1213 latency_ms=860
+2026-10-09T12:38:00 WARN req_id=686617 path=/api/v1/items/3662 latency_ms=445
+2026-10-13T03:06:00 INFO req_id=702575 path=/api/v1/items/6542 latency_ms=680
+2026-10-13T15:31:00 INFO req_id=985816 path=/api/v1/items/5786 latency_ms=362
+2026-10-05T06:07:00 INFO req_id=774706 path=/api/v1/items/3530 latency_ms=845
+2026-10-11T08:56:00 INFO req_id=701410 path=/api/v1/items/3018 latency_ms=501
+2026-10-05T21:16:00 INFO req_id=193768 path=/api/v1/items/3442 latency_ms=798
+2026-10-10T16:26:00 INFO req_id=200387 path=/api/v1/items/9328 latency_ms=802
+2026-10-12T04:33:00 INFO req_id=987125 path=/api/v1/items/9473 latency_ms=571
+2026-10-11T06:35:00 WARN req_id=630034 path=/api/v1/items/3732 latency_ms=659
+2026-10-13T22:53:00 INFO req_id=234566 path=/api/v1/items/8898 latency_ms=143
+2026-10-02T13:54:00 INFO req_id=138821 path=/api/v1/items/481 latency_ms=731
+2026-10-15T18:46:00 INFO req_id=992456 path=/api/v1/items/699 latency_ms=516
+2026-10-13T12:43:00 WARN req_id=767402 path=/api/v1/items/8261 latency_ms=306
+2026-10-01T04:20:00 INFO req_id=365595 path=/api/v1/items/7979 latency_ms=84
+2026-10-02T20:24:00 INFO req_id=787858 path=/api/v1/items/5898 latency_ms=58
+2026-10-08T09:21:00 INFO req_id=326386 path=/api/v1/items/2276 latency_ms=441
+2026-10-13T09:30:00 INFO req_id=335835 path=/api/v1/items/3486 latency_ms=274
+2026-10-09T00:29:00 WARN req_id=611310 path=/api/v1/items/9736 latency_ms=480
+2026-10-07T19:23:00 WARN req_id=577003 path=/api/v1/items/8649 latency_ms=439
+2026-10-15T17:22:00 WARN req_id=278332 path=/api/v1/items/2857 latency_ms=675
+2026-10-07T23:07:00 ERROR code=E101
+2026-10-15T02:20:00 INFO req_id=862330 path=/api/v1/items/660 latency_ms=669
+2026-10-08T22:05:00 INFO req_id=195472 path=/api/v1/items/8511 latency_ms=377
+2026-10-08T08:15:00 INFO req_id=235278 path=/api/v1/items/3987 latency_ms=362
+2026-10-02T00:16:00 ERROR code=E404
+2026-10-14T08:06:00 INFO req_id=622684 path=/api/v1/items/1906 latency_ms=501
+2026-10-09T06:27:00 INFO req_id=460680 path=/api/v1/items/7995 latency_ms=379
+2026-10-12T02:35:00 WARN req_id=278135 path=/api/v1/items/9286 latency_ms=772
+2026-10-12T06:21:00 WARN req_id=395609 path=/api/v1/items/7697 latency_ms=764
+2026-10-15T11:16:00 WARN req_id=968014 path=/api/v1/items/6045 latency_ms=177
+2026-10-08T23:55:00 ERROR code=E202
+2026-10-05T06:08:00 INFO req_id=448496 path=/api/v1/items/38 latency_ms=130
+2026-10-02T12:48:00 ERROR code=E505
+2026-10-15T03:01:00 INFO req_id=235835 path=/api/v1/items/5566 latency_ms=486
+2026-10-05T02:32:00 WARN req_id=253432 path=/api/v1/items/6211 latency_ms=91
+2026-10-11T21:45:00 INFO req_id=410908 path=/api/v1/items/2478 latency_ms=591
+2026-10-17T20:00:00 INFO req_id=706449 path=/api/v1/items/7260 latency_ms=90
+2026-10-15T03:12:00 INFO req_id=650549 path=/api/v1/items/5895 latency_ms=711
+2026-10-04T09:40:00 INFO req_id=714797 path=/api/v1/items/403 latency_ms=811
+2026-10-09T23:58:00 INFO req_id=537006 path=/api/v1/items/9024 latency_ms=179
+2026-10-07T06:11:00 INFO req_id=959342 path=/api/v1/items/766 latency_ms=26
+2026-10-10T03:38:00 INFO req_id=767049 path=/api/v1/items/5889 latency_ms=52
+2026-10-08T05:26:00 INFO req_id=326913 path=/api/v1/items/2 latency_ms=54
+2026-10-15T15:02:00 INFO req_id=248088 path=/api/v1/items/81 latency_ms=526
+2026-10-12T18:21:00 INFO req_id=622706 path=/api/v1/items/4178 latency_ms=478
+2026-10-12T14:30:00 WARN req_id=536691 path=/api/v1/items/3870 latency_ms=852
+2026-10-07T03:54:00 WARN req_id=106886 path=/api/v1/items/3075 latency_ms=343
+2026-10-06T08:43:00 INFO req_id=588781 path=/api/v1/items/738 latency_ms=785
+2026-10-15T22:27:00 ERROR code=E202
+2026-10-02T16:36:00 INFO req_id=914749 path=/api/v1/items/2820 latency_ms=608
+2026-10-10T17:16:00 INFO req_id=953281 path=/api/v1/items/7918 latency_ms=761
+2026-10-08T16:53:00 INFO req_id=654886 path=/api/v1/items/8208 latency_ms=388
+2026-10-11T18:24:00 INFO req_id=459986 path=/api/v1/items/5056 latency_ms=286
+2026-10-03T20:31:00 INFO req_id=354835 path=/api/v1/items/9811 latency_ms=632
+2026-10-06T17:55:00 INFO req_id=963109 path=/api/v1/items/6105 latency_ms=566
+2026-10-12T10:04:00 INFO req_id=563301 path=/api/v1/items/7814 latency_ms=705
+2026-10-07T07:42:00 ERROR code=E505
+2026-10-17T16:34:00 INFO req_id=472234 path=/api/v1/items/5618 latency_ms=556
+2026-10-07T06:34:00 INFO req_id=273906 path=/api/v1/items/3137 latency_ms=603
+2026-10-15T13:21:00 INFO req_id=695374 path=/api/v1/items/6794 latency_ms=195
+2026-10-08T13:35:00 INFO req_id=431045 path=/api/v1/items/2936 latency_ms=132
+2026-10-04T18:06:00 WARN req_id=281582 path=/api/v1/items/8342 latency_ms=124
+2026-10-03T17:05:00 INFO req_id=749295 path=/api/v1/items/7636 latency_ms=185
+2026-10-09T06:22:00 INFO req_id=832939 path=/api/v1/items/212 latency_ms=420
+2026-10-15T19:31:00 WARN req_id=767091 path=/api/v1/items/8012 latency_ms=807
+2026-10-04T10:21:00 WARN req_id=762292 path=/api/v1/items/9381 latency_ms=270
+2026-10-13T08:25:00 INFO req_id=578752 path=/api/v1/items/9281 latency_ms=702
+2026-10-09T20:42:00 INFO req_id=171417 path=/api/v1/items/4954 latency_ms=143
+2026-10-13T03:59:00 INFO req_id=253971 path=/api/v1/items/2956 latency_ms=194
+2026-10-10T11:39:00 INFO req_id=523408 path=/api/v1/items/2799 latency_ms=734
+2026-10-13T03:59:00 ERROR code=E202
+2026-10-04T06:44:00 WARN req_id=480050 path=/api/v1/items/3741 latency_ms=16
+2026-10-12T11:24:00 WARN req_id=182048 path=/api/v1/items/477 latency_ms=586
+2026-10-07T14:14:00 INFO req_id=245371 path=/api/v1/items/2716 latency_ms=225
+2026-10-15T08:30:00 ERROR code=E202
+2026-10-04T05:03:00 INFO req_id=510530 path=/api/v1/items/309 latency_ms=15
+2026-10-04T13:30:00 INFO req_id=433967 path=/api/v1/items/5170 latency_ms=876
+2026-10-12T22:13:00 INFO req_id=957001 path=/api/v1/items/651 latency_ms=282
+2026-10-16T04:18:00 ERROR code=E303
+2026-10-16T00:48:00 INFO req_id=123355 path=/api/v1/items/5954 latency_ms=885
+2026-10-10T05:52:00 INFO req_id=343711 path=/api/v1/items/819 latency_ms=575
+2026-10-07T03:11:00 WARN req_id=408587 path=/api/v1/items/9003 latency_ms=73
+2026-10-05T23:03:00 INFO req_id=436217 path=/api/v1/items/2167 latency_ms=520
+2026-10-05T21:14:00 INFO req_id=276135 path=/api/v1/items/3673 latency_ms=846
+2026-10-08T22:47:00 ERROR code=E202
+2026-10-05T12:37:00 INFO req_id=641924 path=/api/v1/items/6944 latency_ms=242
+2026-10-13T16:09:00 INFO req_id=793544 path=/api/v1/items/2876 latency_ms=398
+2026-10-07T21:56:00 INFO req_id=696526 path=/api/v1/items/8663 latency_ms=133
+2026-10-03T10:57:00 INFO req_id=607847 path=/api/v1/items/3788 latency_ms=483
+2026-10-05T16:54:00 INFO req_id=620629 path=/api/v1/items/2049 latency_ms=459
+2026-10-13T03:59:00 ERROR code=E404
+2026-10-08T08:39:00 INFO req_id=272508 path=/api/v1/items/3199 latency_ms=629
+2026-10-16T14:41:00 WARN req_id=392421 path=/api/v1/items/698 latency_ms=40
+2026-10-14T06:54:00 INFO req_id=913316 path=/api/v1/items/7077 latency_ms=138
+2026-10-01T07:09:00 INFO req_id=101131 path=/api/v1/items/4400 latency_ms=769
+2026-10-09T20:10:00 INFO req_id=806078 path=/api/v1/items/7733 latency_ms=589
+2026-10-09T11:24:00 ERROR code=E202
+2026-10-03T17:47:00 INFO req_id=945370 path=/api/v1/items/6154 latency_ms=787
+2026-10-04T06:30:00 WARN req_id=409965 path=/api/v1/items/17 latency_ms=309
+2026-10-06T19:00:00 INFO req_id=476522 path=/api/v1/items/3646 latency_ms=676
+2026-10-06T20:55:00 WARN req_id=494693 path=/api/v1/items/9468 latency_ms=49
+2026-10-09T15:38:00 ERROR code=E202
+2026-10-15T19:15:00 WARN req_id=242575 path=/api/v1/items/1622 latency_ms=371
+2026-10-15T20:28:00 INFO req_id=734680 path=/api/v1/items/3042 latency_ms=174
+2026-10-14T05:28:00 INFO req_id=513936 path=/api/v1/items/1150 latency_ms=199
+2026-10-05T04:27:00 INFO req_id=178631 path=/api/v1/items/799 latency_ms=680
+2026-10-04T10:27:00 INFO req_id=732907 path=/api/v1/items/6405 latency_ms=542
+2026-10-02T01:48:00 WARN req_id=397894 path=/api/v1/items/3106 latency_ms=433
+2026-10-10T02:20:00 INFO req_id=363286 path=/api/v1/items/6187 latency_ms=511
+2026-10-06T15:21:00 INFO req_id=155431 path=/api/v1/items/1372 latency_ms=61
+2026-10-04T23:31:00 WARN req_id=871650 path=/api/v1/items/675 latency_ms=458
+2026-10-14T07:47:00 INFO req_id=312290 path=/api/v1/items/6179 latency_ms=174
+2026-10-16T19:56:00 INFO req_id=506811 path=/api/v1/items/1613 latency_ms=718
+2026-10-03T08:47:00 WARN req_id=442780 path=/api/v1/items/3760 latency_ms=59
+2026-10-07T17:39:00 INFO req_id=700372 path=/api/v1/items/3493 latency_ms=446
+2026-10-03T19:00:00 INFO req_id=138639 path=/api/v1/items/1078 latency_ms=318
+2026-10-05T14:10:00 ERROR code=E101
+2026-10-08T07:12:00 INFO req_id=770313 path=/api/v1/items/766 latency_ms=671
+2026-10-15T07:27:00 ERROR code=E101
+2026-10-02T16:35:00 INFO req_id=779579 path=/api/v1/items/2381 latency_ms=378
+2026-10-12T23:00:00 INFO req_id=556410 path=/api/v1/items/574 latency_ms=832
+2026-10-07T22:30:00 INFO req_id=602738 path=/api/v1/items/9360 latency_ms=415
+2026-10-10T03:00:00 INFO req_id=277592 path=/api/v1/items/6044 latency_ms=669
+2026-10-13T17:25:00 ERROR code=E505
+2026-10-12T01:49:00 INFO req_id=236991 path=/api/v1/items/2675 latency_ms=287
+2026-10-03T14:54:00 INFO req_id=303296 path=/api/v1/items/6297 latency_ms=654
+2026-10-05T14:11:00 INFO req_id=261331 path=/api/v1/items/829 latency_ms=162
+2026-10-11T18:15:00 INFO req_id=280354 path=/api/v1/items/9295 latency_ms=146
+2026-10-02T05:07:00 INFO req_id=479835 path=/api/v1/items/4137 latency_ms=116
+2026-10-10T04:34:00 INFO req_id=749407 path=/api/v1/items/3910 latency_ms=51
+2026-10-02T13:00:00 INFO req_id=820913 path=/api/v1/items/2855 latency_ms=471
+2026-10-02T10:30:00 INFO req_id=288500 path=/api/v1/items/1307 latency_ms=43
+2026-10-16T17:54:00 WARN req_id=920993 path=/api/v1/items/4433 latency_ms=765
+2026-10-08T07:19:00 INFO req_id=633225 path=/api/v1/items/9208 latency_ms=817
+2026-10-16T00:18:00 ERROR code=E404
+2026-10-13T04:58:00 WARN req_id=559666 path=/api/v1/items/3311 latency_ms=744
+2026-10-11T06:31:00 INFO req_id=947055 path=/api/v1/items/2871 latency_ms=70
+2026-10-01T16:20:00 INFO req_id=202981 path=/api/v1/items/5619 latency_ms=760
+2026-10-17T11:13:00 INFO req_id=930758 path=/api/v1/items/2127 latency_ms=208
+2026-10-15T22:10:00 INFO req_id=267759 path=/api/v1/items/6791 latency_ms=859
+2026-10-10T08:12:00 WARN req_id=479076 path=/api/v1/items/6120 latency_ms=795
+2026-10-06T23:36:00 INFO req_id=222021 path=/api/v1/items/5816 latency_ms=631
+2026-10-17T08:36:00 INFO req_id=388808 path=/api/v1/items/2865 latency_ms=543
+2026-10-09T21:17:00 INFO req_id=334579 path=/api/v1/items/7624 latency_ms=214
+2026-10-10T00:41:00 WARN req_id=430010 path=/api/v1/items/2815 latency_ms=380
+2026-10-14T09:44:00 INFO req_id=656413 path=/api/v1/items/9811 latency_ms=393
+2026-10-04T02:36:00 INFO req_id=252257 path=/api/v1/items/2111 latency_ms=700
+2026-10-06T07:23:00 INFO req_id=899954 path=/api/v1/items/1702 latency_ms=838
+2026-10-14T17:16:00 INFO req_id=331014 path=/api/v1/items/6051 latency_ms=424
+2026-10-12T14:45:00 WARN req_id=509417 path=/api/v1/items/224 latency_ms=746
+2026-10-04T11:28:00 WARN req_id=175399 path=/api/v1/items/5857 latency_ms=597
+2026-10-10T21:30:00 INFO req_id=221590 path=/api/v1/items/6915 latency_ms=798
+2026-10-12T19:47:00 WARN req_id=581714 path=/api/v1/items/2358 latency_ms=196
+2026-10-11T01:10:00 INFO req_id=519055 path=/api/v1/items/2303 latency_ms=533
+2026-10-03T20:39:00 ERROR code=E101
+2026-10-11T15:52:00 INFO req_id=115132 path=/api/v1/items/7948 latency_ms=809
+2026-10-08T01:49:00 WARN req_id=281152 path=/api/v1/items/9832 latency_ms=341
+2026-10-02T00:43:00 INFO req_id=982174 path=/api/v1/items/1391 latency_ms=28
+2026-10-11T03:08:00 WARN req_id=331031 path=/api/v1/items/5217 latency_ms=325
+2026-10-03T19:25:00 INFO req_id=945248 path=/api/v1/items/4349 latency_ms=654
+2026-10-10T01:18:00 INFO req_id=592914 path=/api/v1/items/5275 latency_ms=182
+2026-10-07T04:49:00 WARN req_id=118176 path=/api/v1/items/8851 latency_ms=570
+2026-10-15T08:59:00 INFO req_id=861205 path=/api/v1/items/8779 latency_ms=598
+2026-10-14T23:40:00 INFO req_id=204158 path=/api/v1/items/1708 latency_ms=368
+2026-10-11T00:07:00 WARN req_id=554223 path=/api/v1/items/6315 latency_ms=40
+2026-10-10T15:27:00 INFO req_id=506943 path=/api/v1/items/3861 latency_ms=724
+2026-10-14T02:50:00 INFO req_id=514341 path=/api/v1/items/7226 latency_ms=469
+2026-10-03T04:43:00 INFO req_id=604579 path=/api/v1/items/4784 latency_ms=500
+2026-10-06T11:49:00 INFO req_id=207193 path=/api/v1/items/8690 latency_ms=410
+2026-10-01T07:50:00 INFO req_id=171868 path=/api/v1/items/7012 latency_ms=537
+2026-10-03T14:03:00 WARN req_id=695246 path=/api/v1/items/2985 latency_ms=535
+2026-10-05T07:40:00 INFO req_id=485876 path=/api/v1/items/5383 latency_ms=116
+2026-10-10T06:36:00 INFO req_id=607768 path=/api/v1/items/2712 latency_ms=506
+2026-10-15T01:19:00 INFO req_id=930150 path=/api/v1/items/9242 latency_ms=268
+2026-10-15T15:03:00 INFO req_id=178048 path=/api/v1/items/7892 latency_ms=900
+2026-10-01T11:58:00 INFO req_id=587733 path=/api/v1/items/7998 latency_ms=373
+2026-10-03T09:54:00 INFO req_id=824053 path=/api/v1/items/2498 latency_ms=76
+2026-10-17T21:17:00 WARN req_id=530987 path=/api/v1/items/5149 latency_ms=273
+2026-10-03T15:50:00 INFO req_id=505304 path=/api/v1/items/3691 latency_ms=758
+2026-10-17T17:22:00 INFO req_id=287832 path=/api/v1/items/9189 latency_ms=898
+2026-10-06T14:23:00 INFO req_id=396717 path=/api/v1/items/1507 latency_ms=776
+2026-10-10T08:00:00 WARN req_id=326322 path=/api/v1/items/6492 latency_ms=51
+2026-10-10T19:59:00 INFO req_id=787699 path=/api/v1/items/3017 latency_ms=772
+2026-10-12T22:55:00 WARN req_id=403852 path=/api/v1/items/3329 latency_ms=308
+2026-10-15T20:13:00 WARN req_id=397817 path=/api/v1/items/4213 latency_ms=751
+2026-10-02T00:35:00 INFO req_id=314883 path=/api/v1/items/4907 latency_ms=394
+2026-10-08T21:04:00 INFO req_id=492782 path=/api/v1/items/6351 latency_ms=357
+2026-10-12T13:44:00 INFO req_id=340384 path=/api/v1/items/8608 latency_ms=658
+2026-10-02T08:16:00 INFO req_id=447126 path=/api/v1/items/8936 latency_ms=307
+2026-10-13T01:35:00 WARN req_id=787202 path=/api/v1/items/6162 latency_ms=612
+2026-10-08T08:56:00 INFO req_id=140343 path=/api/v1/items/8639 latency_ms=797
+2026-10-07T10:53:00 INFO req_id=864714 path=/api/v1/items/6232 latency_ms=699
+2026-10-04T17:33:00 WARN req_id=391931 path=/api/v1/items/6247 latency_ms=308
+2026-10-17T14:16:00 INFO req_id=927674 path=/api/v1/items/2692 latency_ms=890
+2026-10-02T10:10:00 INFO req_id=893281 path=/api/v1/items/6974 latency_ms=575
+2026-10-14T15:14:00 INFO req_id=155385 path=/api/v1/items/3081 latency_ms=828
+2026-10-12T22:27:00 WARN req_id=687433 path=/api/v1/items/1347 latency_ms=795
+2026-10-12T03:54:00 INFO req_id=850917 path=/api/v1/items/9643 latency_ms=558
+2026-10-04T04:07:00 INFO req_id=172287 path=/api/v1/items/3472 latency_ms=54
+2026-10-05T14:24:00 INFO req_id=683725 path=/api/v1/items/5384 latency_ms=638
+2026-10-15T04:23:00 INFO req_id=990319 path=/api/v1/items/181 latency_ms=802
+2026-10-16T21:57:00 WARN req_id=673585 path=/api/v1/items/7671 latency_ms=644
+2026-10-03T01:35:00 WARN req_id=978254 path=/api/v1/items/6606 latency_ms=739
+2026-10-05T10:31:00 ERROR code=E303
+2026-10-02T11:15:00 WARN req_id=102979 path=/api/v1/items/5725 latency_ms=128
+2026-10-13T09:47:00 INFO req_id=815488 path=/api/v1/items/838 latency_ms=760
+2026-10-02T04:02:00 ERROR code=E404
+2026-10-13T23:39:00 INFO req_id=996596 path=/api/v1/items/3696 latency_ms=610
+2026-10-12T01:51:00 INFO req_id=463748 path=/api/v1/items/7366 latency_ms=621
+2026-10-03T04:03:00 INFO req_id=228599 path=/api/v1/items/1369 latency_ms=892
+2026-10-14T10:37:00 INFO req_id=927631 path=/api/v1/items/1614 latency_ms=13
+2026-10-07T14:28:00 INFO req_id=675371 path=/api/v1/items/8608 latency_ms=243
+2026-10-10T06:18:00 WARN req_id=518649 path=/api/v1/items/217 latency_ms=58
+2026-10-09T18:54:00 INFO req_id=386052 path=/api/v1/items/5223 latency_ms=890
+2026-10-07T13:10:00 INFO req_id=176517 path=/api/v1/items/4305 latency_ms=554
+2026-10-13T00:20:00 WARN req_id=253113 path=/api/v1/items/9252 latency_ms=230
+2026-10-04T16:31:00 WARN req_id=171293 path=/api/v1/items/7133 latency_ms=666
+2026-10-06T09:36:00 INFO req_id=603191 path=/api/v1/items/1073 latency_ms=775
+2026-10-08T17:48:00 INFO req_id=697481 path=/api/v1/items/5130 latency_ms=355
+2026-10-09T12:54:00 WARN req_id=217665 path=/api/v1/items/4635 latency_ms=236
+2026-10-15T08:35:00 ERROR code=E505
+2026-10-07T07:19:00 INFO req_id=316206 path=/api/v1/items/2892 latency_ms=850
+2026-10-09T07:13:00 INFO req_id=987508 path=/api/v1/items/1067 latency_ms=769
+2026-10-05T12:29:00 INFO req_id=307303 path=/api/v1/items/2469 latency_ms=668
+2026-10-07T06:30:00 INFO req_id=651680 path=/api/v1/items/9695 latency_ms=160
+2026-10-02T21:13:00 WARN req_id=249219 path=/api/v1/items/5585 latency_ms=59
+2026-10-07T21:37:00 ERROR code=E202
+2026-10-02T18:20:00 INFO req_id=736336 path=/api/v1/items/7507 latency_ms=838
+2026-10-13T08:05:00 WARN req_id=341870 path=/api/v1/items/3270 latency_ms=92
+2026-10-06T10:19:00 INFO req_id=472653 path=/api/v1/items/8511 latency_ms=723
+2026-10-15T09:23:00 WARN req_id=592609 path=/api/v1/items/4246 latency_ms=110
+2026-10-14T02:46:00 ERROR code=E202
+2026-10-14T08:58:00 INFO req_id=903578 path=/api/v1/items/3713 latency_ms=775
+2026-10-09T13:22:00 INFO req_id=326381 path=/api/v1/items/9282 latency_ms=214
+2026-10-04T11:45:00 INFO req_id=103375 path=/api/v1/items/7816 latency_ms=329
+2026-10-04T01:26:00 INFO req_id=679641 path=/api/v1/items/1219 latency_ms=101
+2026-10-02T11:58:00 INFO req_id=153899 path=/api/v1/items/9312 latency_ms=636
+2026-10-01T20:29:00 INFO req_id=450059 path=/api/v1/items/7310 latency_ms=336
+2026-10-02T12:06:00 INFO req_id=834021 path=/api/v1/items/8542 latency_ms=522
+2026-10-04T21:51:00 WARN req_id=784418 path=/api/v1/items/8427 latency_ms=819
+2026-10-04T04:19:00 INFO req_id=501841 path=/api/v1/items/7046 latency_ms=888
+2026-10-13T23:34:00 WARN req_id=334834 path=/api/v1/items/6210 latency_ms=465
+2026-10-02T07:07:00 WARN req_id=533442 path=/api/v1/items/2715 latency_ms=129
+2026-10-08T18:41:00 INFO req_id=601149 path=/api/v1/items/6018 latency_ms=175
+2026-10-14T14:23:00 WARN req_id=721668 path=/api/v1/items/922 latency_ms=779
+2026-10-16T07:29:00 INFO req_id=844861 path=/api/v1/items/2852 latency_ms=218
+2026-10-06T23:11:00 INFO req_id=999796 path=/api/v1/items/3457 latency_ms=130

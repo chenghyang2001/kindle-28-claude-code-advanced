@@ -1,0 +1,26 @@
+[準備] 做一個『髒』的工作環境：WIP 分支 + 未推的 commit + 未提交的變更
+  HEAD = 1bdc3bb（master = ff61225），另有未追蹤檔 wip-dirty.txt
+[測試 1] 在髒環境裡執行 ccwt clean-start（happy path）
+  已進入隔離工作樹：~/workspace/k28-ch02-practice/wt/clean-start（分支 feature/clean-start，起點 master @ ff61225）
+  ✅ 結束碼為 0
+  ✅ 已 cd 進 wt/clean-start
+  ✅ 分支為 feature/clean-start
+  ✅ 起點 = master，不是 WIP 的 HEAD
+  ✅ 沒帶到 WIP 的 commit 檔
+  ✅ 沒帶到未提交的髒檔
+  ✅ 工作樹乾淨
+[測試 2] 錯誤案例
+  ✅ 沒給 task → 結束碼 2
+  ✅ 不合法分支名 → 結束碼 2
+  ✅ 目錄已存在 → 拒絕
+[測試 3] ccwt_done 清理（含：有未提交變更時會擋下）
+  ✅ 有髒檔時拒絕刪除
+  ✅ 乾淨時移除目錄
+  ✅ 已合併(無新 commit)的分支被刪除
+[測試 4] 題目範例：ccwt login-fix → 改檔 commit → ccwt_done
+提醒：feature/login-fix 尚未合併，已保留；確定不要可執行 git branch -D feature/login-fix
+已清理 wt/login-fix
+  ✅ 未合併分支被保留（避免誤刪工作成果）
+  ✅ ccwt_done 後回到主目錄
+  ✅ 最後只剩主工作樹
+結果：PASS=16 FAIL=0

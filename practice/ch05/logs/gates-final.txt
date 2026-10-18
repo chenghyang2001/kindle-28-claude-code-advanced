@@ -1,0 +1,57 @@
+### gate 0
+  [PASS] spec 四節齊全
+  [PASS] spec Status: APPROVED
+  [PASS] 公開介面至少 1 個函式
+  [PASS] 特徵測試對舊模組全綠
+GATE 0: PASS
+exit=0
+### gate 1
+  [PASS] pricing.py 可編譯可匯入
+  [PASS] spec 函式存在且有型別註記 ['subtotal', 'discount', 'shipping', 'tax', 'calculate']
+  [PASS] contracts/CLAUDE.md 含 Never modifies
+  [PASS] gate 0 仍成立
+GATE 1: PASS
+exit=0
+### gate 2
+  [PASS] 三個信號檔存在且三段完整
+  [PASS] REVIEW_COMPLETE: MUST_FIX: 0
+  [PASS] test_pricing.py 全綠
+  [PASS] pricing.calculate 與 snapshot 逐筆一致
+  [PASS] pricing.py 無 NotImplementedError
+GATE 2: PASS
+exit=0
+### gate 3
+  [PASS] legacy 委派給 pricing.calculate
+  [PASS] legacy 無計價魔術數字（找到 []）
+  [PASS] 全部測試綠
+  [PASS] README 提到 pricing
+  [PASS] gate 0–2 仍成立
+GATE 3: PASS
+exit=0
+
+### 越權檢查
+[researcher] 8e6e24a..c3ad51d 變更檔：
+  docs/research.md
+  signals/DONE.md
+[researcher] 邊界 OK
+[builder] 0e5309f..2ecc848 變更檔：
+  signals/BUILD_COMPLETE.md
+  src/pricing.py
+  tests/test_pricing.py
+[builder] 邊界 OK
+[reviewer] 2ecc848..beedfff 變更檔：
+  reviews/REVIEW.md
+  signals/REVIEW_COMPLETE.md
+[reviewer] 邊界 OK
+
+### 各 commit 對 src/ 的改動
+2ecc848 新增 Builder 產出：pricing 實作、單元測試與 BUILD_COMPLETE 信號
+
+src/pricing.py
+0e5309f 更新合約：裁決 Researcher 提出的四個 Open Questions
+
+src/pricing.py
+### 全部測試
+Ran 27 tests in 0.003s
+
+OK

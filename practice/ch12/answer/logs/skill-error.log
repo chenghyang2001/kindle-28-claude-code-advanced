@@ -1,0 +1,17 @@
+=== error：/csv-report data/missing.csv
+exit=0
+TOOL_USE: Bash {"command":"cd \"$HOME/workspace/k28-ch12-practice\" && PYTHONUTF8=1 python .claude/skills/csv-report/scripts/csv_report.py \"data/missing.csv\"; echo \"EXIT=$?\"","description":"執行 CSV 報告腳本"}
+TOOL_USE: Bash {"command":"cd \"$HOME/workspace/k28-ch12-practice\" && ls data/","description":"列出 data 目錄內的檔案"}
+RESULT: 報告沒有產生：`data/missing.csv` 這個檔案不存在。
+
+腳本回傳碼是 1，錯誤訊息如下：
+
+```
+錯誤：找不到檔案 data\missing.csv
+```
+
+依照 skill 的規則，腳本失敗時不建立 `missing-summary.md`。
+
+`data/` 裡現在只有 `edge.csv` 和 `sales.csv` 兩個 CSV。要產生報告，可以執行下面任一個：
+- `/csv-report data/edge.csv`
+- `/csv-report data/sales.csv`
