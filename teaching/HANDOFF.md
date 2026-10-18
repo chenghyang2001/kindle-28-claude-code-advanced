@@ -22,3 +22,4 @@
 | 12 | 2026-10-18 | 9 分 | skill 建專案層 .claude/skills，claude -p 自然語言觸發 3 案例過；CI yml 只寫範本不 push、不設 Secrets，gh pr comment 未實跑；review 腳本本機乾跑抓到 4/4 埋點 |
 | 13 | 2026-10-18 | 8 分 | 題目只要設計，實派研究/實作/審查三子代理＋git diff 驗邊界；辯論題取自審查必改項，3 審查者平行投票後再派修正閉環；邊界靠 prompt 約束非工具強制 |
 | 14 | 2026-10-18 | 22 分 | 登入縮成 CLI 模擬（pbkdf2、無 JWT）；弱/強 prompt 各在全域與 --setting-sources 乾淨沙盒跑，強 11/11、弱 0/11；git bisect run 3 步抓到兇手；強×全域耗時僅知 >600 秒 |
+| 15 | 2026-10-18 | 6 分 | 題目只要估算，改 claude -p 實測 9 次（H:S:O≈1:18:37，haiku 推理題答錯）；permissions 專案層＋多加 deny，-p 下 ask 等同拒絕照實記錄；模型為 5.5 版非題目 4.5 |
