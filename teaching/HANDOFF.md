@@ -19,3 +19,4 @@
 | 09 | 2026-10-18 | 8 分 | pr-review-toolkit --scope project 裝→review-pr→simplify→移除；installed_plugins 自動回原狀、marketplaces 時間戳由教練還原；全域 cache 殘留 pr-review-toolkit 目錄未刪；以 claude plugin 指令代替 /plugin |
 | 10 | 2026-10-18 | 7 分 | onboard itsdangerous（vendor/ 只讀，--depth 1 看不到歷史）；追問改自問自答 5 題附腳本實證；/init 草稿放 answer 不寫進 vendor；audit 10 項（高1中3低6） |
 | 11 | 2026-10-18 | 7 分 | 題目只要規劃，實際做完三層測試＋coverage 76→81→96%＋3 步重構各一 commit；模組 277 行略超；cli list 錯誤路徑只手動驗證 |
+| 12 | 2026-10-18 | 9 分 | skill 建專案層 .claude/skills，claude -p 自然語言觸發 3 案例過；CI yml 只寫範本不 push、不設 Secrets，gh pr comment 未實跑；review 腳本本機乾跑抓到 4/4 埋點 |
