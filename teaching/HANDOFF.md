@@ -17,3 +17,4 @@
 | 07 | 2026-10-18 | 4 分 | 自建 notestat 當現有專案；@import 以 claude -p 實測 4/4（對照組 0/4）；ex01 版另存 answer/；例外段落搬進 import 檔 |
 | 08 | 2026-10-18 | 6 分 | isolated 開窗跳「外部 CLAUDE.md import」選 No 維持隔離；hook／alias 全改專案層（env.sh、.claude/settings.json、$CLAUDE_PROJECT_DIR）；model 用 sonnet 非 opus；hook e2e＋kill switch 實測 |
 | 09 | 2026-10-18 | 8 分 | pr-review-toolkit --scope project 裝→review-pr→simplify→移除；installed_plugins 自動回原狀、marketplaces 時間戳由教練還原；全域 cache 殘留 pr-review-toolkit 目錄未刪；以 claude plugin 指令代替 /plugin |
+| 10 | 2026-10-18 | 7 分 | onboard itsdangerous（vendor/ 只讀，--depth 1 看不到歷史）；追問改自問自答 5 題附腳本實證；/init 草稿放 answer 不寫進 vendor；audit 10 項（高1中3低6） |
