@@ -15,3 +15,4 @@
 | 05 | 2026-10-18 | 9 分 | gate 寫成可執行腳本實跑＋反向測試；真派 Researcher/Builder/Reviewer 三子代理＋信號檔，src 越權 0；未跑 /gsd-* 指令（手寫 PHASES.md）；指揮者改了型別註記與 2 行整合 |
 | 06 | 2026-10-18 | 7 分 | 未用 Ralph 本體，改 bash＋claude -p（haiku）迴圈；MAX 10→6；紅燈停／無進展停各故意觸發一次（EXIT 2/3）；修正無進展輪也 commit 的 bug |
 | 07 | 2026-10-18 | 4 分 | 自建 notestat 當現有專案；@import 以 claude -p 實測 4/4（對照組 0/4）；ex01 版另存 answer/；例外段落搬進 import 檔 |
+| 08 | 2026-10-18 | 6 分 | isolated 開窗跳「外部 CLAUDE.md import」選 No 維持隔離；hook／alias 全改專案層（env.sh、.claude/settings.json、$CLAUDE_PROJECT_DIR）；model 用 sonnet 非 opus；hook e2e＋kill switch 實測 |
